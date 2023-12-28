@@ -1,20 +1,28 @@
-import { NAV_LINKS } from "@/app/constants"
+import { NAV_LINKS } from "@/constants"
 import Image from "next/image"
 import Link from "next/link"
 
 const Navbar = () => {
   return (
-    <nav className="border-2 boreder-red-500">
-        <Link href="/">
-            <Image src="/logo2tlo.svg" alt="INORG Logo" width={80} height={40} />
-            <ul className="hidden h-full gap12 lg:flex">
+    <nav className="border-2 border-red-500 flex items-center max-container padding-container relative z-30 py-5">
+        <Link href="/" className="mr-8">
+          <Image src="/logo.svg" alt="INORG Logo" width={100} height={60} />
+        </Link>
+
+            <ul className="hidden lg:flex h-full gap-12 space-x-4">
               {NAV_LINKS.map((link) => (
-                <Link href={link.href} key={link.href}>
+                <Link href={link.href} key={link.key} className="bold-20 text-blue-80 flexCenter cursor-pointer pb-1.5 transition-all mr-4">
                   {link.label}
                 </Link>
               ))}
             </ul>
-        </Link>
+        
+        <Image
+        src="/menu.svg"
+        alt="Menu"
+        width={32}
+        height={32}
+        className="inline-block cursor-pointer lg:hidden"/>
     </nav>
   )
 }
