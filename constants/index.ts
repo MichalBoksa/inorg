@@ -7,46 +7,68 @@ export const NAV_LINKS = [
     { href: '/projects', key: 'euProjects ', label: 'REALIZOWANE PROJEKTY UE' },
     { href: '/contactUs', key: 'contact_us', label: 'KONTAKT' },
   ];
-  
-  // CAMP SECTION
-  export const PEOPLE_URL = [
-    '/person-1.png',
-    '/person-2.png',
-    '/person-3.png',
-    '/person-4.png',
+
+  // export const SLIDER_DESCRIPTIONS = [
+  // 'Doskonalimy organizację naszych klientów w dynamicznie zmieniającym się otoczeniu',
+  // ];
+
+  export const SLIDER_DESCRIPTIONS = 
+    'Doskonalimy organizację naszych klientów w dynamicznie zmieniającym się otoczeniu';
+    
+  // CHOSEN PRODUCT SECTION
+  export const PRODUCTS_URL = [
+    '/chart.svg',
+    '/compliance.svg',
+    '/chem.svg',
+    '/piramid.svg',
   ];
   
   // FEATURES SECTION
-  export const FEATURES = [
+  export const PRODUCTS = [
     {
-      title: 'Real maps can be offline',
-      icon: '/map.svg',
-      variant: 'green',
+      title: 'Audyt organizacji',
+      icon: '/chart.svg',
       description:
-        'We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location',
+        'Audyt organizacji to punkt wyjścia do wszelkich działań restrukturyzacyjnych. Pozwala na określenie zakresu i kierunków zmian organizacyjnych, aby pracować bardziej efektywnie i łatwiej osiągać postawione cele strategiczne.',
     },
     {
-      title: 'Set an adventure schedule',
-      icon: '/calendar.svg',
-      variant: 'green',
+      title: 'Compliance i ochrona sygnalistów',
+      icon: '/compliance.svg',
       description:
-        "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+        "Jak odpowiedzieć na wymagania europejskich i polskich przepisów? Czy obserwowane od kilku lat turbulentne zmiany otoczenia prawnego i społeczno-ekonomicznego wymagają stosowania niekonwencjonalnych rozwiązań organizacyjnych? Nasza odpowiedź ...",
     },
     {
-      title: 'Technology using augment reality',
-      icon: '/tech.svg',
-      variant: 'green',
+      title: 'Analiza obecnej i przyszłej sytuacji chemicznej w Polsce i w Europie',
+      icon: '/chem.svg',
       description:
-        'Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection',
+        'Z naszą analizą obecnej i prognozowanej sytuacji w branży w Polsce oraz Europie można zapoznać się w artykule „Chemia w obliczu kryzysu i wojny” na łamach magazynu „Chemia przemysłowa”, a także w publikowanym przez nas kwartalnie ...',
     },
     {
-      title: 'Many new locations every month',
-      icon: '/location.svg',
-      variant: 'orange',
+      title: 'Wartościowanie stanowisk pracy w urzędach miast i przedsiębiorstwach',
+      icon: '/piramid.svg',
       description:
-        'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
+        'Wartościowanie to narzędzie doskonalenia systemów płacowych w jednostkach samorządowych oraz biznesie. To m.in. odpowiedź na wzrost płacy minimalnej oraz zmiany prawa dot. wynagradzania pracowników samorządowych, a także gwarancja dbałości o równe wynagrodzenia kobiet i mężczyzn za taką samą pracę.',
     },
   ];
+
+    // COMPLIENCE SECTION
+    export const COMPLIENCE = [
+      {
+        title: 'Dobra współpraca',
+        description:
+          'Audyt organizacji to punkt wyjścia do wszelkich działań restrukturyzacyjnych. Pozwala na określenie zakresu i kierunków zmian organizacyjnych, aby pracować bardziej efektywnie i łatwiej osiągać postawione cele strategiczne.',
+      },
+      {
+        title: 'Jakość usług',
+        description:
+          "Jak odpowiedzieć na wymagania europejskich i polskich przepisów? Czy obserwowane od kilku lat turbulentne zmiany otoczenia prawnego i społeczno-ekonomicznego wymagają stosowania niekonwencjonalnych rozwiązań organizacyjnych? Nasza odpowiedź ...",
+      },
+      {
+        title: 'Etyka biznesu',
+        description:
+          'Stosujemy wysokie standardy etyczne. Realizując usługi stale zarządzamy zgodnością projektowanych rozwiązań organizacyjnych z obowiązującym prawem oraz najlepszymi praktykami w branży i innymi przyjętymi przez Klienta zobowiązaniami zgodności. Szanujemy dotychczasowy dorobek organizacyjny i przyjęte zasady działania Klienta',
+      },
+    ];
   
   // FOOTER SECTION
   export const FOOTER_LINKS = [

@@ -35,6 +35,9 @@ module.exports = {
         yellow: {
           50: '#FEC601',
         },
+        sand: {
+          50: '#F3ECDB',
+        },
       },
       backgroundImage: {
         'bg-img-1': "url('/img-1.png')",
