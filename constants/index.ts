@@ -8,9 +8,6 @@ export const NAV_LINKS = [
     { href: '/contactUs', key: 'contact_us', label: 'KONTAKT' },
   ];
 
-  // export const SLIDER_DESCRIPTIONS = [
-  // 'Doskonalimy organizację naszych klientów w dynamicznie zmieniającym się otoczeniu',
-  // ];
 
   export const SLIDER_DESCRIPTIONS = 
     'Doskonalimy organizację naszych klientów w dynamicznie zmieniającym się otoczeniu';
@@ -51,8 +48,8 @@ export const NAV_LINKS = [
     },
   ];
 
-    // COMPLIENCE SECTION
-    export const COMPLIENCE = [
+    // COMPETENCE SECTION
+    export const COMPETENCE = [
       {
         title: 'Dobra współpraca',
         description:
@@ -73,27 +70,42 @@ export const NAV_LINKS = [
   // FOOTER SECTION
   export const FOOTER_LINKS = [
     {
-      title: 'Learn More',
+    title: 'Na skróty',
+    links: [
+    { href: '/aboutUs',  label: 'O FIRMIE' },
+    { href: '/products',  label: 'PRODUKTY' },
+    { href: '/branches', label: 'BRANŻE' },
+    { href: '/joinUs', label: 'DOŁĄCZ DO NAS' },
+    { href: '/projects', label: 'REALIZOWANE PROJEKTY UE' },
+    { href: '/contactUs',  label: 'KONTAKT' }]
+    },
+
+    {
+      
+      title: 'Produkty',
       links: [
-        'About Hilink',
-        'Press Releases',
-        'Environment',
-        'Jobs',
-        'Privacy Policy',
-        'Contact Us',
+        { href: '/products/audit',  label: 'AUDYT I DOSKONALENIE ORGANIZACJI' },
+        { href: '/products/processes',  label: 'ZARZĄDZANIE PROCESOWE I RESTRUKTURAZACJA PROCESÓW' },
+        { href: '/products/strategy',  label: 'STRATEGIA' },
+        { href: '/products/jobValuation',  label: 'WARTOŚCIOWANIE STANOWISK PRACY' },
+        { href: '/products/proefficiency',  label: 'BUDOWANIE PROEFEKTYWNOŚCI KULTURY ORGANIZACYJNEJ' },
+        { href: '/products/compliance',  label: 'COMPLIANCE' },
+        { href: '/products/rodo',  label: 'RODO' },
+        { href: '/products/supportIT',  label: 'WSPARCIE IT DLA DOSKONALENIA ORGANIZACJI' },
+        { href: '/products/knowledgeBase',  label: 'BAZA WIEDZY INORG' },
+        { href: '/products/raport',  label: 'RAPORT O PRZEMYŚLE CHEMICZNYM' },
+
       ],
     },
-    {
-      title: 'Our Community',
-      links: ['Climbing xixixi', 'Hiking hilink', 'Hilink kinthill'],
-    },
+   
   ];
   
   export const FOOTER_CONTACT_INFO = {
     title: 'Contact Us',
     links: [
-      { label: 'Admin Officer', value: '123-456-7890' },
-      { label: 'Email Officer', value: 'hilink@akinthil.com' },
+      { label: 'Adres', value: 'ul. Prymasa S. Wyszyńskiego 11 44-100 Gliwice' },
+      { label: 'Email', value: 'inorg@inorg.pl' },
+      { label: 'Telefon', value: '32 231-39-54' },
     ],
   };
   
