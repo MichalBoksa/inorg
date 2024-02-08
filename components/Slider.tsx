@@ -35,12 +35,12 @@ const Slider = () => {
 
   return (
 
-    <section className=' border-green-500 max-container relative'>
+    <section className=' max-container relative'>
 
       {/* <div className='border-2 border-green-500 flex items-center max-container padding-container relative z-30 py-5'> */}
       <Zoom {...zoomOutProperties}>
         { images.map((each, index) =>
-          <div key={index} className='border-2 border-yellow-500 flex justify-center md:items-center items-start w-screen- h-screen relative'>
+          <div key={index} className='flex justify-center md:items-center items-start w-screen- h-screen relative'>
             <Image className='w-screen h-screen' src={each}  width={1000} height={800} alt='slider' />
             <h1 className='absolute text-left text-white text-2xl md:text-4xl mr-10 ' style={{ top: '50%', left: '50%' }}>
               {SLIDER_DESCRIPTIONS}

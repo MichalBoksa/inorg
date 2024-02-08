@@ -4,10 +4,10 @@ import { COMPETENCE } from '@/constants';
 
 const Competence = () => {
   return (
-  <section  className='flexCenter' >
-    <div className='flex max-container relative w-full'>
+  <section  className='flexCenter mb-10' >
+    <div className='flex max-container relative w-full '>
 
-      <div className="border-2 border-red-500 flex flex-1 lg:min-h-[900px] max-w-[40%]">
+      <div className=" flex flex-1 lg:min-h-[900px] max-w-[40%]">
         <Image src="/nature1.jpg" alt='repute' width={740} height={1000} className=' md:-left-16 lg:flex  3xl:left-20 h-full' />
       </div>
 

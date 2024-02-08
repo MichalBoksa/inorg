@@ -80,23 +80,23 @@ export const NAV_LINKS = [
     { href: '/contactUs',  label: 'KONTAKT' }]
     },
 
-    {
+    // {
       
-      title: 'Produkty',
-      links: [
-        { href: '/products/audit',  label: 'AUDYT I DOSKONALENIE ORGANIZACJI' },
-        { href: '/products/processes',  label: 'ZARZĄDZANIE PROCESOWE I RESTRUKTURAZACJA PROCESÓW' },
-        { href: '/products/strategy',  label: 'STRATEGIA' },
-        { href: '/products/jobValuation',  label: 'WARTOŚCIOWANIE STANOWISK PRACY' },
-        { href: '/products/proefficiency',  label: 'BUDOWANIE PROEFEKTYWNOŚCI KULTURY ORGANIZACYJNEJ' },
-        { href: '/products/compliance',  label: 'COMPLIANCE' },
-        { href: '/products/rodo',  label: 'RODO' },
-        { href: '/products/supportIT',  label: 'WSPARCIE IT DLA DOSKONALENIA ORGANIZACJI' },
-        { href: '/products/knowledgeBase',  label: 'BAZA WIEDZY INORG' },
-        { href: '/products/raport',  label: 'RAPORT O PRZEMYŚLE CHEMICZNYM' },
+    //   title: 'Produkty',
+    //   links: [
+    //     { href: '/products/audit',  label: 'AUDYT I DOSKONALENIE ORGANIZACJI' },
+    //     { href: '/products/processes',  label: 'ZARZĄDZANIE PROCESOWE I RESTRUKTURAZACJA PROCESÓW' },
+    //     { href: '/products/strategy',  label: 'STRATEGIA' },
+    //     { href: '/products/jobValuation',  label: 'WARTOŚCIOWANIE STANOWISK PRACY' },
+    //     { href: '/products/proefficiency',  label: 'BUDOWANIE PROEFEKTYWNOŚCI KULTURY ORGANIZACYJNEJ' },
+    //     { href: '/products/compliance',  label: 'COMPLIANCE' },
+    //     { href: '/products/rodo',  label: 'RODO' },
+    //     { href: '/products/supportIT',  label: 'WSPARCIE IT DLA DOSKONALENIA ORGANIZACJI' },
+    //     { href: '/products/knowledgeBase',  label: 'BAZA WIEDZY INORG' },
+    //     { href: '/products/raport',  label: 'RAPORT O PRZEMYŚLE CHEMICZNYM' },
 
-      ],
-    },
+    //   ],
+    // },
    
   ];
   
@@ -119,3 +119,11 @@ export const NAV_LINKS = [
       '/wordpress.svg',
     ],
   };
+
+  // JOIN US SECTION
+  export const potentialEmployees = [
+  '➱ Studentów, absolwentów i doktorantów kierunków ekonomicznych. ',
+  '➱ Pracowników naukowych zainteresowanych szerszym wykorzystaniem swojej wiedzy eksperckiej w praktyce oraz wdrożeniem wyników swoich badań. ',
+  '➱ Ekspertów, specjalistów z doświadczeniem w przemyśle, kontrolerów, finansistów, kierowników projektów, specjalistów ds. organizacji i zarządzania, absolwentów studiów MBA. ',
+  '➱ Ekspertów w zakresie organizacji i zarządzania w jednostkach samorządowych. ',
+  ];
