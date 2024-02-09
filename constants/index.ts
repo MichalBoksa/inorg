@@ -127,3 +127,12 @@ export const NAV_LINKS = [
   '➱ Ekspertów, specjalistów z doświadczeniem w przemyśle, kontrolerów, finansistów, kierowników projektów, specjalistów ds. organizacji i zarządzania, absolwentów studiów MBA. ',
   '➱ Ekspertów w zakresie organizacji i zarządzania w jednostkach samorządowych. ',
   ];
+
+
+  //ABOUT US SECTION
+  export const specsAboutus = [
+    '➱ polskich i międzynarodowych grup kapitałowych',
+    '➱ instytutów badawczych ',
+    '➱ jednostek samorządowych (urzędy miast, gmin i starostwa powiatowe) ',
+    '➱ średnich i dużych przedsiębiorstw z branż chemicznej, energetycznej, TSL (w tym transport kolejowy, drogowy i wodny, spedycja i logistyka), ciepłowniczej, przemysłu maszynowego, cementowego, hutniczego, elektrotechnicznego, odlewniczego, zbrojeniowego, lekkiego, usług komunalnych, usług B+R+I (biura inżynierskie, centra badań i rozwoju firm) i wielu innych ',
+    ];
