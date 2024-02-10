@@ -1,9 +1,11 @@
-import JoinUsInfo from "@/components/JoinUsInfo"
+import JoinUsInfo from "@/components/JoinUsInfo";
 
-export default function page () {
+
+export default function page() {
     return (
-      <>
-        <JoinUsInfo />
-       </>
+    <>
+      <JoinUsInfo/>
+    </>
     )
-  }
+  } 
+  
