@@ -136,3 +136,21 @@ export const NAV_LINKS = [
     '➱ jednostek samorządowych (urzędy miast, gmin i starostwa powiatowe) ',
     '➱ średnich i dużych przedsiębiorstw z branż chemicznej, energetycznej, TSL (w tym transport kolejowy, drogowy i wodny, spedycja i logistyka), ciepłowniczej, przemysłu maszynowego, cementowego, hutniczego, elektrotechnicznego, odlewniczego, zbrojeniowego, lekkiego, usług komunalnych, usług B+R+I (biura inżynierskie, centra badań i rozwoju firm) i wielu innych ',
     ];
+
+    // CODE SECTION
+    export const code = [
+      '„Primum Non Nocere” – naszą podstawową zasadą jest nie szkodzić żadnym interesariuszom w trakcie realizowanych prac.',
+      'Bierzemy na siebie odpowiedzialność za swoje działania.Podejmujemy się przedsięwzięć, w stosunku do których posiadamy kwalifikacje, wynikające z wykształcenia oraz doświadczenia.',
+      'Stale podnosimy swoje umiejętności zawodowe, dążąc do ustawicznego rozwoju osobistego.',
+      'Przestrzegamy prawa kraju, w którym realizujemy nasze projekty.',
+      'Traktujemy sprawiedliwie wszystkich członków zespołu, kolegów i współpracowników wykonujących projekt bez względu na rasę, religię, płeć, preferencje osobiste i kulturowe, wiek lub narodowość.',
+      'W trakcie realizacji usług doradczych zapewniamy pracownikom odpowiednie warunki pracy.',
+      'Poddajemy nasze prace uczciwej ocenie, bezstronnie wysłuchujemy innych racji oraz w należny sposób uznajemy wkład innych osób.',
+      'Prowadząc ekspansję rynkową stosujemy zasadę „fair-play” w stosunku do Klienta i Konkurencji.',
+      'Realizując projekty doradcze godnie reprezentujemy naszych Klientów w zakresie powierzonych nam spraw.',
+      'Zachowujemy poufność informacji na temat spraw handlowych, procesów technicznych, organizacji Klienta (o ile obowiązek ujawnienia nie spoczywa na nas z mocy prawa), również po zakończeniu projektu.',
+      'Informujemy swych pracodawców, Klientów, organizacje zawodowe lub instytucje publiczne o jakichkolwiek okolicznościach, które mogłyby prowadzić do sprzeczności interesów.',
+      'Wystrzegamy się działalności, która mogłaby być uznana lub stwarzać choćby tylko wrażenie korupcji i otwarcie wyrażamy swój sprzeciw wobec takich działań.',
+      'Chronimy bezpieczeństwo, zdrowie oraz dobro społeczeństwa i otwarcie wypowiadamy się przeciwko naruszaniu tych wartości.',
+      'Dążymy do rozpowszechniania wiedzy na temat społecznej odpowiedzialności biznesu i zrównoważonego rozwoju.'
+    ]

@@ -4,7 +4,7 @@ import React from 'react'
 const JoinUsInfo = () => {
   return (
    <section className='mb-4'>
-     <div className="flex justify-center mb-16 mt-6" >
+     <div className="flex justify-start mb-16 mt-6 ml-20" >
                 <h1 className='text-blue-80 font-bold text-3xl lg:text-6xl '>Dołącz do nas</h1>
             </div>
     <div className='flex max-container w-full lg:min-h-[400px] max-w-[60%] '>
@@ -12,16 +12,16 @@ const JoinUsInfo = () => {
         <div className='grid>'>
            
             <div className=' text-blue-80 flex lg:px-40 px-30 ml-8 mr-8 mb-20 mt-10 '>
-                <p className='text-center font-bold text-m lg:text-l  '>Nasz przepis na sukces na rynku to umiejętne połączenie wiedzy i doświadczenia praktycznego oraz kreatywność i entuzjazm.</p>
+                <p className='text-justify font-bold text-m lg:text-l  '>Nasz przepis na sukces na rynku to umiejętne połączenie wiedzy i doświadczenia praktycznego oraz kreatywność i entuzjazm.</p>
             </div>
 
             <div className='text-blue-80 flex lg:px-20 px-30 ml-12 mr-12 '>
-                <p className='text-center font-bold text-m lg:text-l  '>Tworząc zespół ekspertów o wysokich kwalifikacjach, którzy stale rozwijają swoje kompetencje, poszerzają swoje doświadczenie, prezentując wyjątkową elastyczność w sposobie rozwiązywania problemów klientów przy zachowaniu najwyższych standardów etyki biznesu, zapraszamy do współpracy zarówno doświadczonych specjalistów, jak i młode i kreatywne osoby, chcące zdobyć doświadczenie i poszerzyć swoje kwalifikacje w obszarze organizacji i zarządzania oraz ekonomii.</p>
+                <p className='text-justify font-bold text-m lg:text-l  '>Tworząc zespół ekspertów o wysokich kwalifikacjach, którzy stale rozwijają swoje kompetencje, poszerzają swoje doświadczenie, prezentując wyjątkową elastyczność w sposobie rozwiązywania problemów klientów przy zachowaniu najwyższych standardów etyki biznesu, zapraszamy do współpracy zarówno doświadczonych specjalistów, jak i młode i kreatywne osoby, chcące zdobyć doświadczenie i poszerzyć swoje kwalifikacje w obszarze organizacji i zarządzania oraz ekonomii.</p>
             </div>
       </div>
 
         <div className='flex max-w-[40%]' >
-          <img src='/nature1.jpg' alt='joinUs' className='w-full h-full' />
+          <img src='/nature1.jpg' alt='joinUs' className='w-full h-full object-cover' />
         </div>
     </div>
 
@@ -46,19 +46,19 @@ const JoinUsInfo = () => {
          </div>
 
         <div className='bg-white flex flex-col max-w-[40%] lg:px-8' >
-            <div className="flex justify-center mb-4 mt-8 lg:px-8 text-center" >
+            <div className="flex justify-center mb-4 mt-8 lg:px-8 text-justify" >
                     <p className='text-blue-80 text-3xl lg:text-base font-bold'>Chętnie wspieramy rozwój naukowy naszych pracowników (np. w drodze studiów doktoranckich i MBA).</p>
             </div>
 
-            <div className=" flex lg:max-h-[30%]" >
-                 <img src='/nature1.jpg' alt='joinUs' className='w-full h-full py-2 ' />
+            <div className=" flex lg:max-h-[30%] " >
+                 <img src='/nature1.jpg' alt='joinUs' className='w-full h-full py-2 rounded object-cover' />
              </div>
 
-                <div className="flex flex-col justify-center mb-4 mt-8 text-blue-80 text-3xl lg:text-base break-afrer-column font-bold text-center" >
-                        <p className=''>Interesujesz się marketingiem, ekonomią, zarządzaniem? </p>
-                        <p>Chcesz zdobyć najwyższe kwalifikacje w konsultingu i zarządzaniu projektami doradczymi?</p>
-                             <p>Potrzebujesz ciekawego pola badawczego do prac naukowych?</p> 
-                              <p> Chcesz podzielić się swoim doświadczeniem, aby pomóc przedsiębiorstwom doskonalić swoją organizację?</p>
+                <div className="flex flex-col justify-center mb-4 mt-8 text-blue-80 text-3xl lg:text-base break-afrer-column font-bold text-justify " >
+                        <p className='mb-2'>Interesujesz się marketingiem, ekonomią, zarządzaniem? </p>
+                        <p className='mb-2'>Chcesz zdobyć najwyższe kwalifikacje w konsultingu i zarządzaniu projektami doradczymi?</p>
+                             <p className='mb-2'>Potrzebujesz ciekawego pola badawczego do prac naukowych?</p> 
+                              <p className='mb-2'> Chcesz podzielić się swoim doświadczeniem, aby pomóc przedsiębiorstwom doskonalić swoją organizację?</p>
                 </div>
 
                 <div className="flex justify-center mt-8 text-center" >
