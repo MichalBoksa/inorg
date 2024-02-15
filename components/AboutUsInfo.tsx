@@ -30,7 +30,7 @@ const AboutUsInfo = () => {
                 <img src='/managment.jpg' alt='managment' className='h-40 w-60 rounded-md absolute mt-8 object-cover'  style={{ top: '30%', left: '15%' }} />
             </Link>
 
-            <Link  href="aboutUs/cooperation" className="w-1/5 bg-gray-100 h-60 mt-16 rounded relative mb-10">
+            <Link  href="aboutUs/associates" className="w-1/5 bg-gray-100 h-60 mt-16 rounded relative mb-10">
             <h1 className='text-sky-40 text-left font-bold text-3xl lg:text-2xl mt-4 px-6'>Nasi współpracownicy</h1> 
             <img src='/cooperation.jpg' alt='cooperation' className='h-40 w-60 rounded-md absolute mt-8 object-cover'  style={{ top: '30%', left: '15%' }} />
             </Link>
