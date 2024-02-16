@@ -21,7 +21,7 @@ const BranchesInfo = () => {
                 <img src='/big_business.jpg' alt='bigBusinesses' className='h-3/4 w-11/12 rounded-md absolute mt-8 object-cover'  style={{ top: '30%', left: '15%' }} />
             </Link>
 
-            <Link href="branches/smallMediumBusinesses" className="w-1/3 bg-gray-100 h-72 rounded relative mt-10">
+            <Link href="branches/smallMediumBusiness" className="w-1/3 bg-gray-100 h-72 rounded relative mt-10">
                 <h1 className='text-sky-40 text-left font-bold text-3xl lg:text-2xl mt-4 px-6'>Małe oraz średnie przedsiębiorstwa</h1> 
                 <img src='/small_business.jpg' alt='smallMediumBusinesses' className='h-3/4 w-11/12 rounded-md absolute mt-8 object-cover'  style={{ top: '30%', left: '15%' }} />
             </Link>
