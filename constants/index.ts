@@ -154,3 +154,15 @@ export const NAV_LINKS = [
       'Chronimy bezpieczeństwo, zdrowie oraz dobro społeczeństwa i otwarcie wypowiadamy się przeciwko naruszaniu tych wartości.',
       'Dążymy do rozpowszechniania wiedzy na temat społecznej odpowiedzialności biznesu i zrównoważonego rozwoju.'
     ]
+
+
+    // AUDIT SECTION
+    export const efects = [
+      'Poprawa bezpieczeństwa firmy, kierownictwa i wszystkich pracowników, w wyniku uporządkowania dokumentacji formalnej dotyczącej podziału obowiązków i uprawnień, poprawy nadzoru nad działalnością biznesową (ograniczenie ryzyka gospodarczego i prawnego), a także nad procesami materialnymi i pracy ludzkiej (bezpieczeństwo techniczne i higiena pracy, środowiskowe i związane z zarządzaniem majątkiem trwałym, zapasami magazynowymi, procesami logistycznymi itp.)',
+      'Poprawa efektywności realizacji założonych celów (cele realizowane są skuteczniej, szybciej i po mniejszym koszcie, bez barier administracyjnych i biurokratycznych)',
+      'Przejrzysty i uporządkowany podział odpowiedzialności usprawniający funkcjonowanie firmy (Zarząd i najwyższe kierownictwo może zając się sprawami strategicznymi)',
+      'Szybki i sprawny przepływ informacji w firmie (kierownicy mogą podejmować decyzje w oparciu o wiarygodne i aktualne dane)',
+      'Większa motywacja pracowników, likwidacja niezauważonych wcześniej patologii organizacyjnych, wzrost prestiżu stanowisk specjalistycznych, kreowanie proefektywnościowej kultury organizacyjnej',
+      'Ograniczenie kosztów stałych funkcjonowania firmy (likwidacja zbędnych procesów, niepotrzebnych stanowisk kierowniczych, poprawa efektywności pracy specjalistów)',
+      'Wsparcie rozwoju i innowacyjności firmy'
+    ]

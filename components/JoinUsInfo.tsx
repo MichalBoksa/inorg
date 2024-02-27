@@ -11,12 +11,12 @@ const JoinUsInfo = () => {
         
         <div className='grid>'>
            
-            <div className=' text-blue-80 flex lg:px-40 px-30 ml-8 mr-8 mb-20 mt-10 '>
-                <p className='text-justify font-bold text-m lg:text-l  '>Nasz przepis na sukces na rynku to umiejętne połączenie wiedzy i doświadczenia praktycznego oraz kreatywność i entuzjazm.</p>
+            <div className=' text-blue-80 flex lg:px-40 px-30 ml-auto mr-auto mb-20 mt-20 '>
+                <p className='text-left font-bold text-m lg:text-l'>Nasz przepis na sukces na rynku to umiejętne połączenie wiedzy i doświadczenia praktycznego oraz kreatywność i entuzjazm.</p>
             </div>
 
-            <div className='text-blue-80 flex lg:px-20 px-30 ml-12 mr-12 '>
-                <p className='text-justify font-bold text-m lg:text-l  '>Tworząc zespół ekspertów o wysokich kwalifikacjach, którzy stale rozwijają swoje kompetencje, poszerzają swoje doświadczenie, prezentując wyjątkową elastyczność w sposobie rozwiązywania problemów klientów przy zachowaniu najwyższych standardów etyki biznesu, zapraszamy do współpracy zarówno doświadczonych specjalistów, jak i młode i kreatywne osoby, chcące zdobyć doświadczenie i poszerzyć swoje kwalifikacje w obszarze organizacji i zarządzania oraz ekonomii.</p>
+            <div className='text-blue-80 flex lg:px-14 px-30 ml-6 mr-12 '>
+                <p className='text-left font-bold text-m lg:text-l  '>Tworząc zespół ekspertów o wysokich kwalifikacjach, którzy stale rozwijają swoje kompetencje, poszerzają swoje doświadczenie, prezentując wyjątkową elastyczność w sposobie rozwiązywania problemów klientów przy zachowaniu najwyższych standardów etyki biznesu, zapraszamy do współpracy zarówno doświadczonych specjalistów, jak i młode i kreatywne osoby, chcące zdobyć doświadczenie i poszerzyć swoje kwalifikacje w obszarze organizacji i zarządzania oraz ekonomii.</p>
             </div>
       </div>
 
