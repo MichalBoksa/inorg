@@ -15,7 +15,7 @@ organizacji.</p>
       
         </div>
         <div className='flex justify-center items-center w-2/5 ' >
-          <img src='/nature1.jpg' alt='repute' className='w-full px-5 py-10' />
+          <img src='/nature1.jpg' alt='repute' className='w-full px-5 py-10 rounded' />
         </div>
       </div>
     </section>
