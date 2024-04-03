@@ -8,11 +8,11 @@ const Competence = () => {
     <div className='flex max-container relative w-full '>
 
       <div className=" flex flex-1 lg:min-h-[900px] max-w-[40%]">
-        <Image src="/nature1.jpg" alt='repute' width={740} height={1000} className=' md:-left-16 lg:flex  3xl:left-20 h-full' />
+        <Image src="/nature1.jpg" alt='repute' width={740} height={1000} className=' md:-left-16 lg:flex 3xl:left-20 h-full' />
       </div>
 
       <div className='z-20 flex w-full flex-col lg:w-[60%]'>
-         <h3 className=' text-blue-80 py-6 text-center font-bold text-3xl lg:text-5xl mb-10'>Renoma marki i kompetencje Instytutu</h3>
+         
         <ul className='grid'>
           {COMPETENCE.map((competence) => (
             <CompetenceItem

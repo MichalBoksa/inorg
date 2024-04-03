@@ -12,7 +12,7 @@ const ChosenProducts = () => {
         </div>
 
         <div className='flex md:mt-8 mb-8'>
-          <ul className='grid md:gap-8 md:grid-cols-2 lg:grid-cols-4'>
+          <ul className='grid md:gap-8 md:grid-cols-2 lg:grid-cols-4 mb-4'>
             {PRODUCTS.map((product) => (
               <ProductItem
                 key={product.description}
@@ -48,7 +48,7 @@ const ProductItem = ({ title, icon, description }: ProductItemProps) => {
       </div>
 
       <div className='flex mt-2 mb-2 items-center justify-center'>
-        <p className="text-center text-black font-bold lg:text-sm text-sm">{description}</p>
+        <p className="text-center text-black font-bold lg:text-base text-sm">{description}</p>
       </div>
       </div>
     </li>
