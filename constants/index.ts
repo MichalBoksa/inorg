@@ -1,3 +1,11 @@
+export const LANGUAGES = [
+  // { code: 'en', label: 'EN' },
+  { code: 'pl', label: 'PL' },
+  // { code: 'fr', label: 'FR' },
+  // { code: 'de', label: 'DE' },
+  // { code: 'ru', label: 'RU' }
+];
+
 // NAVIGATION
 export const NAV_LINKS = [
     { href: '/aboutUs', key: 'aboutUs', label: 'O FIRMIE' },
@@ -23,28 +31,28 @@ export const NAV_LINKS = [
   // FEATURES SECTION
   export const PRODUCTS = [
     {
-      title: 'Audyt organizacji',
+      title: 'AUDYT ORGANIZACJI',
       icon: '/chart.svg',
       description:
-        'Audyt organizacji to punkt wyjścia do wszelkich działań restrukturyzacyjnych. Pozwala na określenie zakresu i kierunków zmian organizacyjnych, aby pracować bardziej efektywnie i łatwiej osiągać postawione cele strategiczne.',
+        'Audyt GOZ to punkt wyjścia do wszelkich działań ekoinnowacyjnych. Pozwala na określenie zakresu i kierunków zmian organizacyjnych, aby pracować bardziej efektywnie i łatwiej osiągać postawione cele strategiczne',
     },
     {
-      title: 'Compliance i ochrona sygnalistów',
+      title: 'PROMOCJA ORGANIZACJI I ROZWIĄZAŃ GOZ',
       icon: '/compliance.svg',
       description:
-        "Jak odpowiedzieć na wymagania europejskich i polskich przepisów? Czy obserwowane od kilku lat turbulentne zmiany otoczenia prawnego i społeczno-ekonomicznego wymagają stosowania niekonwencjonalnych rozwiązań organizacyjnych? Nasza odpowiedź ...",
+        "Zapewniamy kompleksowe wsparcie w promowaniu Twojej organizacji oraz innowacyjnych rozwiązań z zakresu gospodarki o obiegu zamkniętym (GOZ) w Polsce i na świecie.  Nasze starannie opracowane strategie pozwolą na jej widoczność w społeczeństwie, by zyskała uznanie za zaangażowanie w budowę lepszego świata",
     },
     {
-      title: 'Analiza obecnej i przyszłej sytuacji chemicznej w Polsce i w Europie',
+      title: 'Platforma wymiany dobrych praktyk',
       icon: '/chem.svg',
       description:
-        'Z naszą analizą obecnej i prognozowanej sytuacji w branży w Polsce oraz Europie można zapoznać się w artykule „Chemia w obliczu kryzysu i wojny” na łamach magazynu „Chemia przemysłowa”, a także w publikowanym przez nas kwartalnie ...',
+        'Oferowane przez nas rozwiązanie pozwoli na inspirację w drodze do zrównoważonego biznesu, a także nie pozwoli wartościowym ekoinnowacjom na pozostawanie w cieniu nie wykorzystując swojego potencjału',
     },
     {
-      title: 'Wartościowanie stanowisk pracy w urzędach miast i przedsiębiorstwach',
+      title: 'Edukacja i doradztwo',
       icon: '/piramid.svg',
       description:
-        'Wartościowanie to narzędzie doskonalenia systemów płacowych w jednostkach samorządowych oraz biznesie. To m.in. odpowiedź na wzrost płacy minimalnej oraz zmiany prawa dot. wynagradzania pracowników samorządowych, a także gwarancja dbałości o równe wynagrodzenia kobiet i mężczyzn za taką samą pracę.',
+        'Organizacje korzystające z naszych usług mogą liczyć na wszechstronne wsparcie przy wdrażaniu modeli i rozwiązań GOZ. Oferujemy szeroką gamę szkoleń oraz działamy jako kancelaria wsparcia wizerunku środowiskowego',
     },
   ];
 

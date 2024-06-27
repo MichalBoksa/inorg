@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap'); */
 
 @tailwind base;
 @tailwind components;
@@ -11,8 +11,25 @@
 }
 
 body {
-  font-family: Inter;
+  /* font-family: Inter; */
+  overflow-x: hidden;
 }
+
+.ql-container {
+  font-size: 28px;
+}
+
+.quill > ql-container > ql-editor.ql-blank::before {
+  color: #a0aec0;
+}
+
+.ql-editor {
+  font-size: 20px;
+  line-height: 1.5;
+  background-color: #f7fafc;
+  width:100%;
+}
+
 
 @layer utilities {
   .btn_white { 
@@ -36,7 +53,7 @@ body {
   }
 
   .padding-container {
-    @apply px-6 lg:px-20 3xl:px-0;
+    @apply px-6 lg:px-20;
   }
 
   .flexCenter {
@@ -131,6 +148,9 @@ body {
   .bold-16 {
     @apply text-[16px] font-[700];
   }
+  .right-05{
+    right: 0.01rem;
+  }
 
   /* Hero */
   .hero-map {
@@ -163,3 +183,8 @@ body {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
+.svg-icon {
+  height: 40px; /* Set the height you prefer */
+  width: auto;  /* Maintain aspect ratio */
+}
+

@@ -40,9 +40,9 @@ const Slider = () => {
       {/* <div className='border-2 border-green-500 flex items-center max-container padding-container relative z-30 py-5'> */}
       <Zoom {...zoomOutProperties}>
         { images.map((each, index) =>
-          <div key={index} className='flex justify-center md:items-center items-start w-screen- h-screen relative'>
-            <Image className='w-screen h-screen' src={each}  width={1000} height={800} alt='slider' />
-            <h1 className='absolute text-left text-white text-2xl md:text-4xl mr-10 ' style={{ top: '50%', left: '50%' }}>
+          <div key={index} className='flex justify-center md:items-center items-start w-screen h-screen relative mx-auto'>
+            <Image className='w-screen h-screen object-cover ' src={each}  width={1000} height={800} alt='slider'/>
+            <h1 className='absolute text-left text-white text-4xl md:text-3xl mr-10 ' style={{ top: '50%', left: '50%' }}>
               {SLIDER_DESCRIPTIONS}
             </h1>
             </div>

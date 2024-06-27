@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-
+import { LocaleProvider } from '@/lang/LocaleContext';
 
 export const metadata: Metadata = {
   title: 'Inorg',
@@ -17,9 +17,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body >
-        <Navbar />
-        <main className="relative overflow-hidden">{children}</main>
-        <Footer/>
+        <LocaleProvider>
+          <Navbar />
+            <main className="relative overflow-hidden">{children}</main>
+          <Footer/>
+        </LocaleProvider>
       </body>
     </html>
   )

@@ -22,7 +22,7 @@ const WhoAreWe = () => {
      </div>
 
        <div className='flex max-w-[40%] max-h-[600px]' >
-         <img src='/nature1.jpg' alt='joinUs' className='w-full ' />
+         <img src='/farm3.jpg' alt='joinUs' className='w-full ' />
        </div>
    </div>
 

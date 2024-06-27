@@ -38,7 +38,7 @@ type ProductItemProps = {
 const ProductItem = ({ title, icon, description }: ProductItemProps) => {
   return (
     <li className=''>
-      <div className='flex flex-col items-center w-full h-full'>
+      <div className='flex flex-col items-center w-full h-full hover:shadow-2xl rounded-xl'>
       <div className='md:mb-4 mt-5'>
         <Image src={icon} alt="map" width={100} height={100} />
       </div>
@@ -48,7 +48,7 @@ const ProductItem = ({ title, icon, description }: ProductItemProps) => {
       </div>
 
       <div className='flex mt-2 mb-2 items-center justify-center'>
-        <p className="text-center text-black font-bold lg:text-base text-sm">{description}</p>
+        <p className="text-center text-black font-medium lg:text-base text-sm">{description}</p>
       </div>
       </div>
     </li>

@@ -1,26 +1,28 @@
+"use client";
 import React from 'react'
 import Image from 'next/image'
-import { COMPETENCE } from '@/constants';
+import { useLocale } from '../lang/LocaleContext';
+import { COMPETENCE_DESC } from '@/lang/pl';
 
 const Competence = () => {
+  const { DATA } = useLocale();
   return (
-  <section  className='flexCenter mb-10' >
+  <section className='flexCenter mb-4' >
     <div className='flex max-container relative w-full '>
 
-      <div className=" flex flex-1 lg:min-h-[900px] max-w-[40%]">
-        <Image src="/nature1.jpg" alt='repute' width={740} height={1000} className=' md:-left-16 lg:flex 3xl:left-20 h-full' />
+      <div className="hidden md:flex flex-1 lg:min-h-[650px] max-w-[50%]">
+        <Image src="/nature1.jpg" alt='competence' width={740} height={1000} className='md:-left-10 lg:flex 3xl:left-20  lg:h-full rounded-lg' />
       </div>
 
-      <div className='z-20 flex w-full flex-col lg:w-[60%]'>
-         
-        <ul className='grid'>
-          {COMPETENCE.map((competence) => (
-            <CompetenceItem
-             key={competence.title}
-             title={competence.title}
-             description={competence.description} />
-          ))}
-        </ul>
+      <div className='z-20 mt-8 flex w-full flex-col lg:w-[60%] items-center'>
+        <div className='flex flex-col justify-center items-start md:w-3/5 ' >
+          <h1 className='text-3xl md:text-5xl font-bold text-blue-80 text-center lg:mb-8 mb-4 '>{DATA?.COMPETENCE}</h1>
+          <p className='text-base text-left font-bold text-gray-500 p-2 mt-4'>{DATA?.COMPETENCE_DESC}</p>
+            <div className='flex flex-col w-full mt-7'>         
+              <h3 className='text-xl font-bold text-blue-80 text-left lg:mb-6 mb-2 '>{DATA?.QUESTION}</h3>
+              <p className='text-base text-left font-bold text-gray-500 p-2'>{DATA?.ANSWEAR}</p>
+            </div>
+      </div>
       </div>
 
     </div>
@@ -35,13 +37,15 @@ type CompetenceItemProps = {
 
 const CompetenceItem = ({ title, description }: CompetenceItemProps) => {
   return (
-    <li className='flex flex-col items-center'>
+    <li className='flex flex-col items-center lg:py-8 py-2'>
 
-      <div className='w-full flex items-center justify-center'>
-        <h5 className='text-gray-500 font-bold text-lg lg:text-2xl text-center'>{title}</h5>
+      <div className='w-full flex items-center justify-center '>
+        <h5 className='text-blue-80 font-bold text-lg lg:text-3xl text-center'>{title}</h5>
       </div>
       
-      <p className="flexCenter text-center text-black font-bold text-base lg:px-52 px-32 mt-5 mb-10">{description}</p>
+      <div className='flex justify-center lg:px-32'>
+         <p className="bg-gray-200 rounded flexCenter text-left text-black md:font-medium text-base px-8 py-6 mt-5 mb-6 ml-12">{description}</p>
+      </div>
     </li>
   );
 };
