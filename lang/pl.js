@@ -10,9 +10,9 @@ export const ANSWEAR = 'Naszą odpowiedzią jest profesjonalizm i interdyscyplin
 export const NAV_LINKS = [
     { href: '/aboutUs', key: 'aboutUs', label: 'O FIRMIE' },
     { href: '/products', key: 'products', label: 'PRODUKTY' },
-    { href: '/branches', key: 'branches ', label: 'BRANŻE' },
-    { href: '/joinUs', key: 'joinUs ', label: 'DOŁĄCZ DO NAS' },
-    { href: '/projects', key: 'euProjects ', label: 'REALIZOWANE PROJEKTY UE' },
+    { href: '/goz', key: 'goz ', label: 'GOZ W TWOIM OTOCZENIU ' },
+    { href: '/partnership', key: 'partnership ', label: 'WSPÓŁPRACA' },
+    { href: '/links', key: 'links ', label: 'LINKI' },
     { href: '/contactUs', key: 'contact_us', label: 'KONTAKT' },
   ];
 

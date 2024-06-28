@@ -45,13 +45,28 @@ const Navbar = () => {
                   </div>
                 </Link>
               ) :
-              (<div key={link.label} className=" dropdown dropdown-hover ">
-              <div tabIndex={0} className="lg:text-nowrap lg:text-md xl:text-lg lg:font-bold text-default cursor-pointer mr-4 ">{link.label}</div>
-              <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-40">
-                {DATA?.PRODUCTS.map((product, index) => (
-                  <Link href={product.href} key={index}> <li onClick={handleClick} className="flexCenter text-wrap cursor-pointer pb-1.5 text:md xl:text-lg  "><p>{product.name}</p></li></Link>
-                ))}
-              </ul>
+              (<div key={link.label} className="dropdown dropdown-hover">
+                <div
+                  tabIndex={0}
+                  className="lg:text-nowrap lg:text-md xl:text-lg lg:font-bold text-default cursor-pointer mr-4"
+                >
+                  {link.label}
+                </div>
+                <ul
+                  tabIndex={0}
+                  className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-44"
+                >
+                  {DATA?.PRODUCTS.map((product, index) => (
+                    <Link href={product.href} key={index}>
+                      <li
+                        onClick={handleClick}
+                        className="text-wrap cursor-pointer text:md font-semibold h-12 sm:h-14 md:h-16 lg:h-14 xl:h-14 flex items-left justify-center"
+                      >
+                        <p>{product.name}</p>
+                      </li>
+                    </Link>
+                  ))}
+                </ul>
               </div>)
               )}
             <div className="dropdown dropdown-hover">
