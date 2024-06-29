@@ -17,8 +17,12 @@ export const NAV_LINKS = [
   ];
 
   export const PRODUCTS =[
-    {href: '/goodPracticeExchange', name: 'Obszar wymiany dobrych praktyk'},
-    {href: '/advisoryArea', name: 'Obszar doradczy'},
-    {href: '/trainingArea', name: 'Obszar szkoleniowy'},
-    {href: '/gozCybersecurity', name: 'GOZ w IT i cyberbezpieczeństwo'},
+    {href: '/products/goodPracticeExchange', name: 'Obszar wymiany dobrych praktyk'},
+    {href: '/products/advisoryArea', name: 'Obszar doradczy'},
+    {href: '/products/trainingArea', name: 'Obszar szkoleniowy'},
+    {href: '/products/gozCybersecurity', name: 'GOZ w IT i cyberbezpieczeństwo'},
   ]
+
+  //ADVISORY AREA
+  export const ADVISORY_AREA = 'OBSZAR DORADCZY';
+  export const ADVISORY_AREA_DESC = 'Pomożemy Ci krok po kroku na drodze ku zrównoważonej działalności. W zależności od Twoich potrzeb możesz wybrać możliwość subskrypcji i stałego wsparcia lub jednorazową analizę i konsultację.';

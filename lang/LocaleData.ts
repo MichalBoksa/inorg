@@ -9,6 +9,9 @@ COMPETENCE: string;
 QUESTION: string;
 ANSWEAR: string;
 
+//ADVISORY AREA
+ADVISORY_AREA: string;
+ADVISORY_AREA_DESC:string;
 }
 
 
