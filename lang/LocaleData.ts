@@ -18,6 +18,15 @@ TRAINING_AREA: string;
 TRAINING_AREA_DESC: string;
 TRAINING_AREA_PRODUCTS: TrainingProduct[];
 
+//PARTNERSHIP
+TARGET_GROUP: string;
+TARGET_GROUP_DESC: string;
+PARTNERSHIP: string;
+TARGET_GROUPS: TargetGroup[];
+WHERE_WE_OPERATE: string;
+WHERE_WE_OPERATE_DESC: string;
+INTERNATIONAL_PARTNERSHIP: string;
+INTERNATIONAL_PARTNERSHIP_DESC: string;
 }
 
 export interface NavLink {
@@ -35,4 +44,8 @@ export interface NavLink {
     title: string;
     desc: string;
     img: string;
+  }
+  export interface TargetGroup {
+    title: string;
+    src: string;
   }

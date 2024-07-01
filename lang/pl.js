@@ -56,3 +56,35 @@ export const NAV_LINKS = [
       img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/slekadhcb33tduy0ibo5.jpg' 
      },
   ]
+
+  export const TARGET_GROUPS = [
+    {
+      title: 'Chemiczna',
+      src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/wspolpraca/dlvbo28yboxth8j9n7kn.jpg'
+    },
+    {
+      title: 'Gospodarka odpadami',
+      src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/wspolpraca/bavybbxpnv8s4s2z0nbh.jpg'
+    },
+    {
+      title: 'Spożywcza',
+      src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/wspolpraca/lgvj60rjiavgkembapty.jpg'
+    },
+    {
+      title: 'Budowalana',
+      src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/wspolpraca/kblvxaenqjhcami6h8yx.jpg'
+    },
+    {
+      title: 'Metali',
+      src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/wspolpraca/r8dtzdqkk2uomy9vjghg.jpg'
+    },
+   
+  ]
+
+  //PARTNERSHIP
+  export const TARGET_GROUP = 'GRUPY DOCELOWE';
+  export const TARGET_GROUP_DESC = 'Specjalizujemy się w świadczeniu usług dla małych i średnich przedsiębiorstw z następujących branż:';
+  export const INTERNATIONAL_PARTNERSHIP = 'WSPÓŁPRACA MIĘDZYNARODOWA';
+  export const WHERE_WE_OPERATE = 'GDZIE DZIAŁAMY';
+  export const WHERE_WE_OPERATE_DESC = 'Obecnie skupiamy się głównie w województwach śląskim, małopolskim, świętokrzyskim i podkarpackim. Twoja organizacja jest z innego województwa, a mimo to chciałbyś korzystać z naszych usług? Skontaktuj się z nami, a indywidualnie omówimy możliwości współpracy.';
+  export const INTERNATIONAL_PARTNERSHIP_DESC ='Współpracujemy z podmiotami na różnych kontynentach, co otwiera nas i naszych klientów na międzynarodowość w podejmowanych działalności i promocji innowatorskich rozwiązaniach. Obecnie pozostajemy w stałym kontakcie z przedsiębiorstwami w krajach Bliskiego Wschodu.';
