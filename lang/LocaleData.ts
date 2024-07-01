@@ -12,8 +12,13 @@ ANSWEAR: string;
 //ADVISORY AREA
 ADVISORY_AREA: string;
 ADVISORY_AREA_DESC:string;
-}
 
+//TRAINING AREA
+TRAINING_AREA: string;
+TRAINING_AREA_DESC: string;
+TRAINING_AREA_PRODUCTS: TrainingProduct[];
+
+}
 
 export interface NavLink {
     href: string;
@@ -24,4 +29,10 @@ export interface NavLink {
   export interface Product {
     href: string;
     name: string;
+  }
+
+  export interface TrainingProduct {
+    title: string;
+    desc: string;
+    img: string;
   }
