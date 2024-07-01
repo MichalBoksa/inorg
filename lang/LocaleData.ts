@@ -27,6 +27,10 @@ WHERE_WE_OPERATE: string;
 WHERE_WE_OPERATE_DESC: string;
 INTERNATIONAL_PARTNERSHIP: string;
 INTERNATIONAL_PARTNERSHIP_DESC: string;
+
+//RECOMMENDATIONS
+RECOMMENDATIONS: Recommendation[];
+
 }
 
 export interface NavLink {
@@ -48,4 +52,9 @@ export interface NavLink {
   export interface TargetGroup {
     title: string;
     src: string;
+  }
+
+  export interface Recommendation {
+    label: string;
+    href: string;
   }

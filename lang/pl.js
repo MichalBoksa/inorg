@@ -12,7 +12,7 @@ export const NAV_LINKS = [
     { href: '/products', key: 'products', label: 'PRODUKTY' },
     { href: '/goz', key: 'goz ', label: 'GOZ W TWOIM OTOCZENIU ' },
     { href: '/partnership', key: 'partnership ', label: 'WSPÓŁPRACA' },
-    { href: '/links', key: 'links ', label: 'LINKI' },
+    { href: '/recommendation', key: 'recommendation', label: 'REKOMENDACJE' },
     { href: '/contactUs', key: 'contact_us', label: 'KONTAKT' },
   ];
 
@@ -21,7 +21,18 @@ export const NAV_LINKS = [
     {href: '/products/advisoryArea', name: 'Obszar doradczy'},
     {href: '/products/trainingArea', name: 'Obszar szkoleniowy'},
     {href: '/products/gozCybersecurity', name: 'GOZ w IT i cyberbezpieczeństwo'},
-  ]
+  ];
+
+  export const RECOMMENDATIONS = [
+   {
+    label:'Materiały',
+    href: '/recommendation/materials',
+   },
+   {
+    label:'Wydarzenia',
+    href: '/recommendation/events',
+   },
+  ];
 
   //ADVISORY AREA
   export const ADVISORY_AREA = 'OBSZAR DORADCZY';

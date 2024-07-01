@@ -44,7 +44,7 @@ const Partnership = () => {
 
     <div className='flex gap-10 mt-8 max-container padding-container items-center justify-center'>
         <p className='font-bold text-base xl:text-lg 2xl:text-xl text-gray-500 p-4' >{DATA?.INTERNATIONAL_PARTNERSHIP_DESC}</p> 
-        <CldImage src='https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/wspolpraca/ozydoytae5ocxn3racbr.svg' width={800} height={600} alt='branches' className='object-cover lg:max-h-[450px] lg:max-w-[550px]' />     
+        <CldImage src='https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/wspolpraca/ozydoytae5ocxn3racbr.svg' width={800} height={600} alt='branches' className='object-cover lg:max-h-[350px] lg:max-w-[450px]' />     
               
       </div>
     </section>
