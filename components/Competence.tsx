@@ -2,7 +2,6 @@
 import React from 'react'
 import Image from 'next/image'
 import { useLocale } from '../lang/LocaleContext';
-import { COMPETENCE_DESC } from '@/lang/pl';
 
 const Competence = () => {
   const { DATA } = useLocale();

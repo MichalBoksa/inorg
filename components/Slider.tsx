@@ -4,14 +4,15 @@ import { ArrowLeftIcon,ArrowRightIcon} from '@heroicons/react/24/solid';
 import { SLIDER_DESCRIPTIONS } from "@/constants"
 import {Zoom} from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
-import Image from 'next/image';
+import { useLocale } from '@/lang/LocaleContext';
+import { CldImage } from 'next-cloudinary';
 
 
 const Slider = () => {
+  const { DATA } = useLocale();
   const images = [
-    "/nature1.jpg",
-    "/nature2.jpg",
-    "/nature3.jpg",
+    "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/slider/mdnlky61hewwzlxqikbm.jpg",
+    "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/slider/lep9bcf8ipk7hbytbv8s.jpg",
   ];
   const zoomOutProperties = {
     duration: 5000,
@@ -41,9 +42,9 @@ const Slider = () => {
       <Zoom {...zoomOutProperties}>
         { images.map((each, index) =>
           <div key={index} className='flex justify-center md:items-center items-start w-screen h-screen relative mx-auto'>
-            <Image className='w-screen h-screen object-cover ' src={each}  width={1000} height={800} alt='slider'/>
-            <h1 className='absolute text-left text-white text-4xl md:text-3xl mr-10 ' style={{ top: '50%', left: '50%' }}>
-              {SLIDER_DESCRIPTIONS}
+            <CldImage className='w-screen h-screen object-cover ' src={each}  width={1000} height={800} alt='slider'/>
+            <h1 className='absolute text-left text-white text-3xl md:text-4xl  2xl:text-5xl mr-10 top-1/2 left-1/2 2xl:left-[40%] 2xl:right-[15%]'>
+              {DATA?.SLIDER_DESC}
             </h1>
             </div>
             

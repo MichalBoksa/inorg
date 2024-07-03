@@ -1,19 +1,22 @@
-import { PRODUCTS } from '@/constants';
+'use client';
 import Image from 'next/image';
 import React from 'react';
+import { useLocale } from '../lang/LocaleContext';
+import { CldImage } from 'next-cloudinary';
 
 const ChosenProducts = () => {
+  const { DATA } = useLocale();
   return (
     <section className=' overflow-hidden mb-4'>
       <div className='bg-sand-50 max-container relative w-full py-2 px-12'>
 
         <div className='flex justify-center md:mt-8'>
-          <h3 className=' text-blue-80 text-center font-bold text-3xl lg:text-5xl'>Nasze wybrane produkty</h3>
+          <h3 className=' text-blue-80 text-center font-bold text-3xl lg:text-5xl'>{DATA?.CHOOSEN_PRODUCT_TITLE}</h3>
         </div>
 
         <div className='flex md:mt-8 mb-8'>
           <ul className='grid md:gap-8 md:grid-cols-2 lg:grid-cols-4 mb-4'>
-            {PRODUCTS.map((product) => (
+            {DATA?.CHOOSEN_PRODUCTS.map((product) => (
               <ProductItem
                 key={product.description}
                 title={product.title}
@@ -40,7 +43,7 @@ const ProductItem = ({ title, icon, description }: ProductItemProps) => {
     <li className=''>
       <div className='flex flex-col items-center w-full h-full hover:shadow-2xl rounded-xl'>
       <div className='md:mb-4 mt-5'>
-        <Image src={icon} alt="map" width={100} height={100} />
+        <CldImage src={icon} alt="map" width={100} height={100} />
       </div>
 
       <div className='w-full flex items-center justify-center mb-5 lg:h-[120px] px-6'>

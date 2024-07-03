@@ -31,6 +31,42 @@ INTERNATIONAL_PARTNERSHIP_DESC: string;
 //RECOMMENDATIONS
 RECOMMENDATIONS: Recommendation[];
 
+//MATERIALS
+MATERIALS1: string;
+MATERIALS2: string;
+LINKS: Link[];
+
+//EVENTS
+EVENTS: string;
+EVENTS_LIST: Event[];
+
+//GOZ
+GOZ_COMPANIES: GozCompany[];
+
+//CHOOSENPRODUCTS
+CHOOSEN_PRODUCT_TITLE: string;
+CHOOSEN_PRODUCTS: ChoosenProduct[];
+
+//ABOUT US
+ABOUT_US: string;
+WHO_ARE_WE: string;
+CODE: string;
+COUNCIL: string;
+ASSOCIATES: string;
+MISSION: string;
+
+
+//FOOTER
+RIGHTS: string;
+QUICK_LINKS: string;
+FOOTER_CONTACT_INFO: FooterContactInfo;
+
+//REPUTE
+REPUTE: string;
+REPUTE_DESC: string;
+
+//SLIDER
+SLIDER_DESC: string;
 }
 
 export interface NavLink {
@@ -57,4 +93,39 @@ export interface NavLink {
   export interface Recommendation {
     label: string;
     href: string;
+  }
+
+  export interface Link {
+    title: string;
+    href: string;
+  }
+  
+  export interface Event {
+    title: string;
+    src: string;
+    href: string;
+  }
+
+  export interface GozCompany{
+    name: string;
+    description: string;
+    href: string;
+    img: string;
+  }
+
+  export interface ChoosenProduct{
+    title: string;
+    icon: string;
+    description: string;
+  }
+
+  export interface FooterContactInfo{
+    title: string;
+    links: AddressFooter[];
+  }
+
+
+  export interface AddressFooter {
+    label: string;
+    value: string;
   }

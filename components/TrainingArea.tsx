@@ -3,14 +3,13 @@ import { CldImage } from 'next-cloudinary'
 import React from 'react'
 import { useLocale } from '../lang/LocaleContext';
 import Link from 'next/link';
-import { TrainingProduct } from '@/lang/LocaleData';
 
 const TrainingArea = () => {
     const { DATA } = useLocale();
   return (
     <section className='max-container padding-container'>
     <div className="flex justify-center ml-20 mt-6" >
-         <h1 className='text-blue-80 font-semibold text-3xl lg:text-5xl tracking-widest'>{DATA?.ADVISORY_AREA}</h1>
+         <h1 className='text-blue-80 font-semibold text-3xl lg:text-5xl tracking-widest'>{DATA?.TRAINING_AREA}</h1>
     </div>
     <div className='flex max-container padding-container items-center justify-center mt-6'>
             <h3 className='font-semibold text-gray-500 px-16 lg: text-xl md:text-2xl'>

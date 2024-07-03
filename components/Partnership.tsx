@@ -10,8 +10,8 @@ const Partnership = () => {
     <section className='mb-4 '>
     <div className="flex relative justify-center justify-left ml-20 mb-10 mt-6  max-container padding-container" >
       <CldImage src='https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/wspolpraca/vmpcm7yg3owkbfnj7clq.jpg' width={1900} height={1450} alt='branches' className='object-cover max-h-[450px]  w-full rounded' />
-         <h1 className='font-bold text-3xl xl:text-5xl 2xl:text-6xl absolute text-white tracking-widest' style={{ top: '68%', left: '8%' }}>{DATA?.TARGET_GROUP}</h1>
-         <h3 className='font-bold text-xl xl:text-xl 2xl:text-3xl absolute text-white'  style={{ top: '80%', left: '8%' }}>{DATA?.TARGET_GROUP_DESC}</h3>'
+         <h1 className='font-bold text-3xl xl:text-5xl 2xl:text-6xl absolute text-white tracking-widest' style={{ top: '70%', left: '8%' }}>{DATA?.TARGET_GROUP}</h1>
+         <h3 className='font-bold text-xl xl:text-xl 2xl:text-2xl absolute text-white'  style={{ top: '82%', left: '8%' }}>{DATA?.TARGET_GROUP_DESC}</h3>'
     </div>
 
     <div className='flex flex-wrap mt-8 mb-4 px-10 max-container padding-container gap-10 justify-center'>
