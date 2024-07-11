@@ -30,7 +30,7 @@ const SliderGOZ = () => {
                 <div key={index}id={`slide${index}`} className={`absolute max-container padding-container mt-5 inset-0 transition-opacity duration-1000 ${index === currentIndex ? 'opacity-100' : 'opacity-0'}`}
                 style={{ opacity: index === currentIndex ? 1 : 0 }}>
                         <div className='max-w-[460px]'>
-                        <CldImage src={company.img} className="w-full object-fill z-5 rounded-xl" alt='' height={600} width={400} />
+                        <CldImage src={company.img} className="w-full object-fill z-5 rounded-xl max-w-[460px] max-h-[300px]" alt='' height={600} width={400} />
                         </div>
                 <div className='flex flex-col font-bold text-base w-[460px] mt-3 text-center justify-center items-center z-10 tracking-wider'>
                     <h1 className='text-gray-500 px-8'>{company.name}</h1>

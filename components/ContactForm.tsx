@@ -31,7 +31,7 @@ const ContactForm = () => {
                         </g>
                     </g>
                 </svg>
-                <span className="text-sm">ul. Prymasa S. Wyszyńskiego 11 44-100 Gliwic</span>
+                <span className="text-sm">ul. Prymasa S. Wyszyńskiego 11 44-100 Gliwice</span>
             </div>
             <div className="flex items-center mt-5">
                 <svg className="h-6 mr-2 text-indigo-600" fill="currentColor" version="1.1" id="Capa_1"
@@ -69,7 +69,11 @@ const ContactForm = () => {
                         </path>
                     </g>
                 </svg>
-                <span className="text-sm">32 231-39-54</span>
+                <div className='flex flex-col'>
+                    <span className="text-sm">+48 32 231-39-54</span>
+                    <span className="text-sm">+48 506 099 526</span>
+                    <span className="text-sm">+41 79 879 26 98</span>
+                </div>
             </div>
 
         </div>

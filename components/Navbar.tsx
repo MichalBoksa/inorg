@@ -47,7 +47,7 @@ const Navbar = () => {
               (<div key={link.label} className="dropdown dropdown-hover">
                 <div
                   tabIndex={0}
-                  className="lg:text-nowrap lg:text-md xl:text-lg lg:font-bold text-default cursor-pointer mr-4"
+                  className="lg:text-nowrap text-base xl:text-base lg:font-bold text-default cursor-pointer mr-4"
                 >
                   {link.label}
                 </div>
@@ -71,7 +71,7 @@ const Navbar = () => {
               (<div key={link.label} className="dropdown dropdown-hover">
                 <div
                   tabIndex={0}
-                  className="lg:text-nowrap lg:text-md xl:text-lg lg:font-bold text-default cursor-pointer mr-4"
+                  className="lg:text-nowrap text-base xl:text-base lg:font-bold text-default cursor-pointer mr-4"
                 >
                   {link.label}
                 </div>

@@ -1,72 +1,43 @@
+"use client";
 import React from 'react'
+import { useLocale } from '@/lang/LocaleContext';
+import { CldImage } from 'next-cloudinary';
 
 const ManagmentInfo = () => {
-  return (
-   <section className='mb-4'>
+  const { DATA } = useLocale();
+    return (
+   <section className='mb-4 max-container padding-container'>
 
-<div className="flex justify-left ml-20 mb-10 mt-6" >
-         <h1 className='text-blue-80 font-bold text-3xl lg:text-6xl '>Rada Naukowo - Programowa</h1>
-    </div>
+<div className="flex flex-col" >
+         <h1 className='text-blue-80 font-bold text-3xl lg:text-6xl '>{DATA?.MANAGMENT}</h1>
+         <div className='flex items-center justify-center gap-10 text-2xl lg:text-4xl mt-8'>
+            <div className='text-blue-80 flex flex-col justify-center items-center'>
+                <h3>Edward Zając</h3>
+                <p className='text-xl font-light'>{DATA?.BOSS}</p>
+            </div>
 
-    <div className="flex w-full py-4 ml-20 mb-6 mt-6" >
-        <img src='/henryk_promny.jpg' alt='henryk_promny' className='h-72 w-56 rounded object-cover' />
-
-        <div className='flex flex-col ml-4 '>
-            <h1 className='text-blue-80 font-bold text-3xl lg:text-3xl'>dr inż. Henryk promny</h1>
-            <h3 className='text-blue-80 text-2xl lg:text-xl'>Przewodniczący Rady Naukowo-Programowej</h3>
-         </div>
-    </div>
-
-    <div className="flex ml-auto max-w-[60%] bg-sky-40 py-4 rounded justify-end mr-10 mb-6" >
-    <div className='mr-10'>
-            <h1 className='text-white font-bold text-3xl lg:text-3xl'>Barbara Hliniak</h1>
-            <h3 className='text-white text-2xl lg:text-xl'>Członek Rady Naukowo-Programowej</h3>
-         </div>
-
-        <img src='/barbara_hliniak.jpg' alt='grazyna_hliniak' className='h-72 w-56 rounded object-cover mr-10 ' />
-    </div>
-
-
-    <div className="flex w-full py-4 ml-20 mb-6 mt-6" >
-        <img src='/grazyna_winiowska.jpg' alt='grazyna_winiowska' className='h-72 w-56 rounded object-cover' />
-
-        <div className='flex flex-col ml-4 '>
-            <h1 className='text-blue-80 font-bold text-3xl lg:text-3xl'>Grażyna Winiowska</h1>
-            <h3 className='text-blue-80 text-2xl lg:text-xl'>Członek Rady Naukowo-Programowej</h3>
+            <div className='flex flex-col text-blue-80 justify-center items-center'>
+                <h3>Adam Kulczycki</h3>
+                <p className='text-xl font-light'>{DATA?.VICE_BOSS}</p>
+            </div>
 
          </div>
     </div>
 
-
-    <div className="flex ml-auto max-w-[60%] bg-sky-40 py-4 rounded justify-end mr-10 mb-6" >
-    <div className='flex flex-col mr-4 '>
-            <h1 className='text-white font-bold text-3xl lg:text-3xl'>Ewa Frycz</h1>
-            <h3 className='text-white text-2xl lg:text-xl'>Członek Rady Naukowo-Programowej</h3>
+    <div className="flex flex-col mt-16" >
+        <div>
+            <h1 className='text-blue-80 font-bold text-xl lg:text-3xl '>{DATA?.COUNCIL_MAN}</h1>
+        </div>
+        <div className='flex flex-row mt-8 p-4'>
+            <CldImage src='https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/onas/ktf3ddlvx7fcs4sajtma.jpg' alt='henryk_promny' width={400} height={300} className='h-72 w-64 rounded object-cover' />
+            <div className='flex flex-col w-full bg-sky-40 ml-4 p-6'>
+                <h1 className='text-blue-80 font-bold text-3xl lg:text-3xl'>{DATA?.PROMNY}</h1>
+                <h3 className='text-blue-80 text-2xl lg:text-xl'>{DATA?.COUNCIL_HEAD}</h3>
+            </div>
          </div>
-
-        <img src='/ewa_frycz.jpg' alt='ewa_frycz' className='h-72 w-56 rounded object-cover mr-10' />
     </div>
+
     
-
-    <div className="flex w-full py-4 ml-20 mb-6 mt-6" >
-        <img src='/jerzy_kozak.jpg' alt='jerzy_kozak' className='h-72 w-56 rounded object-cover' />
-
-        <div className='flex flex-col ml-4 '>
-            <h1 className='text-blue-80 font-bold text-3xl lg:text-3xl'>Jerzy Kozak</h1>
-            <h3 className='text-blue-80 text-2xl lg:text-xl'>Członek Rady Naukowo-Programowej</h3>
-         </div>
-    </div>
-
-
-    <div className="flex ml-auto max-w-[60%] bg-sky-40 py-4 rounded justify-end mr-10 mb-6" >
-    <div className='flex flex-col mr-4 '>
-            <h1 className='text-white font-bold text-3xl lg:text-3xl'>dr Dariusz Pohl</h1>
-            <h3 className='text-white text-2xl lg:text-xl'>Członek Rady Naukowo-Programowej</h3>
-
-         </div>
-
-        <img src='/dariusz_pohl.jpg' alt='dariusz_pohl' className='h-72 w-56 rounded object-cover mr-10' />
-    </div>
 
     </section>
   )

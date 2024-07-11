@@ -27,6 +27,8 @@ WHERE_WE_OPERATE: string;
 WHERE_WE_OPERATE_DESC: string;
 INTERNATIONAL_PARTNERSHIP: string;
 INTERNATIONAL_PARTNERSHIP_DESC: string;
+COOPERATION: string;
+WE_ARE_PART_OF: string;
 
 //RECOMMENDATIONS
 RECOMMENDATIONS: Recommendation[];
@@ -67,6 +69,57 @@ REPUTE_DESC: string;
 
 //SLIDER
 SLIDER_DESC: string;
+
+//WHO ARE WE
+WHO_ARE_WE_HISTORY : string;
+WHO_ARE_WE_HISTORY_DESC: string;
+DYNAMIC_SUR: string;
+DYNAMIC_SUR_DESC: string;
+EXPERTS: string;
+EXPERTS_DESC: string;
+REALIZED_PROJECTS: string;
+REALIZED_PROJECTS_DESC: string;
+SPEC_ABOUT_US: string[];
+RELATIONS: string;
+RELATIONS_DESC: string;
+
+
+//CODE INFO
+CODE_INFO: string;
+CODE_RULES_DESC: string;
+CODE_RULES: string[];
+CODE_RULES_EMPLOYEES_DESC: string;
+CODE_RULES_EMPLOYEES: string[];
+
+//MANAGMENT
+MANAGMENT: string;
+BOSS: string;
+VICE_BOSS: string;
+PROMNY: string;
+COUNCIL_HEAD: string;
+COUNCIL_MAN: string;
+
+
+//ASSOCIATES
+OUR_ASSOCIATES:string;
+CONST_ASSOCIATES:string;
+CONST_ASSOCIATES_LIST:string[];
+OUR_PARTNERS:string;
+OUR_PARTNERS_LIST:string[];
+
+
+//GOALS
+OUR_MISSION:string;
+INORG_MISSION:string; 
+INORG_MISSION_LIST:string[];
+WHY_US:string;
+OUR_SOURCES:string;
+POSITION:string;
+POSITION_LIST:string[];
+OUR_FEATURES:string;
+OUR_FEATURES_LIST:string[];
+
+
 }
 
 export interface NavLink {

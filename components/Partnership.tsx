@@ -7,7 +7,33 @@ import { useLocale } from '../lang/LocaleContext';
 const Partnership = () => {
     const { DATA } = useLocale();
   return (
-    <section className='mb-4 '>
+    <section className='mb-4 text-pretty'>
+
+<div className="flex relative justify-center justify-left ml-20 mb-10 mt-6  max-container padding-container" >
+        <CldImage src='https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/wspolpraca/tktcmlwcy4kbwmyxl4i3.jpg' width={1900} height={1450} alt='branches' className='object-cover max-h-[450px]  w-full rounded' />
+         <h1 className='font-bold lg:text-3xl xl:text-5xl 2xl:text-6xl absolute text-blue-80 tracking-widest' style={{ top: '68%', left: '8%' }}>{DATA?.INTERNATIONAL_PARTNERSHIP}</h1>
+    </div>
+
+    <div className='flex gap-10 mt-8 max-container padding-container items-center justify-center mb-8'>
+        <p className='font-bold text-base xl:text-lg 2xl:text-xl text-gray-500 p-4 text-pretty' >{DATA?.INTERNATIONAL_PARTNERSHIP_DESC}</p> 
+        <CldImage src='https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/wspolpraca/ozydoytae5ocxn3racbr.svg' width={800} height={600} alt='branches' className='object-cover lg:max-h-[350px] lg:max-w-[450px]' />     
+      </div>
+
+      <div className="flex flex-col relative justify-center items-center ml-20 mb-10 mt-6  max-container padding-container" >
+    <h1 className='flex font-bold lg:text-3xl xl:text-4xl 2xl:text-5xl  text-blue-80 tracking-widest' >{DATA?.COOPERATION}</h1>
+      <div className='flex gap-10 mt-10'>
+        <CldImage src='https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/wspolpraca/hbcgoijjzeou3i9tfxvf.jpg' width={600} height={450} alt='branches' className='object-fill max-h-[250px]  w-full rounded' />
+        <CldImage src='https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/wspolpraca/rvldblqofs0cfzkm2em9.jpg' width={600} height={450} alt='branches' className='object-cover max-h-[250px]  w-full rounded' />
+       </div>  
+    </div>
+
+    <div className="flex flex-col relative justify-center items-center ml-20 mb-10 mt-6  max-container padding-container" >
+    <h1 className='flex font-bold lg:text-3xl xl:text-4xl 2xl:text-5xl  text-blue-80 tracking-widest' >{DATA?.WE_ARE_PART_OF}</h1>
+      <div className='flex gap-10 mt-10'>
+        <CldImage src='https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/wspolpraca/lhom7l9crmpp88f1z1dw.png' width={400} height={450} alt='branches' className='object-fill max-h-[250px]  w-full rounded' />
+       </div>  
+    </div>
+
     <div className="flex relative justify-center justify-left ml-20 mb-10 mt-6  max-container padding-container" >
       <CldImage src='https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/wspolpraca/vmpcm7yg3owkbfnj7clq.jpg' width={1900} height={1450} alt='branches' className='object-cover max-h-[450px]  w-full rounded' />
          <h1 className='font-bold text-3xl xl:text-5xl 2xl:text-6xl absolute text-white tracking-widest' style={{ top: '70%', left: '8%' }}>{DATA?.TARGET_GROUP}</h1>
@@ -35,17 +61,6 @@ const Partnership = () => {
       <div className='flex gap-10 mt-8 max-container padding-container items-center justify-center'>
           <CldImage src='https://res.cloudinary.com/dvbvaj9hu/image/upload/v1719843041/INORG/wspolpraca/aj9xarbf0smm7e5c2yv7.svg' width={600} height={500} alt='branches' className='object-cover lg:max-h-[350px] lg:max-w-[450px]' />     
           <p className='font-bold text-base xl:text-lg 2xl:text-xl text-gray-500 p-4' >{DATA?.WHERE_WE_OPERATE_DESC}</p>     
-      </div>
-
-      <div className="flex relative justify-center justify-left ml-20 mb-10 mt-6  max-container padding-container" >
-        <CldImage src='https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/wspolpraca/tktcmlwcy4kbwmyxl4i3.jpg' width={1900} height={1450} alt='branches' className='object-cover max-h-[450px]  w-full rounded' />
-         <h1 className='font-bold lg:text-3xl xl:text-5xl 2xl:text-6xl absolute text-blue-80 tracking-widest' style={{ top: '68%', left: '8%' }}>{DATA?.INTERNATIONAL_PARTNERSHIP}</h1>
-    </div>
-
-    <div className='flex gap-10 mt-8 max-container padding-container items-center justify-center'>
-        <p className='font-bold text-base xl:text-lg 2xl:text-xl text-gray-500 p-4' >{DATA?.INTERNATIONAL_PARTNERSHIP_DESC}</p> 
-        <CldImage src='https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/wspolpraca/ozydoytae5ocxn3racbr.svg' width={800} height={600} alt='branches' className='object-cover lg:max-h-[350px] lg:max-w-[450px]' />     
-              
       </div>
     </section>
   )

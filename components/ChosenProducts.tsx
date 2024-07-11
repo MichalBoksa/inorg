@@ -43,14 +43,14 @@ const ProductItem = ({ title, icon, description }: ProductItemProps) => {
     <li className=''>
       <div className='flex flex-col items-center w-full h-full hover:shadow-2xl rounded-xl'>
       <div className='md:mb-4 mt-5'>
-        <CldImage src={icon} alt="map" width={100} height={100} />
+        <CldImage src={icon} alt="map" width={100} height={100} className=' min-w-24 min-h-24' />
       </div>
 
       <div className='w-full flex items-center justify-center mb-5 lg:h-[120px] px-6'>
         <h5 className='text-gray-500 font-bold text-xl lg:text-xl text-center'>{title}</h5>
       </div>
 
-      <div className='flex mt-2 mb-2 items-center justify-center'>
+      <div className='flex mt-2 mb-2 items-center justify-center p-5'>
         <p className="text-center text-black font-medium lg:text-base text-sm">{description}</p>
       </div>
       </div>
