@@ -1,8 +1,8 @@
 export const LANGUAGES = [
   { code: 'en', label: 'EN' },
   { code: 'pl', label: 'PL' },
-  // { code: 'fr', label: 'FR' },
-  // { code: 'de', label: 'DE' },
+  { code: 'es', label: 'ES' },
+  { code: 'sg', label: 'SG' },
   // { code: 'ru', label: 'RU' }
 ];
 

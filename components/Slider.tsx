@@ -43,7 +43,7 @@ const Slider = () => {
         { images.map((each, index) =>
           <div key={index} className='flex justify-center md:items-center items-start w-screen h-screen relative mx-auto'>
             <CldImage className='w-screen h-screen object-cover ' src={each}  width={1000} height={800} alt='slider'/>
-            <h1 className='absolute text-left text-white text-3xl md:text-4xl  2xl:text-5xl mr-10 top-1/2 left-1/2 2xl:left-[40%] 2xl:right-[15%]'>
+            <h1 className='absolute text-left text-white text-3xl md:text-4xl  2xl:text-5xl mr-10 top-1/2 left-1/2 2xl:left-[45%] 2xl:right-[15%] 3xl:left-[35%] 3xl:right-[25%]'>
               {DATA?.SLIDER_DESC}
             </h1>
             </div>
