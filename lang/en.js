@@ -355,3 +355,4 @@ export const EU_PROJECTS_DESC = 'We are pleased to inform you about a new projec
 export const EU_PROJECTS_DESC2 = 'All tender procedures under the project are carried out in accordance with the principle of competitiveness and are published depending on the size of the order on the Beneficiary’s website or in the competitiveness database at:';
 export const EU_PROJECTS_NET_AMT = '➱ Project cost (net): PLN 168,000.00';
 export const EU_PROJECTS_AMT = '➱ Grant amount: PLN 136,800.00';
+export const EU_PROJECTS2 = 'EU Projects';

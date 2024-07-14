@@ -355,3 +355,4 @@ export const EU_PROJECTS_DESC = 'Kami dengan senang hati menginformasikan tentan
 export const EU_PROJECTS_DESC2 = 'Semua prosedur tender di bawah proyek ini dilakukan sesuai dengan prinsip kompetisi dan dipublikasikan tergantung pada ukuran pesanan di situs web Penerima atau di basis data kompetisi di:';
 export const EU_PROJECTS_NET_AMT = '➱ Biaya proyek (net): 168,000.00 PLN';
 export const EU_PROJECTS_AMT = '➱ Jumlah dana: 136,800.00 PLN';
+export const EU_PROJECTS2 = 'Proyek UE';

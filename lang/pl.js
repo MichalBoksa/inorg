@@ -229,6 +229,7 @@ export const MISSION = 'Nasza misja i kompetnecje'
 //FOOTER
 export const RIGHTS = '2024 INORG | All rights reserved';
 export const QUICK_LINKS = 'Na skróty';
+export const EU_PROJECTS2 = 'Projekty UE';
 export const FOOTER_CONTACT_INFO = {
   title: 'Skontaktuj się z nami',
   links: [

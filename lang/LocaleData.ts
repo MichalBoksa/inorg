@@ -63,6 +63,7 @@ RIGHTS: string;
 QUICK_LINKS: string;
 FOOTER_CONTACT_INFO: FooterContactInfo;
 
+
 //REPUTE
 REPUTE: string;
 REPUTE_DESC: string;
@@ -125,6 +126,7 @@ INDONESIA_BUSINESS:string;
 
 //EU_PROJECTS
 EU_PROJECTS:string;
+EU_PROJECTS2:string;
 EU_PROJECTS_DESC:string;
 EU_PROJECTS_DESC2:string;
 EU_PROJECTS_NET_AMT:string;

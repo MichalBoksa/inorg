@@ -355,3 +355,4 @@ export const EU_PROJECTS_DESC = 'Nos complace informarte sobre un nuevo proyecto
 export const EU_PROJECTS_DESC2 = 'Todos los procedimientos de licitación bajo el proyecto se llevan a cabo de acuerdo con el principio de competitividad y se publican dependiendo del tamaño del pedido en el sitio web del Beneficiario o en la base de datos de competitividad en:';
 export const EU_PROJECTS_NET_AMT = '➱ Coste del proyecto (neto): 168,000.00 PLN';
 export const EU_PROJECTS_AMT = '➱ Importe de la subvención: 136,800.00 PLN';
+export const EU_PROJECTS2 = 'Proyectos UE';
