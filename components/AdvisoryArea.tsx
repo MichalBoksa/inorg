@@ -9,7 +9,7 @@ const AdvisoryArea = () => {
     return (
 <section className=' padding-container'>
     <div className="flex justify-center ml-20 mt-6" >
-         <h1 className='text-blue-80 font-semibold text-3xl lg:text-5xl tracking-widest'>{DATA?.ADVISORY_AREA}</h1>
+         <h1 className='text-blue-80 font-semibold text-3xl lg:text-5xl xl:text-4xl 2xl:text-5xl 3xl:text-6xl tracking-widest'>{DATA?.ADVISORY_AREA}</h1>
     </div>
     <div className='flex items-center justify-center'>
         <CldImage src='https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/momovu8ob9vi278tntmf.svg'width={1000} height={500} alt='advisory'className='object-fill ' />

@@ -9,7 +9,7 @@ const ManagmentInfo = () => {
    <section className='mb-4 max-container padding-container'>
 
 <div className="flex flex-col" >
-         <h1 className='text-blue-80 font-bold text-3xl lg:text-6xl '>{DATA?.MANAGMENT}</h1>
+         <h1 className='text-blue-80 font-semibold text-3xl lg:text-5xl xl:text-4xl 2xl:text-5xl 3xl:text-6xl tracking-widest'>{DATA?.MANAGMENT}</h1>
          <div className='flex items-center justify-center gap-10 text-2xl lg:text-4xl mt-8'>
             <div className='text-blue-80 flex flex-col justify-center items-center'>
                 <h3>Edward Zając</h3>

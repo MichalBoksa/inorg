@@ -8,8 +8,8 @@ const WhoAreWe = () => {
 const { DATA } = useLocale();
   return (
     <section className='mb-4 max-container '>
-    <div className="flex justify-center mb-10 mt-6" >
-         <h1 className='text-blue-80 font-bold text-3xl lg:text-6xl '>{DATA?.WHO_ARE_WE}</h1>
+    <div className="flex justify-left mb-10 mt-6" >
+         <h1 className='text-blue-80 font-semibold text-3xl lg:text-5xl xl:text-4xl 2xl:text-5xl 3xl:text-6xl tracking-widest'>{DATA?.WHO_ARE_WE}</h1>
     </div>
 
    <div className='flex w-full lg:min-h-[300px]'>

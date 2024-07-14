@@ -2,8 +2,8 @@ export const LANGUAGES = [
   { code: 'en', label: 'EN' },
   { code: 'pl', label: 'PL' },
   { code: 'es', label: 'ES' },
-  { code: 'sg', label: 'SG' },
-  // { code: 'ru', label: 'RU' }
+  { code: 'id', label: 'ID' },
+  { code: 'ru', label: 'RU' }
 ];
 
 // NAVIGATION

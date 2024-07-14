@@ -2,7 +2,8 @@ const localesData = {
     en: () => import('../lang/en'),
     pl: () => import('../lang/pl'),
     es: () => import('../lang/es'),
-    sg: () => import('../lang/sg'),
+    sg: () => import('../lang/id'),
+    ru: () => import('../lang/ru'),
   };
   
   export async function getLocaleData(locale) {

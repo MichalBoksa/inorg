@@ -4,7 +4,7 @@ const ResearchAndDevelopmentInfo = () => {
   return (
     <section className='mb-4'>
          <div className="flex justify-left ml-20 mb-10 mt-6" >
-        <h1 className='text-blue-80 font-bold text-3xl lg:text-6xl '>Jednostki badawczo-rozwojowe</h1>
+        <h1 className='text-blue-80 font-semibold text-3xl lg:text-5xl xl:text-4xl 2xl:text-5xl 3xl:text-6xl tracking-widest'>Jednostki badawczo-rozwojowe</h1>
       </div>
 
       <div className='flex w-full max-h-[350px] justify-center px-20' >
