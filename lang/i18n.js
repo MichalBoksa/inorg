@@ -2,7 +2,7 @@ const localesData = {
     en: () => import('../lang/en'),
     pl: () => import('../lang/pl'),
     es: () => import('../lang/es'),
-    sg: () => import('../lang/id'),
+    id: () => import('../lang/id'),
     ru: () => import('../lang/ru'),
   };
   
