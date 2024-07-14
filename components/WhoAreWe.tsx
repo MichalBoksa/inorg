@@ -7,14 +7,14 @@ import { useLocale } from '@/lang/LocaleContext';
 const WhoAreWe = () => {
 const { DATA } = useLocale();
   return (
-    <section className='mb-4 '>
+    <section className='mb-4 max-container '>
     <div className="flex justify-center mb-10 mt-6" >
          <h1 className='text-blue-80 font-bold text-3xl lg:text-6xl '>{DATA?.WHO_ARE_WE}</h1>
     </div>
 
-   <div className='flex max-container w-full lg:min-h-[300px]'>
+   <div className='flex w-full lg:min-h-[300px]'>
        
-       <div className='flex flex-col max-w-[60%] '>
+       <div className='flex flex-col max-w-[60%]'>
           
            <div className=' text-blue-80 flex items-center justify-center '>
                <p className='text-left font-bold text-m lg:text-2xl  '>{DATA?.WHO_ARE_WE_HISTORY}</p>
@@ -25,7 +25,7 @@ const { DATA } = useLocale();
            </div>
      </div>
 
-       <div className='flex max-w-[40%] max-h-[600px]' >
+       <div className='flex max-w-[40%] max-h-[600px] ' >
             <CldImage src="https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/whoarewe/hqk0i9jv1pisfhbrjyvs.jpg" alt="whoarewe" height={600} width={800} className='cover' />
        </div>
    </div>
@@ -42,9 +42,9 @@ const { DATA } = useLocale();
 
            </div> */}
 
-<div className='flex max-container w-full max-w-[60%] max-h-[700px]'>
+<div className='flex max-container w-full max-h-[700px]'>
        
-       <div className='flex max-w-[60%] max-h-[600px]' >
+       <div className='flex w-[60%] max-h-[600px]' >
          <CldImage src='https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/whoarewe/qixfxnop7guz6spgzjqf.jpg' width={800} height={600} alt='joinUs' className='w-full ' />
        </div>
        

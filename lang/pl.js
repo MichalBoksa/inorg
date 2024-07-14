@@ -32,6 +32,10 @@ export const NAV_LINKS = [
     label:'Wydarzenia',
     href: '/recommendation/events',
    },
+   {
+    label:'Projekty UE',
+    href: '/projects',
+   },
   ];
 
   //ADVISORY AREA
@@ -347,3 +351,12 @@ export const OUR_FEATURES_LIST = [
 '➱ Stosujemy najwyższe standardy etyki biznesu'
 ];
 
+//INDONESIA_BUSINESS
+export const INDONESIA_BUSINESS = 'Jak robić biznes w Indonezji?';
+
+//EU PROJECTS
+export const EU_PROJECTS = 'Realizowane projekty UE';
+export const EU_PROJECTS_DESC ='Z ogromną przyjemnością informujemy o nowym przedsięwzięciu realizowanym przez Instytut Organizacji „INORG” Sp. z o.o. w ramach Programu Operacyjnego Inteligentny Rozwój 2014-2020, konkretnie Poddziałania 2.3.5 - Design dla przedsiębiorstw. Nasz projekt, noszący tytuł „Dywersyfikacja działalności INORG poprzez zaprojektowanie i wdrożenie innowacyjnego oprogramowania wspierającego systemy zarządzania zgodnie z normą ISO9001”, zyskał numer wniosku POIR.02.03.05-24-0019/18. Celem naszej inicjatywy jest stworzenie i wprowadzenie na rynek unikatowego produktu - nowoczesnego narzędzia IT, które umożliwi efektywne wdrażanie, administrowanie i rozwijanie systemów zarządzania certyfikowanych zgodnie z międzynarodową normą ISO9001. Dzięki temu projektowi, nasza firma nie tylko zdywersyfikuje swoją działalność, ale także znacząco zwiększy swoje przychody i zyski, budując trwałą przewagę konkurencyjną na rynku doradztwa.';
+export const EU_PROJECTS_DESC2 ='Wszystkie postępowania przetargowe w ramach projektu realizowane są zgodnie z zasadą konkurencyjności i publikowane w zależności od wielkości zamówienia na stronie Beneficjenta lub w bazie konkurencyjności pod adresem:';
+export const EU_PROJECTS_NET_AMT = '➱ Koszt projektu (netto): 168 000.00 zł';
+export const EU_PROJECTS_AMT = '➱ Kwota dofinansowania: 136 800.00 zł';

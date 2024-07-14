@@ -120,6 +120,17 @@ OUR_FEATURES:string;
 OUR_FEATURES_LIST:string[];
 
 
+//INDONESIA_BUSINESS
+INDONESIA_BUSINESS:string;
+
+//EU_PROJECTS
+EU_PROJECTS:string;
+EU_PROJECTS_DESC:string;
+EU_PROJECTS_DESC2:string;
+EU_PROJECTS_NET_AMT:string;
+EU_PROJECTS_AMT:string;
+
+
 }
 
 export interface NavLink {

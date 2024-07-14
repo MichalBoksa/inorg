@@ -17,18 +17,20 @@ const Footer = () => {
         </Link>
 
         <div className="flex flex-wrap gap-2 sm:justify-between md:flex-1" >
-        <div className="flex flex-col gap-3">
-          <h4 className="bold-18 whitespace-nowrap text-blue-80">{DATA?.QUICK_LINKS}</h4>
-          {DATA?.NAV_LINKS.map((link) => (
-                <ul className="regular-12 flex flex-col md:flex-row gap-4 text-white">
-                      <Link href={link.href} key={link.label}>
-                        {link.label}
-                      </Link>               
-                </ul>
-              ))}   
-      </div>
+          <div className="flex flex-col gap-3">
+            <h4 className="bold-18 whitespace-nowrap text-blue-80">{DATA?.QUICK_LINKS}</h4>
+            {DATA?.NAV_LINKS.map((link) => (
+                  <ul className="regular-12 flex flex-col md:flex-row gap-4 text-white">
+                        <Link href={link.href} key={link.label}>
+                          {link.label}
+                        </Link>               
+                  </ul>
+                ))}   
+            </div>
       
-          
+          <div className="flex">
+            <Link href='/projects' className="bold-18 whitespace-nowrap text-blue-80">Projekty UE</Link>
+            </div>
 
 
         <div className=" flex flex-column lg:flex-row ">
