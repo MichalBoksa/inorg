@@ -29,7 +29,7 @@ const Footer = () => {
             </div>
       
           <div className="flex">
-            <Link href='/projects' className="bold-18 whitespace-nowrap text-blue-80">Projekty UE</Link>
+            <Link href='/projects' className="bold-18 whitespace-nowrap text-blue-80">{DATA?.EU_PROJECTS2}</Link>
             </div>
 
 
