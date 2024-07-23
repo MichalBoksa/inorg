@@ -3,7 +3,8 @@ export const LANGUAGES = [
   { code: 'pl', label: 'PL' },
   { code: 'es', label: 'ES' },
   { code: 'id', label: 'ID' },
-  { code: 'ru', label: 'RU' }
+  { code: 'ru', label: 'RU' },
+  { code: 'fr', label: 'FR' }
 ];
 
 // NAVIGATION

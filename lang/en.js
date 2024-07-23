@@ -215,7 +215,7 @@ export const CHOOSEN_PRODUCTS = [
 ];
 
 //ABOUT US
-export const ABOUT_US = 'About the Company';
+export const ABOUT_US = 'About the Institute';
 export const WHO_ARE_WE = 'Who we are';
 export const CODE = 'Our Ethical Code';
 export const COUNCIL = 'Management and Scientific-Program Council';

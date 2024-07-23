@@ -102,7 +102,7 @@ export const NAV_LINKS = [
   export const INTERNATIONAL_PARTNERSHIP = 'WSPÓŁPRACA GOSPODARCZA';
   export const WHERE_WE_OPERATE = 'GDZIE DZIAŁAMY';
   export const WHERE_WE_OPERATE_DESC = 'Obecnie skupiamy się głównie w województwach śląskim, małopolskim, świętokrzyskim i podkarpackim. Twoja organizacja jest z innego województwa, a mimo to chciałbyś korzystać z naszych usług? Skontaktuj się z nami, a indywidualnie omówimy możliwości współpracy.';
-  export const INTERNATIONAL_PARTNERSHIP_DESC ='Współpracujemy z podmiotami na różnych kontynentach, co otwiera nas i naszych klientów namiędzynarodowość w podejmowanych działalności i promocji innowatorskich rozwiązaniach. Obecnie pozostajemy w bliskim kontakcie z przedsiębiorstwami w krajach takich jak: Katar, Zjednoczone Emiraty Arabskie, Arabia Saudyjska, Hong Kong, Indonezja, Singapur, Kanada, Chile, Filipiny, Uzbekistan, Ukraina, Mongolia, Kenia, Rwanda, Korea Południowa, Malezja.';
+  export const INTERNATIONAL_PARTNERSHIP_DESC ='Współpracujemy z podmiotami na różnych kontynentach, co otwiera nas i naszych klientów na międzynarodowość w podejmowanych działalności i promocji innowatorskich rozwiązaniach. Obecnie pozostajemy w bliskim kontakcie z przedsiębiorstwami w krajach takich jak: Katar, Zjednoczone Emiraty Arabskie, Arabia Saudyjska, Hong Kong, Indonezja, Singapur, Kanada, Chile, Filipiny, Uzbekistan, Ukraina, Mongolia, Kenia, Rwanda, Korea Południowa, Malezja.';
   export const COOPERATION = 'Podmioty, z którymi współpracujemy';
   export const WE_ARE_PART_OF = 'Należymy do';
 
@@ -218,7 +218,7 @@ export const CHOOSEN_PRODUCTS = [
 
 
 //ABOUT US
-export const ABOUT_US = 'O Firmie';
+export const ABOUT_US = 'O Instytucie';
 export const WHO_ARE_WE = 'Kim jesteśmy';
 export const CODE = 'Nasz kodeks etyczny'
 export const COUNCIL = 'Zarząd i Rada Naukowo-Programowa'

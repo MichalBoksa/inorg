@@ -215,7 +215,7 @@ export const CHOOSEN_PRODUCTS = [
 ];
 
 //SOBRE NOSOTROS
-export const ABOUT_US = 'Sobre la Empresa';
+export const ABOUT_US = 'Sobre el Instituto';
 export const WHO_ARE_WE = 'Quiénes somos';
 export const CODE = 'Nuestro Código Ético';
 export const COUNCIL = 'Consejo de Dirección y Consejo Científico-Programático';

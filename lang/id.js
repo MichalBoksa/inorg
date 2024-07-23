@@ -215,7 +215,7 @@ export const CHOOSEN_PRODUCTS = [
 ];
 
 //TENTANG KAMI
-export const ABOUT_US = 'Tentang Perusahaan';
+export const ABOUT_US = 'Tentang Institut';
 export const WHO_ARE_WE = 'Siapa Kami';
 export const CODE = 'Kode Etik Kami';
 export const COUNCIL = 'Dewan Manajemen dan Dewan Ilmiah-Program';

@@ -215,7 +215,7 @@ export const CHOOSEN_PRODUCTS = [
 ];
 
 //О НАС
-export const ABOUT_US = 'О компании';
+export const ABOUT_US = 'Об институте';
 export const WHO_ARE_WE = 'Кто мы';
 export const CODE = 'Наш этический кодекс';
 export const COUNCIL = 'Правление и Научно-программный совет';
