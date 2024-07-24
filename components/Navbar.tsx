@@ -33,7 +33,10 @@ const Navbar = () => {
   return (
     <nav className="flex items-center max-container padding-container relative z-30 py-5">
         <Link href="/" className="mr-10">
-          <CldImage src="https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/gbiuvxkdbtzfwwfzkz1a.svg" alt="INORG Logo" width={75} height={30} objectFit="cover"/>
+        {currentLocale === 'pl' ? (  <CldImage src="https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/gbiuvxkdbtzfwwfzkz1a.svg" alt="INORG Logo" width={75} height={30} objectFit="cover"/>)
+      :
+         ( <CldImage src="https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/wspolpraca/fbed3oncnbmwmwlwm6fy.svg" alt="INORG Logo" width={90} height={100} />)
+      }
         </Link>
 
         <div className="border-b-2 border-b-primary">

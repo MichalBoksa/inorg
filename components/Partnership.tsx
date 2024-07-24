@@ -59,7 +59,7 @@ const Partnership = () => {
       </div>
 
       <div className='flex gap-10 mt-8 max-container padding-container items-center justify-center'>
-          <CldImage src='https://res.cloudinary.com/dvbvaj9hu/image/upload/v1719843041/INORG/wspolpraca/aj9xarbf0smm7e5c2yv7.svg' width={600} height={500} alt='branches' className='object-cover lg:max-h-[350px] lg:max-w-[450px]' />     
+          <CldImage src='https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/wspolpraca/gugknhx9znguq5o0evx0.svg' width={600} height={500} alt='branches' className='object-cover lg:max-h-[350px] lg:max-w-[450px]' />     
           <p className='font-bold text-base xl:text-lg 2xl:text-xl text-gray-500 p-4' >{DATA?.WHERE_WE_OPERATE_DESC}</p>     
       </div>
     </section>

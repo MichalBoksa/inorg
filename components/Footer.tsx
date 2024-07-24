@@ -6,14 +6,17 @@ import { useLocale } from "@/lang/LocaleContext";
 import { CldImage } from "next-cloudinary";
 
 const Footer = () => {
-  const { DATA } = useLocale();
+  const { DATA,currentLocale } = useLocale();
   return (
    <footer className="bg-gray-80 flexCenter py-5 ">
     <div className="padding-container max-container flex w-full flex-col gap-5">
       <div className="flex flex-col md:flex-row items-start justify-center gap-5 md:gap-12 ">
 
         <Link href="/" className="mb-1 lg:mr-4 2xl:mr-20" >
-          <CldImage src="https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/gbiuvxkdbtzfwwfzkz1a.svg" alt="logo" width={74} height={29} /> 
+        {currentLocale === 'pl' ? (  <CldImage src="https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/gbiuvxkdbtzfwwfzkz1a.svg" alt="INORG Logo" width={75} height={30} objectFit="cover"/>)
+      :
+         ( <CldImage src="https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/wspolpraca/fbed3oncnbmwmwlwm6fy.svg" alt="INORG Logo" width={90} height={100} />)
+      }
         </Link>
 
         <div className="flex flex-wrap gap-2 sm:justify-between md:flex-1" >
