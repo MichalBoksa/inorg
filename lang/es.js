@@ -356,3 +356,6 @@ export const EU_PROJECTS_DESC2 = 'Todos los procedimientos de licitación bajo e
 export const EU_PROJECTS_NET_AMT = '➱ Coste del proyecto (neto): 168,000.00 PLN';
 export const EU_PROJECTS_AMT = '➱ Importe de la subvención: 136,800.00 PLN';
 export const EU_PROJECTS2 = 'Proyectos UE';
+
+//WEBSTITE WORKS
+export const WEBSITE_WORKS = 'Nuestro sitio web está en desarrollo. Agradecemos su paciencia mientras realizamos actualizaciones'; 

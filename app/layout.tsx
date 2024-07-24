@@ -3,6 +3,7 @@ import './globals.css'
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { LocaleProvider } from '@/lang/LocaleContext';
+import SiteUnderConstructionInfo from '@/components/SiteUnderConstructionInfo';
 
 export const metadata: Metadata = {
   title: 'Inorg',
@@ -18,6 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body >
         <LocaleProvider>
+        <SiteUnderConstructionInfo />
           <Navbar />
             <main className="relative overflow-hidden " style={{
         whiteSpace: 'pre-wrap',

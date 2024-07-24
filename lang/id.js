@@ -356,3 +356,6 @@ export const EU_PROJECTS_DESC2 = 'Semua prosedur tender di bawah proyek ini dila
 export const EU_PROJECTS_NET_AMT = '➱ Biaya proyek (net): 168,000.00 PLN';
 export const EU_PROJECTS_AMT = '➱ Jumlah dana: 136,800.00 PLN';
 export const EU_PROJECTS2 = 'Proyek UE';
+
+//WEBSTITE WORKS
+export const WEBSITE_WORKS = 'Unsere Website befindet sich im Aufbau. Wir danken Ihnen für Ihre Geduld, während wir Aktualisierungen vornehmen'; 

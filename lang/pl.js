@@ -361,3 +361,6 @@ export const EU_PROJECTS_DESC ='Z ogromną przyjemnością informujemy o nowym p
 export const EU_PROJECTS_DESC2 ='Wszystkie postępowania przetargowe w ramach projektu realizowane są zgodnie z zasadą konkurencyjności i publikowane w zależności od wielkości zamówienia na stronie Beneficjenta lub w bazie konkurencyjności pod adresem:';
 export const EU_PROJECTS_NET_AMT = '➱ Koszt projektu (netto): 168 000.00 zł';
 export const EU_PROJECTS_AMT = '➱ Kwota dofinansowania: 136 800.00 zł';
+
+//WEBSTITE WORKS
+export const WEBSITE_WORKS = 'Nasza strona internetowa jest w trakcie tworzenia. Dziękujemy za cierpliwość podczas wprowadzania aktualizacji.'; 

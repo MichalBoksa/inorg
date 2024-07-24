@@ -360,3 +360,7 @@ export const EU_PROJECTS_DESC = 'Nous avons le plaisir d’annoncer une nouvelle
 export const EU_PROJECTS_DESC2 = 'Toutes les procédures d’appel d’offres dans le cadre du projet sont mises en œuvre conformément au principe de concurrence et publiées en fonction de la taille de la commande sur le site du bénéficiaire ou dans la base de concurrence à l’adresse:';
 export const EU_PROJECTS_NET_AMT = '➱ Coût du projet (net): 168 000,00 PLN';
 export const EU_PROJECTS_AMT = '➱ Montant du financement: 136 800,00 PLN';
+
+//WEBSTITE WORKS
+export const WEBSITE_WORKS = 'Notre site web est en cours de développement. Nous vous remercions de votre patience pendant que nous effectuons des mises à jour'; 
+

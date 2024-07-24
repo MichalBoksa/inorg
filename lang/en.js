@@ -356,3 +356,7 @@ export const EU_PROJECTS_DESC2 = 'All tender procedures under the project are ca
 export const EU_PROJECTS_NET_AMT = '➱ Project cost (net): PLN 168,000.00';
 export const EU_PROJECTS_AMT = '➱ Grant amount: PLN 136,800.00';
 export const EU_PROJECTS2 = 'EU Projects';
+
+
+//WEBSTITE WORKS
+export const WEBSITE_WORKS = 'Our website is a work in progress. We appreciate your patience while we make updates'; 
