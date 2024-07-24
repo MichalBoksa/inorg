@@ -25,8 +25,8 @@ const { DATA } = useLocale();
            </div>
      </div>
 
-       <div className='flex max-w-[40%] max-h-[600px] ' >
-            <CldImage src="https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/whoarewe/hqk0i9jv1pisfhbrjyvs.jpg" alt="whoarewe" height={600} width={800} className='cover' />
+       <div className='flex max-w-[40%] max-h-[600px]' >
+            <CldImage src="https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/whoarewe/lsxrqugplzr5s9dd8gt1.jpg" alt="whoarewe" height={400} width={600} className='object-fill' />
        </div>
    </div>
 
@@ -45,7 +45,7 @@ const { DATA } = useLocale();
 <div className='flex max-container w-full max-h-[700px]'>
        
        <div className='flex w-[60%] max-h-[600px]' >
-         <CldImage src='https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/whoarewe/qixfxnop7guz6spgzjqf.jpg' width={800} height={600} alt='joinUs' className='w-full ' />
+         <CldImage src='https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/onas/rtikfuldxyseft392kqk.jpg' width={800} height={600} alt='joinUs' className='w-full ' />
        </div>
        
 
@@ -82,7 +82,7 @@ const { DATA } = useLocale();
      </div>
 
        <div className='flex max-w-[40%] max-h-[600px]' >
-         <CldImage src='https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/whoarewe/tomuxyx0mydkfnjq2d82.jpg' width={800} height={600} alt='joinUs' className='w-full ' />
+         <CldImage src='https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/whoarewe/xjcughrdiycwtbalidwh.jpg' width={800} height={600} alt='joinUs' className='w-full ' />
        </div>
    </div>
 
@@ -102,7 +102,7 @@ const { DATA } = useLocale();
                <div className='flex flex-col px-28 text-justify' >
                <ul className='grid'>
                {DATA?.SPEC_ABOUT_US.map((spec) => (
-                   <li className='text-white text-m  mb-4'>{spec}</li>
+                   <li key={spec} className='text-white text-m  mb-4'>{spec}</li>
                ))}
                </ul>
            </div>

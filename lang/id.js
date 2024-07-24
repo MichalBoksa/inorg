@@ -78,26 +78,31 @@ export const TRAINING_AREA_PRODUCTS = [
 
 export const TARGET_GROUPS = [
     {
-        title: 'Kimia',
-        src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/wspolpraca/dlvbo28yboxth8j9n7kn.jpg',
+      title: 'Kimia',
+      src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/wspolpraca/dlvbo28yboxth8j9n7kn.jpg'
     },
     {
-        title: 'Pengelolaan Limbah',
-        src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/wspolpraca/bavybbxpnv8s4s2z0nbh.jpg',
+      title: 'Pengelolaan Limbah',
+      src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/wspolpraca/bavybbxpnv8s4s2z0nbh.jpg'
     },
     {
-        title: 'Industri Makanan',
-        src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/wspolpraca/lgvj60rjiavgkembapty.jpg',
+      title: 'Makanan',
+      src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/wspolpraca/lgvj60rjiavgkembapty.jpg'
     },
     {
-        title: 'Konstruksi',
-        src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/wspolpraca/kblvxaenqjhcami6h8yx.jpg',
+      title: 'Konstruksi',
+      src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/wspolpraca/kblvxaenqjhcami6h8yx.jpg'
     },
     {
-        title: 'Logam',
-        src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/wspolpraca/r8dtzdqkk2uomy9vjghg.jpg',
+      title: 'Logam',
+      src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/wspolpraca/r8dtzdqkk2uomy9vjghg.jpg'
     },
-];
+    {
+      title: 'Pertambangan',
+      src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/wspolpraca/lri2h9a58zwnmfdazvtc.jpg'
+    },
+]
+
 
 //KERJASAMA
 export const TARGET_GROUP = 'GRUP SASARAN';

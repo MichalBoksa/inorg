@@ -78,26 +78,31 @@ export const TRAINING_AREA_PRODUCTS = [
 
 export const TARGET_GROUPS = [
     {
-        title: 'Química',
-        src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/wspolpraca/dlvbo28yboxth8j9n7kn.jpg',
+      title: 'Química',
+      src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/wspolpraca/dlvbo28yboxth8j9n7kn.jpg'
     },
     {
-        title: 'Gestión de residuos',
-        src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/wspolpraca/bavybbxpnv8s4s2z0nbh.jpg',
+      title: 'Gestión de residuos',
+      src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/wspolpraca/bavybbxpnv8s4s2z0nbh.jpg'
     },
     {
-        title: 'Industria alimentaria',
-        src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/wspolpraca/lgvj60rjiavgkembapty.jpg',
+      title: 'Alimentación',
+      src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/wspolpraca/lgvj60rjiavgkembapty.jpg'
     },
     {
-        title: 'Construcción',
-        src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/wspolpraca/kblvxaenqjhcami6h8yx.jpg',
+      title: 'Construcción',
+      src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/wspolpraca/kblvxaenqjhcami6h8yx.jpg'
     },
     {
-        title: 'Metales',
-        src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/wspolpraca/r8dtzdqkk2uomy9vjghg.jpg',
+      title: 'Metales',
+      src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/wspolpraca/r8dtzdqkk2uomy9vjghg.jpg'
     },
-];
+    {
+      title: 'Minería',
+      src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/wspolpraca/lri2h9a58zwnmfdazvtc.jpg'
+    },
+]
+
 
 //COLABORACIÓN
 export const TARGET_GROUP = 'GRUPOS OBJETIVO';

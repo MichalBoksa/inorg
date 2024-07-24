@@ -20,8 +20,8 @@ const Footer = () => {
           <div className="flex flex-col gap-3">
             <h4 className="bold-18 whitespace-nowrap text-blue-80">{DATA?.QUICK_LINKS}</h4>
             {DATA?.NAV_LINKS.map((link) => (
-                  <ul className="regular-12 flex flex-col md:flex-row gap-4 text-white">
-                        <Link href={link.href} key={link.label}>
+                  <ul key={link.label} className="regular-12 flex flex-col md:flex-row gap-4 text-white">
+                        <Link  href={link.href}>
                           {link.label}
                         </Link>               
                   </ul>

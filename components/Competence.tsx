@@ -2,6 +2,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { useLocale } from '../lang/LocaleContext';
+import { CldImage } from 'next-cloudinary';
 
 const Competence = () => {
   const { DATA } = useLocale();
@@ -9,8 +10,8 @@ const Competence = () => {
   <section className='flexCenter mb-4' >
     <div className='flex max-container relative w-full '>
 
-      <div className="hidden md:flex flex-1 lg:min-h-[650px] max-w-[50%]">
-        <Image src="/nature1.jpg" alt='competence' width={740} height={1000} className='md:-left-10 lg:flex 3xl:left-20  lg:h-full rounded-lg' />
+      <div className="hidden md:flex flex-1 lg:min-h-[450px] max-w-[50%]">
+        <CldImage src="https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/wxs9hk16nuew6kogynji.jpg" alt='competence' width={740} height={800} className='md:-left-10 lg:flex 3xl:left-20  lg:h-[650px] rounded-lg' />
       </div>
 
       <div className='z-20 mt-8 flex w-full flex-col lg:w-[60%] items-center'>

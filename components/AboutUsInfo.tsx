@@ -20,7 +20,7 @@ const AboutUsInfo = () => {
 
         <Link href="aboutUs/whoAreWe" className='w-1/5 bg-gray-100 h-60 rounded relative mt-10 '> 
              <h1 className='text-sky-40 text-left font-bold text-2xl lg:text-xl mt-4 px-6'>{DATA?.WHO_ARE_WE}</h1> 
-             <CldImage src='https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/onas/iy2nlys7dqncvqoh1zqw.jpg' alt='who_are_we' className='h-40 w-60 rounded-md absolute mt-8 object-cover' width={300} height={200} style={{ top: '30%', left: '15%' }} />
+             <CldImage src='https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/onas/pqu2mefjsfebvgaanlr9.jpg' alt='who_are_we' className='h-40 w-60 rounded-md absolute mt-8 object-cover' width={300} height={200} style={{ top: '30%', left: '15%' }} />
         </Link>
 
             <Link href="aboutUs/code" className="w-1/5 bg-gray-100 h-60 rounded relative mt-10">

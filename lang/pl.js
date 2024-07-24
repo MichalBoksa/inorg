@@ -93,6 +93,10 @@ export const NAV_LINKS = [
       title: 'Metali',
       src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/wspolpraca/r8dtzdqkk2uomy9vjghg.jpg'
     },
+    {
+      title: 'Górnicza',
+      src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/wspolpraca/lri2h9a58zwnmfdazvtc.jpg'
+    },
    
   ]
 
