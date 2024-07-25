@@ -365,3 +365,16 @@ export const EU_PROJECTS2 = 'Проекты ЕС';
 //WEBSTITE WORKS
 export const WEBSITE_WORKS = 'Наш сайт находится в стадии разработки. Благодарим вас за терпение, пока мы вносим обновления'; 
 
+//CONTACT FORM
+export const CONTACT_FORM = 'Форма обратной связи';
+export const CONTACT_FORM_BE_WITH_US = 'Будьте с нами на';
+export const CONTACT_FORM_CONTACT = 'Контакте';
+export const CONTACT_FORM_DESC = 'Мы будем рады представить наш подход к решению ваших организационных проблем';
+export const CONTACT_FORM_NAME = 'ИМЯ';
+export const CONTACT_FORM_SURNAME = 'ФАМИЛИЯ';
+export const CONTACT_FORM_EMAIL = 'ЭЛЕКТРОННАЯ ПОЧТА';
+export const CONTACT_FORM_MESSAGE = 'ВАШЕ СООБЩЕНИЕ';
+export const CONTACT_FORM_COMPANY = 'КОМПАНИЯ';
+export const CONTACT_FORM_ERROR_MSG = 'Пожалуйста, заполните это поле';
+export const CONTACT_FORM_SEND_MESSAGE = 'ОТПРАВИТЬ СООБЩЕНИЕ';
+

@@ -10,10 +10,13 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.1.1",
+    "@types/nodemailer": "^6.4.15",
     "next": "14.0.4",
     "next-cloudinary": "^6.6.2",
+    "nodemailer": "^6.9.14",
     "react": "^18",
     "react-dom": "^18",
+    "react-hook-form": "^7.52.1",
     "react-slideshow-image": "^4.3.0"
   },
   "devDependencies": {

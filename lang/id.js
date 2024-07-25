@@ -364,3 +364,17 @@ export const EU_PROJECTS2 = 'Proyek UE';
 
 //WEBSTITE WORKS
 export const WEBSITE_WORKS = 'Unsere Website befindet sich im Aufbau. Wir danken Ihnen für Ihre Geduld, während wir Aktualisierungen vornehmen'; 
+
+//CONTACT FORM
+export const CONTACT_FORM = 'Formulir Kontak';
+export const CONTACT_FORM_BE_WITH_US = 'Tetap bersama kami dalam';
+export const CONTACT_FORM_CONTACT = 'Kontak';
+export const CONTACT_FORM_DESC = 'Kami dengan senang hati akan menyajikan pendekatan kami untuk menyelesaikan masalah organisasi Anda';
+export const CONTACT_FORM_NAME = 'NAMA DEPAN';
+export const CONTACT_FORM_SURNAME = 'NAMA BELAKANG';
+export const CONTACT_FORM_EMAIL = 'ALAMAT EMAIL';
+export const CONTACT_FORM_MESSAGE = 'PESAN ANDA';
+export const CONTACT_FORM_COMPANY = 'PERUSAHAAN';
+export const CONTACT_FORM_ERROR_MSG = 'Harap isi bidang ini';
+export const CONTACT_FORM_SEND_MESSAGE = 'KIRIM PESAN';
+

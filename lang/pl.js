@@ -368,3 +368,17 @@ export const EU_PROJECTS_AMT = '➱ Kwota dofinansowania: 136 800.00 zł';
 
 //WEBSTITE WORKS
 export const WEBSITE_WORKS = 'Nasza strona internetowa jest w trakcie tworzenia. Dziękujemy za cierpliwość podczas wprowadzania aktualizacji.'; 
+
+//CONTACT FORM
+export const CONTACT_FORM = 'Formularz kontaktowy ';
+export const CONTACT_FORM_BE_WITH_US = 'Bądź z nami w';
+export const CONTACT_FORM_CONTACT = 'Kontakcie';
+export const CONTACT_FORM_DESC = 'Chętnie przedstawimy nasze podejście do rozwiązania Państwa problemów organizacyjnych';
+export const CONTACT_FORM_NAME = 'IMIĘ';
+export const CONTACT_FORM_SURNAME = 'NAZWISKO';
+export const CONTACT_FORM_EMAIL = 'ADRES EMAIL';
+export const CONTACT_FORM_MESSAGE = 'TWOJA WIADOMOŚĆ';
+export const CONTACT_FORM_SEND_MESSAGE = 'TWOJA WIADOMOŚĆ';
+export const CONTACT_FORM_COMPANY = 'FIRMA';
+export const CONTACT_FORM_ERROR_MSG = 'Proszę wypełnić to pole';
+

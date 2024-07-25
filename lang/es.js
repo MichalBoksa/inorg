@@ -364,3 +364,19 @@ export const EU_PROJECTS2 = 'Proyectos UE';
 
 //WEBSTITE WORKS
 export const WEBSITE_WORKS = 'Nuestro sitio web está en desarrollo. Agradecemos su paciencia mientras realizamos actualizaciones'; 
+
+//CONTACT FORM
+
+export const CONTACT_FORM = 'Formulario de contacto';
+export const CONTACT_FORM_BE_WITH_US = 'Permanezca con nosotros en';
+export const CONTACT_FORM_CONTACT = 'Contacto';
+export const CONTACT_FORM_DESC = 'Nos encantaría presentar nuestro enfoque para resolver sus problemas organizacionales';
+export const CONTACT_FORM_NAME = 'NOMBRE';
+export const CONTACT_FORM_SURNAME = 'APELLIDO';
+export const CONTACT_FORM_EMAIL = 'DIRECCIÓN DE CORREO ELECTRÓNICO';
+export const CONTACT_FORM_MESSAGE = 'TU MENSAJE';
+export const CONTACT_FORM_COMPANY = 'EMPRESA';
+export const CONTACT_FORM_ERROR_MSG = 'Por favor, rellene este campo';
+export const CONTACT_FORM_SEND_MESSAGE = 'ENVIAR MENSAJE';
+
+

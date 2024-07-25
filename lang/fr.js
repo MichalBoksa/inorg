@@ -369,3 +369,15 @@ export const EU_PROJECTS_AMT = '➱ Montant du financement: 136 800,00 PLN';
 //WEBSTITE WORKS
 export const WEBSITE_WORKS = 'Notre site web est en cours de développement. Nous vous remercions de votre patience pendant que nous effectuons des mises à jour'; 
 
+//CONTACT FORM
+export const CONTACT_FORM = 'Formulaire de contact';
+export const CONTACT_FORM_BE_WITH_US = 'Restez avec nous en';
+export const CONTACT_FORM_CONTACT = 'Contact';
+export const CONTACT_FORM_DESC = 'Nous serions heureux de vous présenter notre approche pour résoudre vos problèmes organisationnels';
+export const CONTACT_FORM_NAME = 'PRÉNOM';
+export const CONTACT_FORM_SURNAME = 'NOM';
+export const CONTACT_FORM_EMAIL = 'ADRESSE ÉLECTRONIQUE';
+export const CONTACT_FORM_MESSAGE = 'VOTRE MESSAGE';
+export const CONTACT_FORM_COMPANY = 'ENTREPRISE';
+export const CONTACT_FORM_ERROR_MSG = 'Veuillez remplir ce champ';
+export const CONTACT_FORM_SEND_MESSAGE = 'ENVOYER LE MESSAGE';

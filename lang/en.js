@@ -365,3 +365,18 @@ export const EU_PROJECTS2 = 'EU Projects';
 
 //WEBSTITE WORKS
 export const WEBSITE_WORKS = 'Our website is a work in progress. We appreciate your patience while we make updates'; 
+
+//CONTACT FORM
+export const CONTACT_FORM = 'Contact Form';
+export const CONTACT_FORM_BE_WITH_US = 'Stay with us in';
+export const CONTACT_FORM_CONTACT = 'Contact';
+export const CONTACT_FORM_DESC = 'We would be happy to present our approach to solving your organizational problems';
+export const CONTACT_FORM_NAME = 'FIRST NAME';
+export const CONTACT_FORM_SURNAME = 'LAST NAME';
+export const CONTACT_FORM_EMAIL = 'EMAIL ADDRESS';
+export const CONTACT_FORM_MESSAGE = 'YOUR MESSAGE';
+export const CONTACT_FORM_COMPANY = 'COMPANY';
+export const CONTACT_FORM_ERROR_MSG = 'Please fill out this field';
+export const CONTACT_FORM_SEND_MESSAGE = 'SEND MESSAGE';
+
+
