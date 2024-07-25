@@ -378,7 +378,7 @@ export const CONTACT_FORM_NAME = 'IMIĘ';
 export const CONTACT_FORM_SURNAME = 'NAZWISKO';
 export const CONTACT_FORM_EMAIL = 'ADRES EMAIL';
 export const CONTACT_FORM_MESSAGE = 'TWOJA WIADOMOŚĆ';
-export const CONTACT_FORM_SEND_MESSAGE = 'TWOJA WIADOMOŚĆ';
+export const CONTACT_FORM_SEND_MESSAGE = 'WYŚLIJ WIADOMOŚĆ';
 export const CONTACT_FORM_COMPANY = 'FIRMA';
 export const CONTACT_FORM_ERROR_MSG = 'Proszę wypełnić to pole';
 
