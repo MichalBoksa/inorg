@@ -363,7 +363,8 @@ export const EU_PROJECTS_AMT = '➱ Jumlah dana: 136,800.00 PLN';
 export const EU_PROJECTS2 = 'Proyek UE';
 
 //WEBSTITE WORKS
-export const WEBSITE_WORKS = 'Unsere Website befindet sich im Aufbau. Wir danken Ihnen für Ihre Geduld, während wir Aktualisierungen vornehmen'; 
+export const WEBSITE_WORKS = 'Situs web kami sedang dalam pengembangan. Kami menghargai kesabaran Anda sementara kami melakukan pembaruan.';
+
 
 //CONTACT FORM
 export const CONTACT_FORM = 'Formulir Kontak';
