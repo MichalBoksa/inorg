@@ -382,3 +382,7 @@ export const CONTACT_FORM_SEND_MESSAGE = 'WYŚLIJ WIADOMOŚĆ';
 export const CONTACT_FORM_COMPANY = 'FIRMA';
 export const CONTACT_FORM_ERROR_MSG = 'Proszę wypełnić to pole';
 
+//COOKIES CONSENT
+export const COOKIES_CONSENT = 'Ta strona używa plików cookies w celu poprawy komfortu użytkowania. Korzystając z naszej strony, wyrażasz zgodę na wszystkie pliki cookies zgodnie z naszą Polityką Cookies.';
+export const COOKIES_CONSENT_ACCEPT = 'Akceptuję';
+

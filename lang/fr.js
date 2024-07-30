@@ -381,3 +381,7 @@ export const CONTACT_FORM_MESSAGE = 'VOTRE MESSAGE';
 export const CONTACT_FORM_COMPANY = 'ENTREPRISE';
 export const CONTACT_FORM_ERROR_MSG = 'Veuillez remplir ce champ';
 export const CONTACT_FORM_SEND_MESSAGE = 'ENVOYER LE MESSAGE';
+
+//COOKIES CONSENT
+export const COOKIES_CONSENT = 'Ce site utilise des cookies pour améliorer l’expérience utilisateur. En utilisant notre site, vous consentez à tous les cookies conformément à notre Politique de Cookies.';
+export const COOKIES_CONSENT_ACCEPT = 'Accepter';

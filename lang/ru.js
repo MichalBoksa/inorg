@@ -378,3 +378,8 @@ export const CONTACT_FORM_COMPANY = 'КОМПАНИЯ';
 export const CONTACT_FORM_ERROR_MSG = 'Пожалуйста, заполните это поле';
 export const CONTACT_FORM_SEND_MESSAGE = 'ОТПРАВИТЬ СООБЩЕНИЕ';
 
+//COOKIES CONSENT
+export const COOKIES_CONSENT = 'Этот веб-сайт использует файлы cookie для улучшения удобства пользователей. Используя наш сайт, вы соглашаетесь на использование всех файлов cookie в соответствии с нашей Политикой использования файлов cookie.';
+export const COOKIES_CONSENT_ACCEPT = 'Принять';
+
+

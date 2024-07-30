@@ -149,6 +149,10 @@ CONTACT_FORM_ERROR_MSG: string
 CONTACT_FORM_SEND_MESSAGE: string;
 
 
+ //COOKIES CONSENT
+ COOKIES_CONSENT: string;
+ COOKIES_CONSENT_ACCEPT: string;
+
 }
 
 export interface NavLink {

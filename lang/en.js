@@ -379,4 +379,8 @@ export const CONTACT_FORM_COMPANY = 'COMPANY';
 export const CONTACT_FORM_ERROR_MSG = 'Please fill out this field';
 export const CONTACT_FORM_SEND_MESSAGE = 'SEND MESSAGE';
 
+//COOKIES CONSNET
+export const COOKIES_CONSENT = 'This website uses cookies to improve user experience. By using our website you consent to all cookies in accordance with our Cookie Policy.';
+export const COOKIES_CONSENT_ACCEPT = 'Accept';
+
 

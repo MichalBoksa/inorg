@@ -379,3 +379,7 @@ export const CONTACT_FORM_COMPANY = 'PERUSAHAAN';
 export const CONTACT_FORM_ERROR_MSG = 'Harap isi bidang ini';
 export const CONTACT_FORM_SEND_MESSAGE = 'KIRIM PESAN';
 
+//COOKIES CONSENT
+export const COOKIES_CONSENT = 'Situs web ini menggunakan cookie untuk meningkatkan pengalaman pengguna. Dengan menggunakan situs web kami, Anda menyetujui semua cookie sesuai dengan Kebijakan Cookie kami.';
+export const COOKIES_CONSENT_ACCEPT = 'Terima';
+

@@ -379,4 +379,7 @@ export const CONTACT_FORM_COMPANY = 'EMPRESA';
 export const CONTACT_FORM_ERROR_MSG = 'Por favor, rellene este campo';
 export const CONTACT_FORM_SEND_MESSAGE = 'ENVIAR MENSAJE';
 
-
+  // CONSENTIMIENTO DE COOKIES
+  export const COOKIES_CONSENT = 'Este sitio web utiliza cookies para mejorar la experiencia del usuario. Al usar nuestro sitio web, usted consiente el uso de todas las cookies de acuerdo con nuestra Política de Cookies.';
+  export const COOKIES_CONSENT_ACCEPT = 'Aceptar';
+  
