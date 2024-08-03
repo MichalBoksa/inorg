@@ -1,12 +1,25 @@
+// components/SliderGOZ.tsx
 'use client';
-import React, { useState } from 'react';
+
+import React, { useState, forwardRef, useImperativeHandle } from 'react';
 import { useLocale } from '@/lang/LocaleContext';
 import { CldImage } from 'next-cloudinary';
 import Link from 'next/link';
 
-const SliderGOZ: React.FC = () => {
+interface SliderGOZProps {}
+interface SliderGOZHandle {
+  goToSlide: (index: number) => void;
+}
+
+const SliderGOZ = forwardRef<SliderGOZHandle, SliderGOZProps>((props, ref) => {
   const { DATA } = useLocale();
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState<number>(0);
+
+  useImperativeHandle(ref, () => ({
+    goToSlide: (index: number) => {
+      setCurrentIndex(index);
+    }
+  }));
 
   if (!DATA || !DATA.GOZ_COMPANIES) {
     return <div>Loading...</div>;
@@ -27,7 +40,7 @@ const SliderGOZ: React.FC = () => {
   return (
     <section className='relative'>
       <div className="carousel w-[500px] h-[600px] rounded-xl overflow-hidden relative mt-6">
-        {DATA?.GOZ_COMPANIES.map((company, index) => (
+        {DATA.GOZ_COMPANIES.map((company: any, index: number) => (
           <div
             key={index}
             className={`absolute inset-0 transition-opacity duration-1000 ${index === currentIndex ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}
@@ -52,6 +65,8 @@ const SliderGOZ: React.FC = () => {
       </div>
     </section>
   );
-};
+});
+
+SliderGOZ.displayName = 'SliderGOZ';
 
 export default SliderGOZ;

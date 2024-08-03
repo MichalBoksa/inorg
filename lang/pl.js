@@ -146,49 +146,161 @@ export const NAV_LINKS = [
   ];
 
   //GOZ
-  export const GOZ_COMPANIES = [
+  export const GOZ_COMPANIES = [ 
+    {
+      name: "STILO Marek Wąsowski",
+      description: "FIGLISTO to pierwsza w Polsce internetowa wypożyczalnia zabawek dla dzieci w wieku od 1 r.ż. do 5 r.ż. działająca w modelu subskrypcyjnym",
+      href: "https://figlisto.pl/",
+      img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/vehytnavmarxedk7goio.jpg",
+      slideNumber: 1
+  },
+  {
+    name: "EASYFOOTINGS Henryk Zawiślak",
+    description: "Modułowy system mikropalowego fundamentowania EasyFootings®",
+    href: "https://biznes.wzp.pl/easyfootings/",
+    img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/p9peodatx9nkwxfzm8ac.jpg",
+    slideNumber: 2
+  },
     {
       name: "Przedsiębiorstwo Wielobranżowe Anmet Andrzej Adamcio",
       description: "Przęsło mostu z elementów łopat wirnika turbiny wiatrowej",
       href: "https://www.anmet.com.pl/",
-      img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/q94u4njqlu9scb5vtdxn.jpg"
+      img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/q94u4njqlu9scb5vtdxn.jpg",
+      slideNumber: 3
   },
   {
-      name: "Przedsiębiorstwo Wielobranżowe \"GALKOR\" Sp. z o.o.",
+      name: "Przedsiębiorstwo Wielobranżowe GALKOR Sp. z o.o.",
       description: "Kompleksowa technologia neutralizacji i oczyszczania ścieków przemysłowych, zwłaszcza galwanicznych, z odzyskiem i zamkniętym obiegiem wody technologicznej",
       href: "https://www.galkor.pl/",
-      img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/yuvuuasurvmy582b81eq.jpg"
+      img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/yuvuuasurvmy582b81eq.jpg",
+      slideNumber: 4
   },
   {
       name: "Rebread Sp. z o.o.",
       description: "Cyrkularne pieczywo w modelu \"open manufacturing\"",
       href: "https://www.rebread.com/",
-      img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/yeu3swjutmb5yrdsysa0.jpg"
+      img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/yeu3swjutmb5yrdsysa0.jpg",
+      slideNumber: 5
   },
   {
       name: "Hydropolis Sp. z o.o.",
       description: "Eksperymentalna uprawa wertykalna wraz z systemem kontrolowanych warunków",
       href: "https://www.hydro-polis.com/",
-      img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/wppbs4i2kaf9h8olta1q.jpg"
+      img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/wppbs4i2kaf9h8olta1q.jpg",
+      slideNumber: 6
   },
   {
       name: "Urvis Bike Sp. z o.o.",
       description: "Wdrożenie ekologicznego środka transportu - roweru towarowego Urvis wspomaganego elektrycznie - w Fyrtel Sp. z o.o., startupie obsługującym ekologiczne dostawy od lokalnych sklepów i producentów",
       href: "https://urvis.bike/",
-      img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/tfbqofadvp9yk5xahujb.jpg"
+      img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/tfbqofadvp9yk5xahujb.jpg",
+      slideNumber: 7
   },
   {
       name: "PGE Ekoserwis S.A.",
       description: "Zestalana mieszkanka wypełniająca Geoszyb - stosowana w likwidacji wyrobisk górniczych w procesach przywracania wartości użytkowych terenom zdegradowanych w wyniku działalności przemysłowej",
       href: "https://pgeekoserwis.pl/pl/",
-      img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/xywfy3fcxyhlbiqztfil.jpg"
+      img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/xywfy3fcxyhlbiqztfil.jpg",
+      slideNumber: 8
   },
   {
       name: "Budimex S.A.",
       description: "Wdrożenie innowacyjnej technologii mieszanek mineralno-asfaltowych z zastosowaniem materiału z recyklingu nawierzchni asfaltowej",
       href: "https://budimex.pl/",
-      img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/m08nq3xjylctjcgwj8b8.jpg"
-  }
+      img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/m08nq3xjylctjcgwj8b8.jpg",
+      slideNumber: 9
+  },
+  {
+    name: "Polska Korporacja Recyklingu",
+    description: "RE-ABSORBENT OIL- sorbent o niskiej gęstości do zbierania zanieczyszczeń olejowych i ropopochodnych z powierzchni stałych i wód",
+    href: "https://pkrecykling.pl/",
+    img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/oexht9gn5xeubdmfgngh.jpg",
+    slideNumber: 10
+},
+{
+  name: "VEOLIA POŁUDNIE Sp. z o.o",
+  description: "Wdrożenie, eksploatacja i rozwój systemu GOZ w Miasteczku Śląskim w oparciu o ciepło odpadowe z procesów hutniczych",
+  href: "https://veoliaterm.pl/strefa-klienta/veolia-poludnie/",
+  img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/vnd7rmwrymphcr6c19mz.jpg",
+  slideNumber: 11
+},
+{
+  name: "ERG S.A",
+  description: "Technologia produkcji innowacyjnej gamy folii o całkowicie zmienionych parametrach fizykochemicznych wpisujących się w zasady gospodarki o obiegu zamkniętym umożliwiających odzysk odpadów foliowych w procesie recyklingu mechanicznego i ponowne użycie recyklatów w produkcji opakowań, poprzez tworzenie monomateriałowych struktur laminatów opartych na LDPE",
+  href: "https://erg.com.pl/",
+  img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/skxmkegzzauawlcglp3i.jpg",
+  slideNumber: 12
+},
+{
+  name: "Hochland Polska Sp. z o. o",
+  description: "Technologia produkcji innowacyjnej gamy folii o całkowicie zmienionych parametrach fizykochemicznych wpisujących się w zasady gospodarki o obiegu zamkniętym umożliwiających odzysk odpadów foliowych w procesie recyklingu mechanicznego i ponowne użycie recyklatów w produkcji opakowań, poprzez tworzenie monomateriałowych struktur laminatów opartych na LDPE",
+  href: "https://www.hochland-group.com/pl/",
+  img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/m5hplsi48cztlluxdsuq.jpg",
+  slideNumber: 13
+},
+{
+  name: "Lafarge Cement S.A (Holcim Polska)",
+  description: "Odzysk odpadów popłuczyn betonowych z betoniarni w celu ponownego użycia w Cementowni Małogoszcz",
+  href: "https://www.holcim.pl/",
+  img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/meqd4fnczxlbptopx3nv.jpg",
+  slideNumber: 14
+},
+{
+  name: "GWDA Sp. z o.o.",
+  description: "Odzysk odpadów popłuczyn betonowych z betoniarni w celu ponownego użycia w Cementowni Małogoszcz",
+  href: "https://gwda.pl/",
+  img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/akb7rgcyaykt8kqwfz2y.jpg",
+  slideNumber: 15
+},
+{
+  name: "Drogerie DOT Sp. z o.o.",
+  description: "System DOT. System dystrybucji środków czystości i kosmetyków w zamkniętym obiegu plastiku",
+  href: "https://www.drogeriedot.pl/",
+  img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/nfr7d09uxv4kvlxxfljn.jpg",
+  slideNumber: 16
+},
+{
+  name: "Zero Waste Design Sp. z o.o.",
+  description: "ZERO (Zero Emissions and Resource Optimization)",
+  href: "https://outlet.zerowaste.design/",
+  img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/yy4f6ylexykojqrcr93j.jpg",
+  slideNumber: 17
+},
+{
+  name: "New Solutions Group sp. z o.o",
+  description: "Portal Fundraisingowy www.ubraniadooddania.pl",
+  href: "www.ubraniadooddania.pl",
+  img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/efisjl8iaez7pvqf7cjj.jpg",
+  slideNumber: 18
+},
+{
+  name: "LDK Sp. z o.o. (KARTEKO)",
+  description: "Sp. z o.o. w Jarocinie - Produkty z odpadów, jako sposób na gospodarkę obiegu zamkniętego w Wielkopolskim Centrum Recyklingu Sp. z o.o. w Jarocinie",
+  href: "https://karteko.pl/",
+  img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/ysy1inkpkniiiv9cqspz.jpg",
+  slideNumber: 19
+},
+{
+  name: "Wielkopolskie Centrum Recyklingu ",
+  description: "Sp. z o.o. w Jarocinie - Produkty z odpadów, jako sposób na gospodarkę obiegu zamkniętego w Wielkopolskim Centrum Recyklingu Sp. z o.o. w Jarocinie",
+  href: "https://wcr-jarocin.pl/",
+  img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/addrc6g2lmo0cgdugvla.jpg",
+  slideNumber: 20
+},
+{
+  name: "BRAMY – SERWIS Dariusz Kaszkowiak",
+  description: "Regeneracja elektroniki sterowników bram przemysłowych",
+  href: "https://www.bramy-serwis.pl/",
+  img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/slpzfinfihstcwylgycc.jpg",
+  slideNumber: 21
+},
+{
+  name: "FAKRO PP Sp. z o.o.",
+  description: "Wykorzystanie odpadów profili PVC w procesie recyklingu oraz ponowne ich zastosowanie, jako profili PVC, dzięki współpracy z firmą Primo Profile",
+  href: "https://www.fakro.pl/gdpr/01/",
+  img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/d0ob0edp3hlryovzdihv.jpg",
+  slideNumber: 22
+},
 ]
 
 //CHOOSEN PRODUCTS

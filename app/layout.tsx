@@ -20,11 +20,7 @@ export default function RootLayout({
       <body >
         <LocaleProvider>
           <Navbar />
-            <main className="relative overflow-hidden " style={{
-        whiteSpace: 'pre-wrap',
-        wordBreak: 'break-word',
-        widows: 2,
-      }}>{children}</main>
+            <main className="relative overflow-hidden text-pretty" >{children}</main>
            <CookieConsent />
           <Footer/>
         </LocaleProvider>
