@@ -149,50 +149,164 @@ export const LINKS = [
 ];
 
 // GOZ
-export const GOZ_COMPANIES = [
+export const GOZ = "Les technologies présentées sont des solutions sélectionnées primées lors de concours organisés par l'Agence polonaise pour le développement de l'entreprise pour les meilleures solutions GOZ.";
+export const GOZ_COMPANIES = [ 
     {
-        name: "Entreprise Multi-Branches Anmet Andrzej Adamcio",
-        description: "Panneau de pont en éléments de pales de turbine éolienne",
-        href: "https://www.anmet.com.pl/",
-        img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/q94u4njqlu9scb5vtdxn.jpg"
-    },
+      name: "STILO Marek Wąsowski",
+      description: "FIGLISTO est le premier service de location de jouets en ligne de Pologne pour les enfants de 1 à 5 ans, fonctionnant sur un modèle d'abonnement",
+      href: "https://figlisto.pl/",
+      img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/vehytnavmarxedk7goio.jpg",
+      slideNumber: 1
+  },
+  {
+    name: "EASYFOOTINGS Henryk Zawiślak",
+    description: "Système de fondation modulaire de micropieux EasyFootings®",
+    href: "https://biznes.wzp.pl/easyfootings/",
+    img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/p9peodatx9nkwxfzm8ac.jpg",
+    slideNumber: 2
+  },
     {
-        name: "Entreprise Multi-Branches \"GALKOR\" Sp. z o.o.",
-        description: "Technologie complète de neutralisation et de traitement des eaux usées industrielles, notamment galvaniques, avec récupération et circuit fermé de l’eau technologique",
-        href: "https://www.galkor.pl/",
-        img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/yuvuuasurvmy582b81eq.jpg"
-    },
-    {
-        name: "Rebread Sp. z o.o.",
-        description: "Pain circulaire dans le modèle «open manufacturing»",
-        href: "https://www.rebread.com/",
-        img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/yeu3swjutmb5yrdsysa0.jpg"
-    },
-    {
-        name: "Hydropolis Sp. z o.o.",
-        description: "Culture verticale expérimentale avec système de conditions contrôlées",
-        href: "https://www.hydro-polis.com/",
-        img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/wppbs4i2kaf9h8olta1q.jpg"
-    },
-    {
-        name: "Urvis Bike Sp. z o.o.",
-        description: "Mise en œuvre d’un moyen de transport écologique - vélo cargo Urvis assisté électriquement - dans Fyrtel Sp. z o.o., une startup proposant des livraisons écologiques de magasins et producteurs locaux",
-        href: "https://urvis.bike/",
-        img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/tfbqofadvp9yk5xahujb.jpg"
-    },
-    {
-        name: "PGE Ekoserwis S.A.",
-        description: "Mélange solidifié remplissant le GeoPuits - utilisé dans la liquidation des travaux miniers dans les processus de restauration des terrains dégradés par les activités industrielles",
-        href: "https://pgeekoserwis.pl/pl/",
-        img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/xywfy3fcxyhlbiqztfil.jpg"
-    },
-    {
-        name: "Budimex S.A.",
-        description: "Mise en œuvre d’une technologie innovante de mélanges minéraux-asphaltés utilisant des matériaux recyclés de revêtements asphaltés",
-        href: "https://budimex.pl/",
-        img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/m08nq3xjylctjcgwj8b8.jpg"
-    }
-];
+      name: "Przedsiębiorstwo Wielobranżowe Anmet Andrzej Adamcio",
+      description: "Section de pont fabriquée à partir d'éléments de pales de turbine éolienne",
+      href: "https://www.anmet.com.pl/",
+      img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/q94u4njqlu9scb5vtdxn.jpg",
+      slideNumber: 3
+  },
+  {
+      name: "Przedsiębiorstwo Wielobranżowe GALKOR Sp. z o.o.",
+      description: "Technologie complète pour la neutralisation et la purification des eaux usées industrielles, en particulier galvaniques, avec récupération et circulation fermée de l'eau de processus",
+      href: "https://www.galkor.pl/",
+      img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/yuvuuasurvmy582b81eq.jpg",
+      slideNumber: 4
+  },
+  {
+      name: "Rebread Sp. z o.o.",
+      description: "Pain circulaire dans le modèle 'open manufacturing'",
+      href: "https://www.rebread.com/",
+      img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/yeu3swjutmb5yrdsysa0.jpg",
+      slideNumber: 5
+  },
+  {
+      name: "Hydropolis Sp. z o.o.",
+      description: "Agriculture verticale expérimentale avec système de conditions contrôlées",
+      href: "https://www.hydro-polis.com/",
+      img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/wppbs4i2kaf9h8olta1q.jpg",
+      slideNumber: 6
+  },
+  {
+      name: "Urvis Bike Sp. z o.o.",
+      description: "Mise en œuvre d'un moyen de transport écologique - le vélo cargo Urvis avec assistance électrique - chez Fyrtel Sp. z o.o., une startup soutenant les livraisons écologiques des magasins et producteurs locaux",
+      href: "https://urvis.bike/",
+      img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/tfbqofadvp9yk5xahujb.jpg",
+      slideNumber: 7
+  },
+  {
+      name: "PGE Ekoserwis S.A.",
+      description: "Mélange solidifié Geoszyb - utilisé pour la fermeture des excavations minières dans le processus de restauration des valeurs d'usage des terrains dégradés par les activités industrielles",
+      href: "https://pgeekoserwis.pl/pl/",
+      img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/xywfy3fcxyhlbiqztfil.jpg",
+      slideNumber: 8
+  },
+  {
+      name: "Budimex S.A.",
+      description: "Mise en œuvre de la technologie innovante des mélanges minéraux-asphalte en utilisant des matériaux recyclés de chaussées en asphalte",
+      href: "https://budimex.pl/",
+      img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/m08nq3xjylctjcgwj8b8.jpg",
+      slideNumber: 9
+  },
+  {
+    name: "Polska Korporacja Recyklingu",
+    description: "RE-ABSORBENT OIL - sorbant à faible densité pour collecter les contaminants huileux et dérivés du pétrole sur les surfaces solides et dans l'eau",
+    href: "https://pkrecykling.pl/",
+    img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/oexht9gn5xeubdmfgngh.jpg",
+    slideNumber: 10
+},
+{
+  name: "VEOLIA POŁUDNIE Sp. z o.o",
+  description: "Mise en œuvre, exploitation et développement du système GOZ à Miasteczko Śląskie basé sur la chaleur résiduelle des processus de fusion",
+  href: "https://veoliaterm.pl/strefa-klienta/veolia-poludnie/",
+  img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/vnd7rmwrymphcr6c19mz.jpg",
+  slideNumber: 11
+},
+{
+  name: "ERG S.A",
+  description: "Technologie de production d'une gamme innovante de films avec des paramètres physico-chimiques totalement modifiés en ligne avec les principes de l'économie circulaire, permettant la récupération des déchets de films dans le processus de recyclage mécanique et la réutilisation des recyclats dans la production d'emballages, en créant des structures de laminés monomatériaux basées sur le LDPE",
+  href: "https://erg.com.pl/",
+  img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/skxmkegzzauawlcglp3i.jpg",
+  slideNumber: 12
+},
+{
+  name: "Hochland Polska Sp. z o. o",
+  description: "Technologie de production d'une gamme innovante de films avec des paramètres physico-chimiques totalement modifiés en ligne avec les principes de l'économie circulaire, permettant la récupération des déchets de films dans le processus de recyclage mécanique et la réutilisation des recyclats dans la production d'emballages, en créant des structures de laminés monomatériaux basées sur le LDPE",
+  href: "https://www.hochland-group.com/pl/",
+  img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/m5hplsi48cztlluxdsuq.jpg",
+  slideNumber: 13
+},
+{
+  name: "Lafarge Cement S.A (Holcim Polska)",
+  description: "Récupération des déchets de boues de béton des centrales à béton pour réutilisation dans l'usine de ciment de Małogoszcz",
+  href: "https://www.holcim.pl/",
+  img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/meqd4fnczxlbptopx3nv.jpg",
+  slideNumber: 14
+},
+{
+  name: "GWDA Sp. z o.o.",
+  description: "Récupération des déchets de boues de béton des centrales à béton pour réutilisation dans l'usine de ciment de Małogoszcz",
+  href: "https://gwda.pl/",
+  img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/akb7rgcyaykt8kqwfz2y.jpg",
+  slideNumber: 15
+},
+{
+  name: "Drogerie DOT Sp. z o.o.",
+  description: "Système DOT. Système de distribution de produits de nettoyage et de cosmétiques en boucle fermée de plastique",
+  href: "https://www.drogeriedot.pl/",
+  img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/nfr7d09uxv4kvlxxfljn.jpg",
+  slideNumber: 16
+},
+{
+  name: "Zero Waste Design Sp. z o.o.",
+  description: "ZERO (Zero Emissions and Resource Optimization)",
+  href: "https://outlet.zerowaste.design/",
+  img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/yy4f6ylexykojqrcr93j.jpg",
+  slideNumber: 17
+},
+{
+  name: "New Solutions Group sp. z o.o",
+  description: "Portail de collecte de fonds www.ubraniadooddania.pl",
+  href: "www.ubraniadooddania.pl",
+  img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/efisjl8iaez7pvqf7cjj.jpg",
+  slideNumber: 18
+},
+{
+  name: "LDK Sp. z o.o. (KARTEKO)",
+  description: "Sp. z o.o. à Jarocin - Produits à partir de déchets, comme un chemin vers une économie circulaire au Centre de Recyclage de Wielkopolskie Sp. z o.o. à Jarocin",
+  href: "https://karteko.pl/",
+  img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/ysy1inkpkniiiv9cqspz.jpg",
+  slideNumber: 19
+},
+{
+  name: "Wielkopolskie Centrum Recyklingu",
+  description: "Sp. z o.o. à Jarocin - Produits à partir de déchets, comme un chemin vers une économie circulaire au Centre de Recyclage de Wielkopolskie Sp. z o.o. à Jarocin",
+  href: "https://wcr-jarocin.pl/",
+  img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/addrc6g2lmo0cgdugvla.jpg",
+  slideNumber: 20
+},
+{
+  name: "BRAMY - SERWIS Dariusz Kaszkowiak",
+  description: "Régénération de l'électronique des contrôleurs de portes industrielles",
+  href: "https://www.bramy-serwis.pl/",
+  img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/slpzfinfihstcwylgycc.jpg",
+  slideNumber: 21
+},
+{
+  name: "FAKRO PP Sp. z o.o.",
+  description: "Utilisation des déchets de profilés PVC dans le processus de recyclage et leur réutilisation comme profilés PVC, grâce à la coopération avec Primo Profile",
+  href: "https://www.fakro.pl/gdpr/01/",
+  img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/d0ob0edp3hlryovzdihv.jpg",
+  slideNumber: 22
+},
+]
+
 
 // CHOOSEN PRODUCTS
 export const CHOOSEN_PRODUCT_TITLE = 'Nos produits choisis';
@@ -358,6 +472,8 @@ export const OUR_FEATURES_LIST = [
 
 // INDONESIA_BUSINESS
 export const INDONESIA_BUSINESS = 'Comment faire des affaires en Indonésie?';
+export const INDONESIA_BUSINESS_CONTACT = 'Événement co-organisé par INORG. Contact +41 79 879 26 98';
+
 
 // EU PROJECTS
 export const EU_PROJECTS = 'Projets UE en cours';

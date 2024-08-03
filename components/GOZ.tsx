@@ -1,11 +1,12 @@
-// components/GOZ.tsx
 'use client';
 
 import React, { useRef, useEffect } from 'react';
 import SliderGOZ from './SliderGOZ';
 import { markerMappings, Coordinate } from '../constants/GOZCoordinates';
+import { useLocale } from '@/lang/LocaleContext';
 
 const GOZ: React.FC = () => {
+  const { DATA } = useLocale();
   const sliderRef = useRef<{ goToSlide: (index: number) => void }>(null);
 
   const handleMarkerClick = (x: number, y: number) => {
@@ -28,6 +29,7 @@ const GOZ: React.FC = () => {
         const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
         path.setAttribute('d', 'M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z');
         path.setAttribute('transform', `translate(${x - 12}, ${y - 24}) scale(1.5)`);
+        path.style.cursor = 'pointer';
         path.setAttribute('fill', 'green');
         path.classList.add('svg-marker');
         path.addEventListener('click', () => handleMarkerClick(x, y));
@@ -40,8 +42,12 @@ const GOZ: React.FC = () => {
   }, []);
 
   return (
-    <section className='padding-container max-container'>
+    <section className='padding-container max-container mb-10'>
+       <div className='flex justify-start items-start text-gray-20  mt-6 mb-4'>
+          <p className=''>{DATA?.GOZ}</p>
+      </div>
       <div className='flex'>
+        
         <SliderGOZ ref={sliderRef} />
         <div className='ml-auto mr-10'>
           <div className='relative'>
@@ -63,6 +69,7 @@ const GOZ: React.FC = () => {
           </div>
         </div>
       </div>
+      
     </section>
   );
 };

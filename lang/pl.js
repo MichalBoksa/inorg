@@ -146,6 +146,7 @@ export const NAV_LINKS = [
   ];
 
   //GOZ
+  export const GOZ = "Przedstawione technologie są wybranymi rozwiązaniami nagradzanymi w konkursach Polskiej Agencji Rozwoju Przedsiębiorczości na najlepsze rozwiązania GOZ."
   export const GOZ_COMPANIES = [ 
     {
       name: "STILO Marek Wąsowski",
@@ -288,7 +289,7 @@ export const NAV_LINKS = [
   slideNumber: 20
 },
 {
-  name: "BRAMY – SERWIS Dariusz Kaszkowiak",
+  name: "BRAMY - SERWIS Dariusz Kaszkowiak",
   description: "Regeneracja elektroniki sterowników bram przemysłowych",
   href: "https://www.bramy-serwis.pl/",
   img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/slpzfinfihstcwylgycc.jpg",
@@ -470,6 +471,7 @@ export const OUR_FEATURES_LIST = [
 
 //INDONESIA_BUSINESS
 export const INDONESIA_BUSINESS = 'Jak robić biznes w Indonezji?';
+export const INDONESIA_BUSINESS_CONTACT = 'Wydarzenie współorganizowane przez INORG. Kontakt +41 79 879 26 98';
 
 //EU PROJECTS
 export const EU_PROJECTS = 'Realizowane projekty UE';

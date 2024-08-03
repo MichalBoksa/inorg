@@ -18,6 +18,9 @@ const IndonesiaBusinness = () => {
                   </a>
               </Link>
             </div>
+              <div className='flex justify-center items-center text-gray-20 px-16 mt-6 mb-4'>
+                <p>{DATA?.INDONESIA_BUSINESS_CONTACT}</p>
+              </div>
         </div>
     </section>
   )

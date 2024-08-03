@@ -149,50 +149,164 @@ export const LINKS = [
 ];
 
 //GOZ
-export const GOZ_COMPANIES = [
+export const GOZ = "Teknologi yang ditampilkan adalah solusi pilihan yang memenangkan penghargaan dalam kompetisi yang diselenggarakan oleh Polish Agency for Enterprise Development untuk solusi GOZ terbaik.";
+export const GOZ_COMPANIES = [ 
     {
-        name: "Perusahaan Multibranch Anmet Andrzej Adamcio",
-        description: "Jembatan bentang terbuat dari elemen baling-baling turbin angin",
-        href: "https://www.anmet.com.pl/",
-        img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/q94u4njqlu9scb5vtdxn.jpg",
-    },
+      name: "STILO Marek Wąsowski",
+      description: "FIGLISTO adalah rental mainan online pertama di Polandia untuk anak-anak usia 1 hingga 5 tahun yang beroperasi dengan model langganan",
+      href: "https://figlisto.pl/",
+      img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/vehytnavmarxedk7goio.jpg",
+      slideNumber: 1
+  },
+  {
+    name: "EASYFOOTINGS Henryk Zawiślak",
+    description: "Sistem pondasi mikro tiang modular EasyFootings®",
+    href: "https://biznes.wzp.pl/easyfootings/",
+    img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/p9peodatx9nkwxfzm8ac.jpg",
+    slideNumber: 2
+  },
     {
-        name: 'Perusahaan Multibranch "GALKOR" Sp. z o.o.',
-        description: "Teknologi komprehensif untuk menetralisir dan memurnikan air limbah industri, terutama galvanik, dengan pemulihan dan sirkulasi tertutup air teknologi",
-        href: "https://www.galkor.pl/",
-        img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/yuvuuasurvmy582b81eq.jpg",
-    },
-    {
-        name: "Rebread Sp. z o.o.",
-        description: 'Roti sirkular dalam model "open manufacturing"',
-        href: "https://www.rebread.com/",
-        img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/yeu3swjutmb5yrdsysa0.jpg",
-    },
-    {
-        name: "Hydropolis Sp. z o.o.",
-        description: "Pertanian vertikal eksperimental dengan sistem kondisi terkontrol",
-        href: "https://www.hydro-polis.com/",
-        img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/wppbs4i2kaf9h8olta1q.jpg",
-    },
-    {
-        name: "Urvis Bike Sp. z o.o.",
-        description: "Implementasi alat transportasi ekologis - sepeda kargo Urvis yang didukung secara elektrik - di Fyrtel Sp. z o.o., startup yang menyediakan pengiriman ekologis dari toko dan produsen lokal",
-        href: "https://urvis.bike/",
-        img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/tfbqofadvp9yk5xahujb.jpg",
-    },
-    {
-        name: "PGE Ekoserwis S.A.",
-        description: "Campuran padat yang mengisi Geoshaft - digunakan dalam likuidasi penggalian pertambangan dalam proses pemulihan nilai guna ke daerah yang terdegradasi oleh aktivitas industri",
-        href: "https://pgeekoserwis.pl/pl/",
-        img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/xywfy3fcxyhlbiqztfil.jpg",
-    },
-    {
-        name: "Budimex S.A.",
-        description: "Implementasi teknologi inovatif campuran mineral-asphalt menggunakan bahan daur ulang dari perkerasan aspal",
-        href: "https://budimex.pl/",
-        img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/m08nq3xjylctjcgwj8b8.jpg",
-    },
-];
+      name: "Przedsiębiorstwo Wielobranżowe Anmet Andrzej Adamcio",
+      description: "Jembatan dibuat dari bilah turbin angin",
+      href: "https://www.anmet.com.pl/",
+      img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/q94u4njqlu9scb5vtdxn.jpg",
+      slideNumber: 3
+  },
+  {
+      name: "Przedsiębiorstwo Wielobranżowe GALKOR Sp. z o.o.",
+      description: "Teknologi lengkap untuk netralisasi dan pemurnian limbah industri, terutama galvanik, dengan pemulihan dan sirkulasi tertutup dari air proses",
+      href: "https://www.galkor.pl/",
+      img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/yuvuuasurvmy582b81eq.jpg",
+      slideNumber: 4
+  },
+  {
+      name: "Rebread Sp. z o.o.",
+      description: "Roti sirkular dalam model 'open manufacturing'",
+      href: "https://www.rebread.com/",
+      img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/yeu3swjutmb5yrdsysa0.jpg",
+      slideNumber: 5
+  },
+  {
+      name: "Hydropolis Sp. z o.o.",
+      description: "Pertanian vertikal eksperimental dengan sistem kontrol kondisi",
+      href: "https://www.hydro-polis.com/",
+      img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/wppbs4i2kaf9h8olta1q.jpg",
+      slideNumber: 6
+  },
+  {
+      name: "Urvis Bike Sp. z o.o.",
+      description: "Implementasi transportasi ramah lingkungan - sepeda kargo Urvis dengan bantuan listrik - di Fyrtel Sp. z o.o., startup yang mendukung pengiriman ramah lingkungan dari toko dan produsen lokal",
+      href: "https://urvis.bike/",
+      img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/tfbqofadvp9yk5xahujb.jpg",
+      slideNumber: 7
+  },
+  {
+      name: "PGE Ekoserwis S.A.",
+      description: "Campuran pengisi Geoszyb - digunakan untuk penutupan tambang dalam proses pemulihan nilai penggunaan lahan yang terdegradasi akibat aktivitas industri",
+      href: "https://pgeekoserwis.pl/pl/",
+      img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/xywfy3fcxyhlbiqztfil.jpg",
+      slideNumber: 8
+  },
+  {
+      name: "Budimex S.A.",
+      description: "Implementasi teknologi inovatif campuran mineral-asphalt dengan menggunakan material daur ulang dari permukaan asphalt",
+      href: "https://budimex.pl/",
+      img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/m08nq3xjylctjcgwj8b8.jpg",
+      slideNumber: 9
+  },
+  {
+    name: "Polska Korporacja Recyklingu",
+    description: "RE-ABSORBENT OIL- sorben dengan kepadatan rendah untuk mengumpulkan kontaminan minyak dan produk minyak dari permukaan padat dan air",
+    href: "https://pkrecykling.pl/",
+    img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/oexht9gn5xeubdmfgngh.jpg",
+    slideNumber: 10
+},
+{
+  name: "VEOLIA POŁUDNIE Sp. z o.o",
+  description: "Implementasi, operasi, dan pengembangan sistem GOZ di Miasteczko Śląskie berdasarkan panas limbah dari proses peleburan",
+  href: "https://veoliaterm.pl/strefa-klienta/veolia-poludnie/",
+  img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/vnd7rmwrymphcr6c19mz.jpg",
+  slideNumber: 11
+},
+{
+  name: "ERG S.A",
+  description: "Teknologi produksi berbagai film inovatif dengan parameter fisikokimia yang diubah sepenuhnya sesuai dengan prinsip ekonomi sirkular yang memungkinkan pemulihan limbah film dalam proses daur ulang mekanis dan penggunaan kembali daur ulang dalam produksi kemasan, dengan membuat struktur laminasi berbasis monomaterial dari LDPE",
+  href: "https://erg.com.pl/",
+  img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/skxmkegzzauawlcglp3i.jpg",
+  slideNumber: 12
+},
+{
+  name: "Hochland Polska Sp. z o. o",
+  description: "Teknologi produksi berbagai film inovatif dengan parameter fisikokimia yang diubah sepenuhnya sesuai dengan prinsip ekonomi sirkular yang memungkinkan pemulihan limbah film dalam proses daur ulang mekanis dan penggunaan kembali daur ulang dalam produksi kemasan, dengan membuat struktur laminasi berbasis monomaterial dari LDPE",
+  href: "https://www.hochland-group.com/pl/",
+  img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/m5hplsi48cztlluxdsuq.jpg",
+  slideNumber: 13
+},
+{
+  name: "Lafarge Cement S.A (Holcim Polska)",
+  description: "Pemulihan limbah lumpur beton dari pabrik beton untuk digunakan kembali di Pabrik Semen Małogoszcz",
+  href: "https://www.holcim.pl/",
+  img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/meqd4fnczxlbptopx3nv.jpg",
+  slideNumber: 14
+},
+{
+  name: "GWDA Sp. z o.o.",
+  description: "Pemulihan limbah lumpur beton dari pabrik beton untuk digunakan kembali di Pabrik Semen Małogoszcz",
+  href: "https://gwda.pl/",
+  img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/akb7rgcyaykt8kqwfz2y.jpg",
+  slideNumber: 15
+},
+{
+  name: "Drogerie DOT Sp. z o.o.",
+  description: "Sistem DOT. Sistem distribusi produk pembersih dan kosmetik dalam sirkulasi tertutup plastik",
+  href: "https://www.drogeriedot.pl/",
+  img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/nfr7d09uxv4kvlxxfljn.jpg",
+  slideNumber: 16
+},
+{
+  name: "Zero Waste Design Sp. z o.o.",
+  description: "ZERO (Zero Emissions and Resource Optimization)",
+  href: "https://outlet.zerowaste.design/",
+  img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/yy4f6ylexykojqrcr93j.jpg",
+  slideNumber: 17
+},
+{
+  name: "New Solutions Group sp. z o.o",
+  description: "Portal Penggalangan Dana www.ubraniadooddania.pl",
+  href: "www.ubraniadooddania.pl",
+  img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/efisjl8iaez7pvqf7cjj.jpg",
+  slideNumber: 18
+},
+{
+  name: "LDK Sp. z o.o. (KARTEKO)",
+  description: "Sp. z o.o. di Jarocin - Produk dari limbah, sebagai cara menuju ekonomi sirkular di Pusat Daur Ulang Wielkopolskie Sp. z o.o. di Jarocin",
+  href: "https://karteko.pl/",
+  img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/ysy1inkpkniiiv9cqspz.jpg",
+  slideNumber: 19
+},
+{
+  name: "Wielkopolskie Centrum Recyklingu",
+  description: "Sp. z o.o. di Jarocin - Produk dari limbah, sebagai cara menuju ekonomi sirkular di Pusat Daur Ulang Wielkopolskie Sp. z o.o. di Jarocin",
+  href: "https://wcr-jarocin.pl/",
+  img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/addrc6g2lmo0cgdugvla.jpg",
+  slideNumber: 20
+},
+{
+  name: "BRAMY - SERWIS Dariusz Kaszkowiak",
+  description: "Regenerasi elektronik pengontrol pintu industri",
+  href: "https://www.bramy-serwis.pl/",
+  img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/slpzfinfihstcwylgycc.jpg",
+  slideNumber: 21
+},
+{
+  name: "FAKRO PP Sp. z o.o.",
+  description: "Pemanfaatan limbah profil PVC dalam proses daur ulang dan penggunaannya kembali sebagai profil PVC, berkat kerja sama dengan perusahaan Primo Profile",
+  href: "https://www.fakro.pl/gdpr/01/",
+  img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/d0ob0edp3hlryovzdihv.jpg",
+  slideNumber: 22
+},
+]
+
 
 //PRODUK PILIHAN
 export const CHOOSEN_PRODUCT_TITLE = 'Produk Pilihan Kami';
@@ -353,6 +467,8 @@ export const OUR_FEATURES_LIST = [
 
 //BISNIS DI INDONESIA
 export const INDONESIA_BUSINESS = 'Bagaimana berbisnis di Indonesia?';
+export const INDONESIA_BUSINESS_CONTACT = 'Acara ini diselenggarakan bersama oleh INORG. Kontak +41 79 879 26 98';
+
 
 //PROYEK UE
 export const EU_PROJECTS = 'Proyek UE yang diimplementasikan';

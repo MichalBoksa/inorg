@@ -149,50 +149,164 @@ export const LINKS = [
 ];
 
 //ГОЗ
-export const GOZ_COMPANIES = [
+export const GOZ = "Представленные технологии являются избранными решениями, награжденными на конкурсах Польского агентства развития предпринимательства за лучшие решения GOZ.";
+export const GOZ_COMPANIES = [ 
     {
-        name: "Многопрофильное предприятие Анмет Анджей Адамцио",
-        description: "Пролет моста из элементов лопасти ветровой турбины",
-        href: "https://www.anmet.com.pl/",
-        img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/q94u4njqlu9scb5vtdxn.jpg",
-    },
+      name: "STILO Marek Wąsowski",
+      description: "FIGLISTO - первый в Польше онлайн-сервис проката игрушек для детей от 1 до 5 лет, работающий по модели подписки",
+      href: "https://figlisto.pl/",
+      img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/vehytnavmarxedk7goio.jpg",
+      slideNumber: 1
+  },
+  {
+    name: "EASYFOOTINGS Henryk Zawiślak",
+    description: "Модульная система микросвайного фундамента EasyFootings®",
+    href: "https://biznes.wzp.pl/easyfootings/",
+    img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/p9peodatx9nkwxfzm8ac.jpg",
+    slideNumber: 2
+  },
     {
-        name: 'Многопрофильное предприятие "ГАЛКОР" Sp. z o.o.',
-        description: "Комплексная технология нейтрализации и очистки промышленных сточных вод, особенно гальванических, с восстановлением и замкнутым циклом технологической воды",
-        href: "https://www.galkor.pl/",
-        img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/yuvuuasurvmy582b81eq.jpg",
-    },
-    {
-        name: "Rebread Sp. z o.o.",
-        description: 'Циркулярный хлеб в модели "open manufacturing"',
-        href: "https://www.rebread.com/",
-        img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/yeu3swjutmb5yrdsysa0.jpg",
-    },
-    {
-        name: "Hydropolis Sp. z o.o.",
-        description: "Экспериментальное вертикальное сельское хозяйство с системой контролируемых условий",
-        href: "https://www.hydro-polis.com/",
-        img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/wppbs4i2kaf9h8olta1q.jpg",
-    },
-    {
-        name: "Urvis Bike Sp. z o.o.",
-        description: "Внедрение экологически чистого транспортного средства - электрически поддерживаемого грузового велосипеда Urvis - в Fyrtel Sp. z o.o., стартапе, занимающемся экологически чистыми поставками от местных магазинов и производителей",
-        href: "https://urvis.bike/",
-        img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/tfbqofadvp9yk5xahujb.jpg",
-    },
-    {
-        name: "PGE Ekoserwis S.A.",
-        description: "Застывшая смесь, заполняющая Гео-ствол - используется при ликвидации горных выработок в процессах восстановления полезных свойств участков, деградированных промышленной деятельностью",
-        href: "https://pgeekoserwis.pl/pl/",
-        img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/xywfy3fcxyhlbiqztfil.jpg",
-    },
-    {
-        name: "Budimex S.A.",
-        description: "Внедрение инновационной технологии минерально-асфальтовых смесей с использованием переработанного материала асфальтового покрытия",
-        href: "https://budimex.pl/",
-        img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/m08nq3xjylctjcgwj8b8.jpg",
-    },
-];
+      name: "Przedsiębiorstwo Wielobranżowe Anmet Andrzej Adamcio",
+      description: "Секция моста, изготовленная из лопастей ветряной турбины",
+      href: "https://www.anmet.com.pl/",
+      img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/q94u4njqlu9scb5vtdxn.jpg",
+      slideNumber: 3
+  },
+  {
+      name: "Przedsiębiorstwo Wielobranżowe GALKOR Sp. z o.o.",
+      description: "Комплексная технология нейтрализации и очистки промышленных сточных вод, особенно гальванических, с восстановлением и замкнутым контуром технологической воды",
+      href: "https://www.galkor.pl/",
+      img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/yuvuuasurvmy582b81eq.jpg",
+      slideNumber: 4
+  },
+  {
+      name: "Rebread Sp. z o.o.",
+      description: "Циркулярный хлеб в модели 'открытого производства'",
+      href: "https://www.rebread.com/",
+      img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/yeu3swjutmb5yrdsysa0.jpg",
+      slideNumber: 5
+  },
+  {
+      name: "Hydropolis Sp. z o.o.",
+      description: "Экспериментальное вертикальное сельское хозяйство с системой контролируемых условий",
+      href: "https://www.hydro-polis.com/",
+      img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/wppbs4i2kaf9h8olta1q.jpg",
+      slideNumber: 6
+  },
+  {
+      name: "Urvis Bike Sp. z o.o.",
+      description: "Внедрение экологического транспортного средства - грузового велосипеда Urvis с электрическим приводом - в Fyrtel Sp. z o.o., стартапе, поддерживающем экологические поставки от местных магазинов и производителей",
+      href: "https://urvis.bike/",
+      img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/tfbqofadvp9yk5xahujb.jpg",
+      slideNumber: 7
+  },
+  {
+      name: "PGE Ekoserwis S.A.",
+      description: "Затвердевшая смесь Geoszyb - используется для закрытия горных выработок в процессе восстановления земель, деградированных в результате промышленной деятельности",
+      href: "https://pgeekoserwis.pl/pl/",
+      img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/xywfy3fcxyhlbiqztfil.jpg",
+      slideNumber: 8
+  },
+  {
+      name: "Budimex S.A.",
+      description: "Внедрение инновационной технологии минерально-асфальтовых смесей с использованием переработанных материалов дорожного покрытия",
+      href: "https://budimex.pl/",
+      img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/m08nq3xjylctjcgwj8b8.jpg",
+      slideNumber: 9
+  },
+  {
+    name: "Polska Korporacja Recyklingu",
+    description: "RE-ABSORBENT OIL - сорбент низкой плотности для сбора масляных и нефтепродуктов с твердых поверхностей и вод",
+    href: "https://pkrecykling.pl/",
+    img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/oexht9gn5xeubdmfgngh.jpg",
+    slideNumber: 10
+},
+{
+  name: "VEOLIA POŁUDNIE Sp. z o.o",
+  description: "Внедрение, эксплуатация и развитие системы GOZ в Miasteczko Śląskie на основе тепла, выделяемого при плавке",
+  href: "https://veoliaterm.pl/strefa-klienta/veolia-poludnie/",
+  img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/vnd7rmwrymphcr6c19mz.jpg",
+  slideNumber: 11
+},
+{
+  name: "ERG S.A",
+  description: "Технология производства инновационной линейки пленок с полностью измененными физико-химическими параметрами в соответствии с принципами циркулярной экономики, позволяющей восстанавливать отходы пленок в процессе механической переработки и повторно использовать переработанные материалы в производстве упаковки, создавая структуры мономатериальных ламинатов на основе LDPE",
+  href: "https://erg.com.pl/",
+  img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/skxmkegzzauawlcglp3i.jpg",
+  slideNumber: 12
+},
+{
+  name: "Hochland Polska Sp. z o. o",
+  description: "Технология производства инновационной линейки пленок с полностью измененными физико-химическими параметрами в соответствии с принципами циркулярной экономики, позволяющей восстанавливать отходы пленок в процессе механической переработки и повторно использовать переработанные материалы в производстве упаковки, создавая структуры мономатериальных ламинатов на основе LDPE",
+  href: "https://www.hochland-group.com/pl/",
+  img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/m5hplsi48cztlluxdsuq.jpg",
+  slideNumber: 13
+},
+{
+  name: "Lafarge Cement S.A (Holcim Polska)",
+  description: "Восстановление бетонных шламовых отходов с бетонных заводов для повторного использования на цементном заводе Małogoszcz",
+  href: "https://www.holcim.pl/",
+  img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/meqd4fnczxlbptopx3nv.jpg",
+  slideNumber: 14
+},
+{
+  name: "GWDA Sp. z o.o.",
+  description: "Восстановление бетонных шламовых отходов с бетонных заводов для повторного использования на цементном заводе Małogoszcz",
+  href: "https://gwda.pl/",
+  img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/akb7rgcyaykt8kqwfz2y.jpg",
+  slideNumber: 15
+},
+{
+  name: "Drogerie DOT Sp. z o.o.",
+  description: "Система DOT. Система распределения чистящих средств и косметики в замкнутом цикле пластика",
+  href: "https://www.drogeriedot.pl/",
+  img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/nfr7d09uxv4kvlxxfljn.jpg",
+  slideNumber: 16
+},
+{
+  name: "Zero Waste Design Sp. z o.o.",
+  description: "ZERO (Zero Emissions and Resource Optimization)",
+  href: "https://outlet.zerowaste.design/",
+  img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/yy4f6ylexykojqrcr93j.jpg",
+  slideNumber: 17
+},
+{
+  name: "New Solutions Group sp. z o.o",
+  description: "Портал по сбору средств www.ubraniadooddania.pl",
+  href: "www.ubraniadooddania.pl",
+  img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/efisjl8iaez7pvqf7cjj.jpg",
+  slideNumber: 18
+},
+{
+  name: "LDK Sp. z o.o. (KARTEKO)",
+  description: "Sp. z o.o. в Яроцине - продукты из отходов как способ перехода к циркулярной экономике в Wielkopolskie Recycling Center Sp. z o.o. в Яроцине",
+  href: "https://karteko.pl/",
+  img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/ysy1inkpkniiiv9cqspz.jpg",
+  slideNumber: 19
+},
+{
+  name: "Wielkopolskie Centrum Recyklingu",
+  description: "Sp. z o.o. в Яроцине - продукты из отходов как способ перехода к циркулярной экономике в Wielkopolskie Recycling Center Sp. z o.o. в Яроцине",
+  href: "https://wcr-jarocin.pl/",
+  img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/addrc6g2lmo0cgdugvla.jpg",
+  slideNumber: 20
+},
+{
+  name: "BRAMY - SERWIS Dariusz Kaszkowiak",
+  description: "Восстановление электроники для промышленных контроллеров ворот",
+  href: "https://www.bramy-serwis.pl/",
+  img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/slpzfinfihstcwylgycc.jpg",
+  slideNumber: 21
+},
+{
+  name: "FAKRO PP Sp. z o.o.",
+  description: "Использование отходов ПВХ профилей в процессе переработки и их повторное использование в качестве ПВХ профилей благодаря сотрудничеству с Primo Profile",
+  href: "https://www.fakro.pl/gdpr/01/",
+  img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/d0ob0edp3hlryovzdihv.jpg",
+  slideNumber: 22
+},
+]
+
 
 //ИЗБРАННЫЕ ПРОДУКТЫ
 export const CHOOSEN_PRODUCT_TITLE = 'Наши избранные продукты';
@@ -353,6 +467,8 @@ export const OUR_FEATURES_LIST = [
 
 //БИЗНЕС В ИНДОНЕЗИИ
 export const INDONESIA_BUSINESS = 'Как вести бизнес в Индонезии?';
+export const INDONESIA_BUSINESS_CONTACT = 'Мероприятие организовано совместно с INORG. Контакт +41 79 879 26 98';
+
 
 //ПРОЕКТЫ ЕС
 export const EU_PROJECTS = 'Реализуемые проекты ЕС';
