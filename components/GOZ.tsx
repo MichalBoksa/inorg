@@ -11,10 +11,8 @@ const GOZ: React.FC = () => {
 
   const handleMarkerClick = (x: number, y: number) => {
     const markerKey: Coordinate = `${x},${y}`;
-    console.log(`Marker clicked: ${markerKey}`);
     const slideIndex = markerMappings[markerKey];
     if (markerMappings[markerKey] !== undefined && sliderRef.current) {
-      console.log(`Navigating to slide: ${markerMappings[markerKey]}`);
       sliderRef.current.goToSlide(slideIndex - 1);
     }
   };
@@ -22,8 +20,6 @@ const GOZ: React.FC = () => {
   useEffect(() => {
     const svgElement = document.getElementById('poland-map');
     if (svgElement) {
-      console.log('SVG element found:', svgElement);
-
       Object.keys(markerMappings).forEach(key => {
         const [x, y] = key.split(',').map(Number);
         const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
@@ -34,7 +30,6 @@ const GOZ: React.FC = () => {
         path.classList.add('svg-marker');
         path.addEventListener('click', () => handleMarkerClick(x, y));
         svgElement.appendChild(path);
-        console.log(`Added marker at (${x}, ${y})`);
       });
     } else {
       console.log('SVG element not found');
