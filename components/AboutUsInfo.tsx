@@ -16,32 +16,13 @@ const AboutUsInfo = () => {
          <CldImage src='https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/onas/pc4o9x4t0tqudytu70me.jpg'width={1200} height={900} alt='about_us' className='w-full rounded object-cover' />
        </div>
 
-       <div className='bg-gray-200 rounded-xl flex flex-wrap justify-center gap-20 xl:gap-24 2xl:gap-32 mt-8 mb-4 px-16 ml-20 mr-20 '>
-
-            <Link href="aboutUs/whoAreWe" className='w-1/5 bg-gray-100 h-60 rounded relative mt-16 '> 
-                <h1 className='text-sky-40 text-left font-bold text-lg lg:text-xl 3xl:text-2xl mt-4 px-2'>{DATA?.WHO_ARE_WE}</h1> 
-                <CldImage src='https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/onas/pqu2mefjsfebvgaanlr9.jpg' alt='who_are_we' className='h-40 w-60 rounded-md absolute mt-8 object-cover' width={300} height={200} style={{ top: '30%', left: '15%' }} />
+       <div className='bg-gray-200 rounded-xl flex flex-wrap justify-center gap-20 xl:gap-24 2xl:gap-32 mt-8 mb-4 px-16 py-4 ml-20 mr-20 '>
+        {DATA?.ABOUT_US_SECTIONS.map((section) => (
+            <Link key={section.title} href={section.href} className=' bg-gray-100 h-60 "w-full sm:w-1/2 md:w-1/4 rounded relative mt-10 mb-10 sm:mt-5 sm:mb-5 '> 
+                <h1 className='text-sky-40 text-left font-bold text-lg lg:text-xl 3xl:text-2xl mt-4 px-2'>{section.title}</h1> 
+                <CldImage src={section.src} alt='who_are_we' className='h-40 w-60 rounded-md absolute mt-8 object-cover' width={300} height={200} style={{ top: '30%', left: '15%' }} />
             </Link>
-
-            <Link href="aboutUs/code" className="w-1/5 bg-gray-100 h-60 rounded relative mt-16">
-              <h1 className='text-sky-40 text-left font-bold text-lg lg:text-xl 3xl:text-2xl mt-4 px-2'>{DATA?.CODE}</h1> 
-              <CldImage src='https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/onas/dn3vhnwvyzto1lb8zdj2.jpg' alt='codex' className='h-40 w-60 rounded-md absolute mt-8 object-cover' width={300} height={200} style={{ top: '30%', left: '15%' }} />
-            </Link>
-
-            <Link href="aboutUs/managment" className="w-1/5 bg-gray-100 h-60 rounded relative mt-16">
-                <h1 className='text-sky-40 text-left font-bold text-lg lg:text-xl 3xl:text-2xl mt-4 px-2'>{DATA?.COUNCIL}</h1> 
-                <CldImage src='https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/onas/shpbkf3bwm67kcvtbikb.jpg' alt='managment' className='h-40 w-60 rounded-md absolute mt-8 object-cover' width={300} height={200} style={{ top: '30%', left: '15%' }} />
-            </Link>
-
-            <Link  href="aboutUs/associates" className="w-1/5 bg-gray-100 h-60 mt-16 rounded relative mb-10">
-                <h1 className='text-sky-40 text-left font-bold text-lg lg:text-xl 3xl:text-2xl mt-4 px-2'>{DATA?.ASSOCIATES}</h1> 
-              <CldImage src='https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/onas/puyvgmf43jkhwyivyhhr.jpg'width={300} height={200} alt='cooperation' className='h-40 w-60 rounded-md absolute mt-8 object-cover'  style={{ top: '30%', left: '15%' }} />
-            </Link>
-
-            <Link href="aboutUs/goals" className="w-1/5 bg-gray-100 h-60 mt-16 rounded relative mb-10 ">
-              <h1 className='text-sky-40 text-left font-bold text-lg lg:text-xl 3xl:text-2xl mt-4 px-2'>{DATA?.MISSION}</h1> 
-              <CldImage src='https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/onas/dqxpu54fffipje4dppus.jpg' alt='joinUs' className='h-40 w-60 rounded-md absolute mt-8 object-cover' width={300} height={200} style={{ top: '30%', left: '15%' }} />
-            </Link>
+          ))}  
         </div>
     </section>
   )

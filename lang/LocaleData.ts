@@ -52,6 +52,7 @@ CHOOSEN_PRODUCTS: ChoosenProduct[];
 
 //ABOUT US
 ABOUT_US: string;
+ABOUT_US_SECTIONS: AboutUsSection[];
 WHO_ARE_WE: string;
 CODE: string;
 COUNCIL: string;
@@ -216,4 +217,10 @@ export interface NavLink {
   export interface AddressFooter {
     label: string;
     value: string;
+  }
+
+  export interface AboutUsSection{
+    title: string;
+    href: string;
+    src: string;
   }

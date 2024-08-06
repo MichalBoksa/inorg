@@ -336,12 +336,34 @@ export const CHOOSEN_PRODUCTS = [
 
 //ABOUT US
 export const ABOUT_US = 'O Instytucie';
-export const WHO_ARE_WE = 'Kim jesteśmy';
-export const CODE = 'Nasz kodeks etyczny'
-export const COUNCIL = 'Zarząd i Rada Naukowo-Programowa'
-export const ASSOCIATES = 'Nasi współpracownicy'
-export const MISSION = 'Nasza misja i kompetnecje'
 
+export const ABOUT_US_SECTIONS = [
+  {
+    title: 'Kim jesteśmy',
+    href: '/aboutUs/whoAreWe',
+    src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/onas/pqu2mefjsfebvgaanlr9.jpg'
+  },
+  {
+    title: 'Nasz kodeks etyczny',
+    href: '/aboutUs/code',
+    src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/onas/dn3vhnwvyzto1lb8zdj2.jpg'
+  },
+  {
+    title: 'Zarząd i Rada Naukowo-Programowa',
+    href: 'aboutUs/managment',
+    src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/onas/shpbkf3bwm67kcvtbikb.jpg.jpg'
+  },
+  {
+    title: 'Nasi współpracownicy',
+    href: '/aboutUs/associates',
+    src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/onas/puyvgmf43jkhwyivyhhr.jpg'
+  },
+  {
+    title: 'Nasza misja i kompetnecje',
+    href: '/aboutUs/goals',
+    src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/onas/dqxpu54fffipje4dppus.jpg'
+  },
+]
 
 //FOOTER
 export const RIGHTS = '2024 INORG | All rights reserved';
@@ -364,6 +386,7 @@ export const REPUTE_DESC = 'Instytut Organizacji INORG założony został w 1987
 export const SLIDER_DESC = 'Doskonalimy organizację naszych klientów w dynamicznie zmieniającym się otoczeniu';
 
 //WHO ARE WE
+export const WHO_ARE_WE = 'Kim jesteśmy';
 export const WHO_ARE_WE_HISTORY = 'Nasza historia zobowiązuje…'; 
 export const WHO_ARE_WE_HISTORY_DESC ='Instytut Organizacji INORG Sp. z o.o. powstał 6 listopada 1987 roku (pierwotnie pod nazwą Zakład Usług Doradztwa Organizacyjnego i Reklamy „INORG”), jako jedna z pierwszych spółek prywatnych w Gliwicach i 222-ga spółka w całym województwie śląskim. INORG założony został przez grupę ekspertów Towarzystwa Naukowego Organizacji i Kierownictwa, których strategia polegała na wykorzystaniu bogatej wiedzy merytorycznej i doświadczenia w działalności doradczej dla przedsiębiorstw. W początkowym okresie działalność Spółki dotyczyła głównie problematyki z dziedziny organizacji, zarządzania, reklamy i ekonomiki jednostek gospodarczych. W listopadzie 1990 roku nazwa Spółki uległa zmianie na Instytut Organizacji „INORG” i tak brzmi do dziś.';
 export const DYNAMIC_SUR = 'W dynamicznie rozwijającym się otoczeniu ciągle pojawiają się nowe zadania i wyzwania dla polskich firm…';

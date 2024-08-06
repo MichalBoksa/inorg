@@ -134,7 +134,7 @@ const Navbar = () => {
         
         <div className="flex cursor-pointer items-right lg:hidden ml-auto items-center justify-center mr-5 mt-4" onClick={() => setSideMenuOpen(!sideMenuOpen) }>
             <CldImage
-            src="https://res.cloudinary.com/dozgr1muo/image/upload/v1715596117/midas/yasjrmzm8nb1naka6xcq.svg"
+            src="https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/ifk41bpjo3mpr64raeiu.svg"
             alt="Menu"
             width={35}
             height={30}
