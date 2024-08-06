@@ -335,11 +335,33 @@ export const CHOOSEN_PRODUCTS = [
 
 //ABOUT US
 export const ABOUT_US = 'About the Institute';
-export const WHO_ARE_WE = 'Who we are';
-export const CODE = 'Our Ethical Code';
-export const COUNCIL = 'Management and Scientific-Program Council';
-export const ASSOCIATES = 'Our Associates';
-export const MISSION = 'Our Mission and Competence';
+export const ABOUT_US_SECTIONS = [
+    {
+      title: 'Who we are',
+      href: '/aboutUs/whoAreWe',
+      src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/onas/pqu2mefjsfebvgaanlr9.jpg'
+    },
+    {
+      title: 'Our Ethical Code',
+      href: '/aboutUs/code',
+      src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/onas/dn3vhnwvyzto1lb8zdj2.jpg'
+    },
+    {
+      title: 'Management and Scientific-Program Council',
+      href: 'aboutUs/managment',
+      src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/onas/shpbkf3bwm67kcvtbikb.jpg.jpg'
+    },
+    {
+      title: 'Our Associates',
+      href: '/aboutUs/associates',
+      src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/onas/puyvgmf43jkhwyivyhhr.jpg'
+    },
+    {
+      title: 'Our Mission and Competence',
+      href: '/aboutUs/goals',
+      src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/onas/dqxpu54fffipje4dppus.jpg'
+    },
+  ]
 
 //FOOTER
 export const RIGHTS = '2024 INORG | All rights reserved';

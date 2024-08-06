@@ -336,7 +336,6 @@ export const CHOOSEN_PRODUCTS = [
 
 //ABOUT US
 export const ABOUT_US = 'O Instytucie';
-
 export const ABOUT_US_SECTIONS = [
   {
     title: 'Kim jesteśmy',

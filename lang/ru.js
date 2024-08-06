@@ -335,11 +335,33 @@ export const CHOOSEN_PRODUCTS = [
 
 //О НАС
 export const ABOUT_US = 'Об институте';
-export const WHO_ARE_WE = 'Кто мы';
-export const CODE = 'Наш этический кодекс';
-export const COUNCIL = 'Правление и Научно-программный совет';
-export const ASSOCIATES = 'Наши сотрудники';
-export const MISSION = 'Наша миссия и компетенции';
+export const ABOUT_US_SECTIONS = [
+    {
+      title: 'Кто мы',
+      href: '/aboutUs/whoAreWe',
+      src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/onas/pqu2mefjsfebvgaanlr9.jpg'
+    },
+    {
+      title: 'Наш этический кодекс',
+      href: '/aboutUs/code',
+      src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/onas/dn3vhnwvyzto1lb8zdj2.jpg'
+    },
+    {
+      title: 'Правление и Научно-программный совет',
+      href: 'aboutUs/managment',
+      src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/onas/shpbkf3bwm67kcvtbikb.jpg.jpg'
+    },
+    {
+      title: 'Наши сотрудники',
+      href: '/aboutUs/associates',
+      src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/onas/puyvgmf43jkhwyivyhhr.jpg'
+    },
+    {
+      title: 'Наша миссия и компетенции',
+      href: '/aboutUs/goals',
+      src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/onas/dqxpu54fffipje4dppus.jpg'
+    },
+  ]
 
 //ФУТЕР
 export const RIGHTS = '2024 INORG | Все права защищены';

@@ -335,11 +335,33 @@ export const CHOOSEN_PRODUCTS = [
 
 //SOBRE NOSOTROS
 export const ABOUT_US = 'Sobre el Instituto';
-export const WHO_ARE_WE = 'Quiénes somos';
-export const CODE = 'Nuestro Código Ético';
-export const COUNCIL = 'Consejo de Dirección y Consejo Científico-Programático';
-export const ASSOCIATES = 'Nuestros Colaboradores';
-export const MISSION = 'Nuestra Misión y Competencia';
+export const ABOUT_US_SECTIONS = [
+    {
+      title: 'Quiénes somos',
+      href: '/aboutUs/whoAreWe',
+      src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/onas/pqu2mefjsfebvgaanlr9.jpg'
+    },
+    {
+      title: 'Nuestro Código Ético',
+      href: '/aboutUs/code',
+      src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/onas/dn3vhnwvyzto1lb8zdj2.jpg'
+    },
+    {
+      title: 'Consejo de Dirección y Consejo Científico-Programático',
+      href: 'aboutUs/managment',
+      src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/onas/shpbkf3bwm67kcvtbikb.jpg.jpg'
+    },
+    {
+      title: 'Nuestros Colaboradores',
+      href: '/aboutUs/associates',
+      src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/onas/puyvgmf43jkhwyivyhhr.jpg'
+    },
+    {
+      title: 'Nuestra Misión y Competencia',
+      href: '/aboutUs/goals',
+      src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/onas/dqxpu54fffipje4dppus.jpg'
+    },
+  ]
 
 //PIE DE PÁGINA
 export const RIGHTS = '2024 INORG | Todos los derechos reservados';

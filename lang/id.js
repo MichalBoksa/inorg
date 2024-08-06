@@ -335,11 +335,33 @@ export const CHOOSEN_PRODUCTS = [
 
 //TENTANG KAMI
 export const ABOUT_US = 'Tentang Institut';
-export const WHO_ARE_WE = 'Siapa Kami';
-export const CODE = 'Kode Etik Kami';
-export const COUNCIL = 'Dewan Manajemen dan Dewan Ilmiah-Program';
-export const ASSOCIATES = 'Rekan Kami';
-export const MISSION = 'Misi dan Kompetensi Kami';
+export const ABOUT_US_SECTIONS = [
+    {
+      title: 'Siapa Kami',
+      href: '/aboutUs/whoAreWe',
+      src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/onas/pqu2mefjsfebvgaanlr9.jpg'
+    },
+    {
+      title: 'Kode Etik Kami',
+      href: '/aboutUs/code',
+      src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/onas/dn3vhnwvyzto1lb8zdj2.jpg'
+    },
+    {
+      title: 'Dewan Manajemen dan Dewan Ilmiah-Program',
+      href: 'aboutUs/managment',
+      src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/onas/shpbkf3bwm67kcvtbikb.jpg.jpg'
+    },
+    {
+      title: 'Rekan Kami',
+      href: '/aboutUs/associates',
+      src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/onas/puyvgmf43jkhwyivyhhr.jpg'
+    },
+    {
+      title: 'Misi dan Kompetensi Kami',
+      href: '/aboutUs/goals',
+      src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/onas/dqxpu54fffipje4dppus.jpg'
+    },
+  ]
 
 //FOOTER
 export const RIGHTS = '2024 INORG | All rights reserved';
