@@ -351,7 +351,7 @@ export const ABOUT_US_SECTIONS = [
       src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/onas/dn3vhnwvyzto1lb8zdj2.jpg'
     },
     {
-      title: 'Conseil d’administration et Conseil scientifique et de programme',
+      title: 'Direction et Conseil Scientifique',
       href: 'aboutUs/managment',
       src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/onas/shpbkf3bwm67kcvtbikb.jpg.jpg'
     },

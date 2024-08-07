@@ -33,7 +33,7 @@ const CodeInfo = () => {
         <div className='bg-gray-200 lg:w-2/3 flex flex-col mt-4 rounded px-8 md:px-16 py-4'>
           <p className='text-blue-80 font-bold text-sm lg:text-xl  '>{DATA?.CODE_RULES_EMPLOYEES_DESC}</p>
 
-          <div className="flex flex-col justify-center mb-2 mt-8 ml-3 text-blue-80 text-xs md:text-base lg:text-base break-afrer-column  text-justify " >
+          <div className="flex flex-col justify-center mb-2 mt-8 ml-3 text-blue-80 text-xs md:text-base break-afrer-column  text-justify " >
                           <ol className='flex flex-col list-decimal'>
                           {DATA?.CODE_RULES_EMPLOYEES.map((code) => (
                               <li className='mb-4'>{code}</li>
