@@ -115,7 +115,7 @@ export const NAV_LINKS = [
   export const MATERIALS2 = 'I PROJEKTY GOZ';
 
   //EVENTS
-  export const EVENTS = 'WYDARZENIA, W KTÓRYCH BIERZEMY UDZIAŁ';
+  export const EVENTS = 'Wydarzenia, w których bierzemy udział';
   export const EVENTS_LIST = [
     {
       title:'Konferencja „Gospodarka o Obiegu Zamkniętym',

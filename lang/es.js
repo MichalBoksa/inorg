@@ -119,7 +119,7 @@ export const MATERIALS1 = 'MATERIALES RECOMENDADOS';
 export const MATERIALS2 = 'Y PROYECTOS GOZ';
 
 //EVENTOS
-export const EVENTS = 'EVENTOS EN LOS QUE PARTICIPAMOS';
+export const EVENTS = 'Eventos en los que participamos';
 export const EVENTS_LIST = [
     {
         title: 'Conferencia de Economía Circular',

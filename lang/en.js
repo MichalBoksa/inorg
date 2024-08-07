@@ -119,7 +119,7 @@ export const MATERIALS1 = 'RECOMMENDED MATERIALS';
 export const MATERIALS2 = 'AND GOZ PROJECTS';
 
 //EVENTS
-export const EVENTS = 'EVENTS WE PARTICIPATE IN';
+export const EVENTS = 'Events we participate in';
 export const EVENTS_LIST = [
     {
         title: 'Circular Economy Conference',

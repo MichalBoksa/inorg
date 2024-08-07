@@ -119,7 +119,7 @@ export const MATERIALS1 = 'MATERI REKOMENDASI';
 export const MATERIALS2 = 'DAN PROYEK GOZ';
 
 //ACARA
-export const EVENTS = 'ACARA YANG KAMI IKUTI';
+export const EVENTS = 'Acara yang kami ikuti';
 export const EVENTS_LIST = [
     {
         title: 'Konferensi Ekonomi Sirkular',

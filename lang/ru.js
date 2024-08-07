@@ -119,7 +119,7 @@ export const MATERIALS1 = 'РЕКОМЕНДУЕМЫЕ МАТЕРИАЛЫ';
 export const MATERIALS2 = 'И ПРОЕКТЫ ГОЗ';
 
 //СОБЫТИЯ
-export const EVENTS = 'СОБЫТИЯ, В КОТОРЫХ МЫ УЧАСТВУЕМ';
+export const EVENTS = 'События, в которых мы участвуем';
 export const EVENTS_LIST = [
     {
         title: 'Конференция "Циркулярная экономика"',
