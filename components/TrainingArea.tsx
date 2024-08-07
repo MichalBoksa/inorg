@@ -8,11 +8,11 @@ const TrainingArea = () => {
     const { DATA } = useLocale();
   return (
     <section className='max-container padding-container'>
-    <div className="flex justify-center ml-20 mt-6" >
-         <h1 className='text-blue-80 font-semibold text-3xl lg:text-5xl tracking-widest'>{DATA?.TRAINING_AREA}</h1>
+    <div className="flex justify-center mt-6" >
+         <h1 className='text-blue-800 font-semibold text-4xl md:text-5xl tracking-widest'>{DATA?.TRAINING_AREA}</h1>
     </div>
     <div className='flex max-container padding-container items-center justify-center mt-6'>
-            <h3 className='font-semibold text-gray-500 px-16 lg: text-xl md:text-2xl'>
+            <h3 className='font-semibold text-gray-500 md:px-10 md:text-xl'>
               {DATA?.ADVISORY_AREA_DESC}
             </h3>           
     </div>
@@ -24,8 +24,8 @@ const TrainingArea = () => {
                     <div className='flex justify-center items-center'>
                         <CldImage src={product.img} alt='funds'width={300} height={150} className='rounded-md object-cover justify-center mt-2'/>
                     </div>
-                    <h1 className='text-blue-80 text-center font-semibold text-3xl lg:text-xl mt-4 px-6'>{product.title}</h1> 
-                    <p className='text-gray-500 text-left font-medium text-sm px-6 py-3'>{product.desc}</p>
+                    <h1 className='text-blue-80 text-center font-semibold text-lg md:text-xl mt-4 px-6'>{product.title}</h1> 
+                    <p className='text-gray-500 text-left font-medium text-xs md:text-sm px-6 py-3'>{product.desc}</p>
                 </div>
             </div>
         ))}

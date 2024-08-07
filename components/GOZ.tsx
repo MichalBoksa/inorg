@@ -38,21 +38,19 @@ const GOZ: React.FC = () => {
 
   return (
     <section className='padding-container max-container mb-10'>
-       <div className='flex justify-start items-start text-gray-20  mt-6 mb-4'>
+       <div className='flex justify-start items-start text-gray-20 md:text-lg mt-6 mb-4'>
           <p className=''>{DATA?.GOZ}</p>
       </div>
-      <div className='flex'>
+      <div className='flex flex-col lg:flex-row'>
         
         <SliderGOZ ref={sliderRef} />
-        <div className='ml-auto mr-10'>
+        <div className='lg:ml-auto lg:mr-10 order-1 lg:order-2'>
           <div className='relative'>
-            <svg
+          <svg
               id="poland-map"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 500 500"
-              width="550"
-              height="400"
-              className='object-fill'
+              className='w-[320px] h-[300px] sm:w-[550px] sm:h-[400px] object-fill'
             >
               <image
                 href='https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/goz/ycfjhtltfz2yiazyyiop.svg'

@@ -478,7 +478,7 @@ export const POSITION_LIST = [
   '➱ Dobrze znamy specyfikę polskich przedsiębiorstw, a także problematykę prowadzenia biznesu w warunkach restrukturyzacji i reorganizacji (co, oprócz zrealizowanych licznych projektów doradczych, potwierdzają liczne publikacje w polskiej prasie)',
   '➱ Nasze wieloletnie doświadczenie w projektowaniu i racjonalizacji organizacji i zarządzania oraz znajomość specyfiki przedsiębiorstw wielu branż, jednostek badawczych i samorządowych przyczyniło się do opracowania unikalnej (prawdopodobnie jedynej takiej w kraju) bazy danych obejmującej rozwiązania organizacyjne',
   '➱ Dysponujemy wyspecjalizowanymi narzędziami dla różnych rodzajów organizacji, w tym dla firm przemysłowych prowadzących działalność w ruchu ciągłym, firm logistycznych, jednostek samorządu terytorialnego, biur inżynierskich i instytutów badawczo rozwojowyc',
-  '➱ ➱ Naszą cechą jest wyjątkowa elastyczność w sposobie rozwiązywania problemów Klientów (od zarządzania tymczasowego i outsourcingu wybranych funkcji zarządzania, do doradztwa partycypacyjnego poprzez udział w zespołach zadaniowych  złożonych z pracowników klienta)',
+  '➱ Naszą cechą jest wyjątkowa elastyczność w sposobie rozwiązywania problemów Klientów (od zarządzania tymczasowego i outsourcingu wybranych funkcji zarządzania, do doradztwa partycypacyjnego poprzez udział w zespołach zadaniowych  złożonych z pracowników klienta)',
   '➱ Oferując jakość usług i renomę marki na poziomie największych międzynarodowych firm doradczych, świadczymy usługi po niższych cenach'
 ];
 

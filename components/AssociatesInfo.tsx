@@ -3,55 +3,98 @@ import React from 'react';
 import { useLocale } from '@/lang/LocaleContext';
 import { CldImage } from 'next-cloudinary';
 
-const AssociatesInfo = () => {
+const GoalsInfo = () => {
   const { DATA } = useLocale();
   return (
-    <section className='mb-4'>
-      <div className="flex justify-left ml-20 mb-10 mt-6">
-        <h1 className='text-blue-800 font-semibold text-3xl lg:text-5xl xl:text-4xl 2xl:text-5xl 3xl:text-6xl tracking-widest'>
-          {DATA?.OUR_ASSOCIATES}
+    <section className='mb-4 padding-container'>
+      <div className="flex justify-center mb-10 mt-6">
+        <h1 className='text-blue-800 font-semibold text-4xl md:text-5xl tracking-widest'>
+          {DATA?.OUR_MISSION}
         </h1>
       </div>
 
-      <div className='flex w-full max-h-[350px] justify-center px-20'>
-        <CldImage 
-          src='https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/onas/ouaodegt4vucibedkrya.jpg' 
-          alt='associates' 
-          width={1200} 
-          height={600} 
-          className='object-cover w-full rounded'
-        />
-      </div>
-
-      <div className='flex flex-col lg:flex-row space-y-8 lg:space-y-0 lg:space-x-20 mt-8 mb-4 px-16 justify-center'>
-        <div className='bg-gray-200 w-full lg:w-1/2 flex flex-col mt-4 rounded px-8 py-6'>
-          <p className='text-blue-800 text-center font-bold text-m lg:text-l'>
-            {DATA?.CONST_ASSOCIATES}
-          </p>
-          <div className="flex flex-col mb-2 mt-8 ml-3 text-blue-800 text-base md:text-base break-after-column text-left">
-            <ul className='flex flex-col'>
-              {DATA?.CONST_ASSOCIATES_LIST.map((associate, index) => (
-                <li key={index} className='mb-4'>{associate}</li>
+      <div className='flex flex-col lg:flex-row w-full lg:min-h-[300px] gap-8'>
+        <div className='flex flex-col lg:w-[60%]'>
+          <div className='text-blue-800 flex md:px-10 mt-10'>
+            <p className='text-center font-bold text-base lg:text-2xl'>
+              {DATA?.INORG_MISSION}
+            </p>
+          </div>
+          <div className="flex flex-col mb-2 mt-8 ml-6 text-blue-800 font-semibold text-xl md:text-base break-after-column text-start md:px-8">
+            <ul>
+              {DATA?.INORG_MISSION_LIST.map((mission, index) => (
+                <li key={index} className='mb-4'>{mission}</li>
               ))}
             </ul>
           </div>
         </div>
+        <div className='flex lg:w-[40%] max-h-[600px]'>
+          <CldImage 
+            src='https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/onas/qdpzljbuq4fjpq2vj8s5.jpg' 
+            height={600} 
+            width={900} 
+            alt='joinUs' 
+            className='w-full object-cover'
+          />
+        </div>
+      </div>
 
-        <div className='bg-gray-200 w-full lg:w-1/2 flex flex-col mt-4 rounded px-8 py-6 md:max-h-[300px]'>
-          <p className='text-blue-800 text-center font-bold text-m lg:text-l'>
-            {DATA?.OUR_PARTNERS}
+      <div className='flex flex-col lg:flex-row w-full lg:min-h-[300px] gap-8 mt-8'>
+        <div className='flex lg:w-[60%] max-h-[600px]'>
+          <CldImage 
+            src='https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/onas/b1jyd2l2mtl66ltcszt6.jpg' 
+            height={600} 
+            width={900} 
+            alt='joinUs' 
+            className='w-full'
+          />
+        </div>
+        <div className='bg-sky-400 text-white flex items-center lg:w-[40%] p-8'>
+          <div className="flex justify-center w-full">
+            <p className='font-bold text-base lg:text-5xl'>
+              {DATA?.WHY_US}
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className='flex flex-col lg:flex-row w-full gap-8 mt-8'>
+        <div className='bg-sky-400 text-white flex flex-col md:px-8 lg:w-[60%] p-8'>
+          <div className='flex flex-col'>
+            <div className="flex flex-col justify-center mb-4 mt-8 text-center">
+              <p className='font-bold text-base lg:text-2xl'>
+                {DATA?.OUR_SOURCES}
+              </p>
+              <p className='text-base lg:text-xl mt-8'>
+                {DATA?.POSITION}
+              </p>
+            </div>
+            <div className='flex flex-col px-8'>
+              <div className="flex flex-col justify-center mb-2 mt-8 text-white text-xl lg:text-base break-after-column text-justify">
+                <ul>
+                  {DATA?.POSITION_LIST.map((position, index) => (
+                    <li key={index} className='mb-4'>{position}</li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className='flex flex-col lg:w-[40%] mb-6 mt-8 md:px-8'>
+          <p className='text-blue-800 text-justify font-bold text-base lg:text-2xl mb-10'>
+            {DATA?.OUR_FEATURES}
           </p>
-          <div className="flex flex-col justify-center mb-2 mt-8 ml-3 text-blue-800 text-xs md:text-base break-after-column text-left">
-            <ul className='flex flex-col'>
-              {DATA?.OUR_PARTNERS_LIST.map((associate, index) => (
-                <li key={index} className='mb-4'>{associate}</li>
+          <div className="flex flex-col mb-2 mt-8 text-blue-800 font-semibold text-xl lg:text-base break-after-column text-start px-4">
+            <ul>
+              {DATA?.OUR_FEATURES_LIST.map((feature, index) => (
+                <li key={index} className='mb-4'>{feature}</li>
               ))}
             </ul>
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }
 
-export default AssociatesInfo;
+export default GoalsInfo;
