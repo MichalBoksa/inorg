@@ -1,8 +1,8 @@
 //COMPETENCE
 export const COMPETENCE_DESC = 'How to respond to the requirements of European and Polish regulations? Do the turbulent changes in the legal and socio-economic environment observed over the past few years require unconventional organizational solutions?';
-export const COMPETENCE = 'SERVICE QUALITY';
+export const COMPETENCE = 'THE QUALITY OF OUR SERVICES';
 export const QUESTION = 'OUR ANSWER...';
-export const ANSWEAR = 'Our answer is professionalism and interdisciplinarity. We apply high ethical standards. While providing services, we constantly manage the compliance of the designed organizational solutions with applicable law and best industry practices, as well as other compliance obligations accepted by the Client. We respect the existing organizational achievements and the established principles of the Client’s operations.';
+export const ANSWEAR = '... is professionalism and interdisciplinarity. We apply high ethical standards. While delivering services, we constantly manage the compliance of designed organizational solutions with applicable law and best industry practices, as well as other compliance commitments adopted by the Client. We respect the existing organizational achievements and the Client’s established operational principles.';
 
 //NAVBAR
 export const NAV_LINKS = [
@@ -38,43 +38,38 @@ export const RECOMMENDATIONS = [
 
 //ADVISORY AREA
 export const ADVISORY_AREA = 'ADVISORY AREA';
-export const ADVISORY_AREA_DESC = 'We will help you step by step on the path to sustainable operations. Depending on your needs, you can choose a subscription and continuous support or a one-time analysis and consultation.';
+export const ADVISORY_AREA_DESC = 'We will help you step by step on the road to sustainable and competitive business. Depending on your needs, you can choose the option of subscription and ongoing support or one-time analysis and consultation.';
 
 //TRAINING AREA
 export const TRAINING_AREA = 'TRAINING AREA';
 export const TRAINING_AREA_DESC = 'We offer a wide range of training on eco-innovation and implementing GOZ models. Our experts will show you the latest trends and useful methods to effectively implement sustainable solutions. Our offer includes the possibility of individual participation in an online course or organizing training tailored to the needs of your company, which will prepare your employees for effective adaptation to new environmental solutions.';
 export const TRAINING_AREA_PRODUCTS = [
-    {
-        title: 'Fundraising',
-        desc: 'In light of the growing attention paid to ecology and sustainable development of enterprises, there are many funding sources available in Poland, Europe, and worldwide. The training aims to master the skills of obtaining financing for projects and innovative solutions.',
-        img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/ophmzowiowu8ny2i5dmr.jpg',
-    },
-    {
-        title: 'Circular Economy',
-        desc: 'Training focused on conducting operations in line with the values of sustainable development and implementing good practices to achieve its goals.',
-        img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/h5zirn37jgm1kxwwf4hu.jpg',
-    },
-    {
-        title: 'Corporate Social Responsibility and Sustainable Development Goals',
-        desc: 'The training covers the basic assumptions of a sustainable economy based on minimizing the consumption of raw materials and energy through the efficient use of raw materials and waste.',
-        img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/vl6hosy0tykvn9eiumr8.jpg',
-    },
-    {
-        title: 'Industrial Symbiosis',
-        desc: 'The training aims to present the possibilities of inter-institutional cooperation based on GOZ values and introduce its benefits into your own business model.',
-        img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/jaefynnft9nvohtzuipg.jpg',
-    },
-    {
-        title: 'Ecomarketing',
-        desc: 'How to effectively improve the visibility of your company or organization by promoting your activities for ecology.',
-        img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/hvhoin8lealxv5my1jkr.jpg',
-    },
-    {
-        title: 'Communication as a Source of Effective and Sustainable Operations',
-        desc: 'The training aims to improve communication skills within and outside the enterprise to improve processes and the quality of offered products and services.',
-        img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/slekadhcb33tduy0ibo5.jpg',
-    },
-];
+  {title: 'Fundraising',
+   desc: 'With increasing attention being paid to ecology and sustainable business development today, many sources of financing are available in Poland, Europe, and globally. The training aims to master the skills of obtaining funding for projects and innovative solutions.',
+   img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/ophmzowiowu8ny2i5dmr.jpg' 
+  },
+  {title: 'Circular Economy and Sustainable Development Goals',
+    desc: 'Training focused on conducting business in line with the values of sustainable development and implementing best practices.',
+    img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/h5zirn37jgm1kxwwf4hu.jpg' 
+   },
+   {title: 'Business and Promotion in Foreign Markets',
+    desc: 'Planning to expand into a new country? Get valuable tips on best practices in your destination.',
+    img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/vl6hosy0tykvn9eiumr8.jpg' 
+   },
+   {title: 'New Regulations and Legal Requirements',
+    desc: 'Our training will help you understand and implement new legal regulations to avoid costly mistakes and unnecessary stress.',
+    img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/jaefynnft9nvohtzuipg.jpg' 
+   },
+   {title: 'Environmental Certification and Ecomarketing',
+    desc: 'More and more companies are showcasing environmental certificates for their products, creating an image. Learn how to improve your company’s visibility by promoting your ecological efforts.',
+    img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/hvhoin8lealxv5my1jkr.jpg' 
+   },
+   {title: 'Communication as a Source of Effective and Sustainable Business',
+    desc: 'The training is designed to improve communication skills within and outside the company to improve processes and the quality of products and services offered.',
+    img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/slekadhcb33tduy0ibo5.jpg' 
+   },
+]
+
 
 export const TARGET_GROUPS = [
     {
@@ -309,7 +304,7 @@ export const GOZ_COMPANIES = [
 
 
 //CHOOSEN PRODUCTS
-export const CHOOSEN_PRODUCT_TITLE = 'Our Selected Products';
+export const CHOOSEN_PRODUCT_TITLE = 'Chosen GOZ Products';
 export const CHOOSEN_PRODUCTS = [
     {
         title: 'ORGANIZATION AUDIT',
@@ -322,9 +317,10 @@ export const CHOOSEN_PRODUCTS = [
         description: "We provide comprehensive support in promoting your organization and innovative solutions in the field of circular economy (GOZ) in Poland and worldwide. Our carefully crafted strategies will ensure its visibility in society, gaining recognition for its commitment to building a better world.",
     },
     {
-        title: 'GOOD PRACTICE EXCHANGE PLATFORM',
-        icon: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/r8ee0rwycm4lbbuefmvd.svg',
-        description: 'Our solution will inspire the path to sustainable business and prevent valuable eco-innovations from remaining in the shadows, not utilizing their potential.',
+      title: 'GOOD PRACTICES EXCHANGE PLATFORM',
+      icon: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/r8ee0rwycm4lbbuefmvd.svg',
+      description:
+        'Our solution will inspire you on the way to sustainable business. Moreover, it won’t allow valuable eco-innovations to stay in the shadows. Use your potential',
     },
     {
         title: 'EDUCATION AND ADVISORY',
@@ -380,7 +376,10 @@ export const REPUTE = 'Brand Reputation and Competence of the Institute';
 export const REPUTE_DESC = 'The INORG Organization Institute was established in 1987 by a group of experts from the Scientific Society of Organization and Management, whose strategy was based on using rich substantive knowledge and experience in advisory activities for enterprises. Since then, we have been offering professional support for companies, local government units, scientific institutes, and other organizations. Since 2024, following the global idea of a sustainable future, we specialize in promoting and supporting business models in the circular economy field. We help entities jointly care for a better tomorrow and keep up with the dynamically changing environment.';
 
 //SLIDER
-export const SLIDER_DESC = 'We improve the organization of our clients in a dynamically changing environment';
+export const SLIDER_DESC1 = 'We improve your organization in a rapidly changing environment';
+export const SLIDER_DESC2 = 'We have been operating on the market since 1987, helping you grow in the best possible directions';
+export const SLIDER_DESC3 = 'We collaborate with entities worldwide, which is our key to the growth of our company and the companies of our clients';
+
 
 //WHO ARE WE
 export const WHO_ARE_WE_HISTORY = 'Our history obliges us...';

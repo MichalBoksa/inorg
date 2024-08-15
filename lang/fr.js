@@ -1,8 +1,8 @@
 // COMPETENCE
 export const COMPETENCE_DESC = 'Comment répondre aux exigences des réglementations européennes et polonaises? Les changements turbulents observés depuis quelques années dans l’environnement juridique et socio-économique nécessitent-ils des solutions organisationnelles non conventionnelles?';
-export const COMPETENCE = 'QUALITÉ DES SERVICES';
+export const COMPETENCE = 'LA QUALITÉ DE NOS SERVICES';
 export const QUESTION = 'NOTRE RÉPONSE...';
-export const ANSWEAR = 'Notre réponse est le professionnalisme et l’interdisciplinarité. Nous appliquons des normes éthiques élevées. En fournissant des services, nous gérons constamment la conformité des solutions organisationnelles conçues avec la législation en vigueur, les meilleures pratiques de l’industrie et d’autres engagements de conformité acceptés par le client. Nous respectons les réalisations organisationnelles actuelles et les principes opérationnels acceptés par le client.';
+export const ANSWEAR = '... c’est le professionnalisme et l’interdisciplinarité. Nous appliquons des normes éthiques élevées. Lors de la prestation des services, nous gérons constamment la conformité des solutions organisationnelles conçues avec la législation en vigueur et les meilleures pratiques de l’industrie, ainsi que d’autres engagements de conformité adoptés par le client. Nous respectons les acquis organisationnels existants et les principes opérationnels établis du client.';
 
 // NAVBAR
 export const NAV_LINKS = [
@@ -38,43 +38,37 @@ export const RECOMMENDATIONS = [
 
 // ADVISORY AREA
 export const ADVISORY_AREA = 'ZONE DE CONSEIL';
-export const ADVISORY_AREA_DESC = 'Nous vous aiderons étape par étape sur la voie d’une activité durable. En fonction de vos besoins, vous pouvez choisir la possibilité d’un abonnement et d’un soutien continu ou une analyse et une consultation ponctuelles.';
+export const ADVISORY_AREA_DESC = 'Nous vous aiderons pas à pas sur la voie d’une activité durable et compétitive. En fonction de vos besoins, vous pouvez choisir l’option de l’abonnement et du soutien continu ou une analyse et une consultation ponctuelle.';
 
 // TRAINING AREA
 export const TRAINING_AREA = 'ZONE DE FORMATION';
 export const TRAINING_AREA_DESC = 'Nous offrons une large gamme de formations sur l’éco-innovation et la mise en œuvre de modèles GOZ. Nos experts vous montreront les dernières tendances et les méthodes utiles pour introduire efficacement des solutions durables. Notre offre comprend la possibilité de participer individuellement à un cours en ligne ou d’organiser des formations adaptées aux besoins de votre entreprise, qui prépareront vos employés à une adaptation efficace aux nouvelles solutions environnementales.';
 export const TRAINING_AREA_PRODUCTS = [
-    {
-        title: 'Obtention de financements',
-        desc: 'À la lumière de l’attention croissante accordée aujourd’hui à l’écologie et au développement durable des entreprises, de nombreuses sources de financement sont disponibles en Pologne, en Europe et dans le monde. La formation vise à maîtriser les compétences nécessaires pour obtenir des financements pour des projets et des solutions innovantes.',
-        img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/ophmzowiowu8ny2i5dmr.jpg'
-    },
-    {
-        title: 'Économie circulaire',
-        desc: 'Formation axée sur la conduite d’activités en conformité avec les valeurs du développement durable et l’introduction de bonnes pratiques pour atteindre ses objectifs.',
-        img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/h5zirn37jgm1kxwwf4hu.jpg'
-    },
-    {
-        title: 'Responsabilité sociale des entreprises et objectifs de développement durable',
-        desc: 'La formation couvre les principes de base d’une économie durable basée sur la minimisation de la consommation de matières premières et d’énergie grâce à l’utilisation efficace des matières premières et des déchets.',
-        img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/vl6hosy0tykvn9eiumr8.jpg'
-    },
-    {
-        title: 'Symbiose industrielle',
-        desc: 'La formation vise à présenter les possibilités de coopération interinstitutionnelle basée sur les valeurs de GOZ et à introduire ses avantages dans votre propre modèle commercial.',
-        img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/jaefynnft9nvohtzuipg.jpg'
-    },
-    {
-        title: 'Écomarketing',
-        desc: 'Comment améliorer efficacement la visibilité de votre entreprise ou organisation en promouvant vos activités en faveur de l’écologie.',
-        img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/hvhoin8lealxv5my1jkr.jpg'
-    },
-    {
-        title: 'La communication comme source d’activité efficace et durable',
-        desc: 'L’idée de la formation est d’améliorer les compétences en communication au sein et à l’extérieur de l’entreprise afin d’améliorer les processus et la qualité des produits et services offerts.',
-        img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/slekadhcb33tduy0ibo5.jpg'
-    },
-];
+  {title: 'Levée de fonds',
+   desc: 'Avec l’attention croissante portée à l’écologie et au développement durable des entreprises aujourd’hui, de nombreuses sources de financement sont disponibles en Pologne, en Europe et dans le monde entier. La formation vise à maîtriser les compétences nécessaires pour obtenir des financements pour des projets et des solutions innovantes.',
+   img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/ophmzowiowu8ny2i5dmr.jpg' 
+  },
+  {title: 'Économie circulaire et objectifs de développement durable',
+    desc: 'Formation axée sur la conduite des affaires en accord avec les valeurs du développement durable et la mise en œuvre des meilleures pratiques.',
+    img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/h5zirn37jgm1kxwwf4hu.jpg' 
+   },
+   {title: 'Activité et promotion sur les marchés étrangers',
+    desc: 'Vous envisagez de vous développer dans un nouveau pays ? Obtenez des conseils précieux sur les meilleures pratiques à adopter dans votre destination.',
+    img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/vl6hosy0tykvn9eiumr8.jpg' 
+   },
+   {title: 'Nouvelles réglementations et exigences légales',
+    desc: 'Notre formation vous aidera à comprendre et à appliquer les nouvelles réglementations juridiques pour éviter des erreurs coûteuses et un stress inutile.',
+    img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/jaefynnft9nvohtzuipg.jpg' 
+   },
+   {title: 'Certification environnementale et écomarketing',
+    desc: 'De plus en plus d’entreprises présentent les certifications environnementales de leurs produits, créant une image. Apprenez à améliorer la visibilité de votre entreprise en promouvant vos efforts écologiques.',
+    img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/hvhoin8lealxv5my1jkr.jpg' 
+   },
+   {title: 'La communication comme source d’activité efficace et durable',
+    desc: 'L’objectif de la formation est d’améliorer les compétences en communication à l’intérieur et à l’extérieur de l’entreprise afin d’améliorer les processus et la qualité des produits et services offerts.',
+    img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/slekadhcb33tduy0ibo5.jpg' 
+   },
+]
 
 export const TARGET_GROUPS = [
     {
@@ -309,7 +303,7 @@ export const GOZ_COMPANIES = [
 
 
 // CHOOSEN PRODUCTS
-export const CHOOSEN_PRODUCT_TITLE = 'Nos produits choisis';
+export const CHOOSEN_PRODUCT_TITLE = 'Produits GOZ sélectionnés';
 export const CHOOSEN_PRODUCTS = [
     {
         title: 'AUDIT D’ORGANISATION',
@@ -324,10 +318,10 @@ export const CHOOSEN_PRODUCTS = [
             "Nous offrons un soutien complet pour la promotion de votre organisation et des solutions innovantes en matière d’économie circulaire (GOZ) en Pologne et dans le monde. Nos stratégies soigneusement élaborées permettront à votre organisation d'être visible dans la société et d’être reconnue pour son engagement dans la construction d’un monde meilleur.",
     },
     {
-        title: 'PLATEFORME D’ÉCHANGE DE BONNES PRATIQUES',
-        icon: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/r8ee0rwycm4lbbuefmvd.svg',
-        description:
-            'La solution que nous offrons permettra de s’inspirer sur la voie du commerce durable et empêchera les éco-innovations précieuses de rester dans l’ombre sans utiliser leur potentiel.',
+      title: 'PLATEFORME D’ÉCHANGE DE BONNES PRATIQUES',
+      icon: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/r8ee0rwycm4lbbuefmvd.svg',
+      description:
+        'Notre solution vous inspirera sur le chemin vers un business durable. De plus, elle ne permettra pas aux précieuses éco-innovations de rester dans l’ombre. Exploitez votre potentiel',
     },
     {
         title: 'ÉDUCATION ET CONSEIL',
@@ -385,7 +379,10 @@ export const REPUTE = 'Réputation de la marque et compétences de l’Institut'
 export const REPUTE_DESC = 'L’Institut d’Organisation INORG a été fondé en 1987 par un groupe d’experts de la Société Scientifique de l’Organisation et de la Gestion, dont la stratégie consistait à utiliser une riche expertise et une expérience dans le conseil aux entreprises. Depuis lors, nous offrons un soutien professionnel aux entreprises, aux collectivités locales, aux instituts de recherche et à d’autres organisations. Depuis 2024, en suivant l’idée mondiale d’un avenir durable, nous nous spécialisons dans la promotion et le soutien des modèles commerciaux dans le domaine de l’économie circulaire. Nous aidons les entités à prendre soin ensemble d’un avenir meilleur et à suivre un environnement en évolution rapide.';
 
 // SLIDER
-export const SLIDER_DESC = 'Nous améliorons l’organisation de nos clients dans un environnement en évolution rapide';
+export const SLIDER_DESC1 = 'Nous perfectionnons votre organisation dans un environnement en constante évolution';
+export const SLIDER_DESC2 = 'Nous opérons sur le marché depuis 1987, vous aidant à croître dans les meilleures directions possibles';
+export const SLIDER_DESC3 = 'Nous collaborons avec des entités dans le monde entier, ce qui est notre clé pour la croissance de notre entreprise et des entreprises de nos clients';
+
 
 // WHO ARE WE
 export const WHO_ARE_WE_HISTORY = 'Notre histoire nous engage…';

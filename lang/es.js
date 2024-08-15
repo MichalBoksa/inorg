@@ -1,8 +1,8 @@
 //COMPETENCIA
 export const COMPETENCE_DESC = '¿Cómo responder a los requisitos de las normativas europeas y polacas? ¿Los cambios turbulentos en el entorno legal y socioeconómico observados en los últimos años requieren soluciones organizativas no convencionales?';
-export const COMPETENCE = 'CALIDAD DEL SERVICIO';
+export const COMPETENCE = 'LA CALIDAD DE NUESTROS SERVICIOS';
 export const QUESTION = 'NUESTRA RESPUESTA...';
-export const ANSWEAR = 'Nuestra respuesta es profesionalismo e interdisciplinariedad. Aplicamos altos estándares éticos. Al proporcionar servicios, gestionamos constantemente la conformidad de las soluciones organizativas diseñadas con la ley aplicable y las mejores prácticas de la industria, así como otras obligaciones de conformidad aceptadas por el Cliente. Respetamos los logros organizativos existentes y los principios establecidos de las operaciones del Cliente.';
+export const ANSWEAR = '... es profesionalismo e interdisciplinariedad. Aplicamos altos estándares éticos. Al entregar servicios, gestionamos constantemente la conformidad de las soluciones organizativas diseñadas con la legislación aplicable y las mejores prácticas de la industria, así como otros compromisos de conformidad adoptados por el Cliente. Respetamos los logros organizacionales existentes y los principios operativos establecidos por el Cliente.';
 
 //NAVBAR
 export const NAV_LINKS = [
@@ -38,43 +38,37 @@ export const RECOMMENDATIONS = [
 
 //ÁREA DE ASESORAMIENTO
 export const ADVISORY_AREA = 'ÁREA DE ASESORAMIENTO';
-export const ADVISORY_AREA_DESC = 'Te ayudaremos paso a paso en el camino hacia una operación sostenible. Dependiendo de tus necesidades, puedes elegir la opción de suscripción y soporte continuo o un análisis y consulta únicos.';
+export const ADVISORY_AREA_DESC = 'Te ayudaremos paso a paso en el camino hacia un negocio sostenible y competitivo. Dependiendo de tus necesidades, puedes elegir la opción de suscripción y apoyo continuo o análisis y consulta única.';
 
 //ÁREA DE FORMACIÓN
 export const TRAINING_AREA = 'ÁREA DE FORMACIÓN';
 export const TRAINING_AREA_DESC = 'Ofrecemos una amplia gama de capacitaciones sobre ecoinnovación y la implementación de modelos GOZ. Nuestros expertos te mostrarán las últimas tendencias y métodos útiles para implementar soluciones sostenibles de manera efectiva. Nuestra oferta incluye la posibilidad de participar individualmente en un curso en línea o la organización de capacitaciones adaptadas a las necesidades de tu empresa, que prepararán a tus empleados para una adaptación efectiva a las nuevas soluciones ambientales.';
 export const TRAINING_AREA_PRODUCTS = [
-    {
-        title: 'Obtención de fondos',
-        desc: 'A la luz de la creciente atención prestada hoy en día a la ecología y el desarrollo sostenible de las empresas, hay muchas fuentes de financiación disponibles en Polonia, Europa y en todo el mundo. La capacitación tiene como objetivo dominar las habilidades para obtener financiación para proyectos y soluciones innovadoras.',
-        img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/ophmzowiowu8ny2i5dmr.jpg',
-    },
-    {
-        title: 'Economía circular',
-        desc: 'Capacitación enfocada en llevar a cabo operaciones en línea con los valores del desarrollo sostenible y la implementación de buenas prácticas para lograr sus objetivos.',
-        img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/h5zirn37jgm1kxwwf4hu.jpg',
-    },
-    {
-        title: 'Responsabilidad social empresarial y objetivos de desarrollo sostenible',
-        desc: 'La capacitación cubre los supuestos básicos de una economía sostenible basada en minimizar el consumo de materias primas y energía a través del uso eficiente de materias primas y desechos.',
-        img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/vl6hosy0tykvn9eiumr8.jpg',
-    },
-    {
-        title: 'Simbiosis industrial',
-        desc: 'La capacitación tiene como objetivo presentar las posibilidades de cooperación interinstitucional basada en los valores GOZ e introducir sus beneficios en tu propio modelo de negocio.',
-        img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/jaefynnft9nvohtzuipg.jpg',
-    },
-    {
-        title: 'Ecomarketing',
-        desc: 'Cómo mejorar efectivamente la visibilidad de tu empresa u organización promoviendo tus actividades en pro de la ecología.',
-        img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/hvhoin8lealxv5my1jkr.jpg',
-    },
-    {
-        title: 'Comunicación como fuente de operaciones efectivas y sostenibles',
-        desc: 'La idea de la capacitación es mejorar las habilidades de comunicación dentro y fuera de la empresa para mejorar los procesos y la calidad de los productos y servicios ofrecidos.',
-        img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/slekadhcb33tduy0ibo5.jpg',
-    },
-];
+  {title: 'Obtención de Fondos',
+   desc: 'Con la creciente atención prestada a la ecología y el desarrollo sostenible empresarial, existen muchas fuentes de financiamiento disponibles en Polonia, Europa y en todo el mundo. El objetivo de la formación es dominar las habilidades para obtener financiación para proyectos y soluciones innovadoras.',
+   img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/ophmzowiowu8ny2i5dmr.jpg' 
+  },
+  {title: 'Economía Circular y Objetivos de Desarrollo Sostenible',
+    desc: 'Capacitación enfocada en llevar a cabo negocios de acuerdo con los valores del desarrollo sostenible e implementar las mejores prácticas.',
+    img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/h5zirn37jgm1kxwwf4hu.jpg' 
+   },
+   {title: 'Negocios y Promoción en Mercados Extranjeros',
+    desc: '¿Planeas expandirte a un nuevo país? Obtén valiosos consejos sobre las mejores prácticas en tu destino.',
+    img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/vl6hosy0tykvn9eiumr8.jpg' 
+   },
+   {title: 'Nuevas Regulaciones y Requisitos Legales',
+    desc: 'Nuestra capacitación te ayudará a comprender e implementar nuevas regulaciones legales para evitar errores costosos y estrés innecesario.',
+    img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/jaefynnft9nvohtzuipg.jpg' 
+   },
+   {title: 'Certificación Ambiental y Ecomarketing',
+    desc: 'Cada vez más empresas muestran certificados ambientales de sus productos, creando una imagen. Aprende cómo mejorar la visibilidad de tu empresa promocionando tus esfuerzos ecológicos.',
+    img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/hvhoin8lealxv5my1jkr.jpg' 
+   },
+   {title: 'La Comunicación como Fuente de Negocios Eficaces y Sostenibles',
+    desc: 'El objetivo de la capacitación es mejorar las habilidades de comunicación dentro y fuera de la empresa para mejorar los procesos y la calidad de los productos y servicios ofrecidos.',
+    img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/slekadhcb33tduy0ibo5.jpg' 
+   },
+]
 
 export const TARGET_GROUPS = [
     {
@@ -309,7 +303,7 @@ export const GOZ_COMPANIES = [
 
 
 //PRODUCTOS SELECCIONADOS
-export const CHOOSEN_PRODUCT_TITLE = 'Nuestros productos seleccionados';
+export const CHOOSEN_PRODUCT_TITLE = 'Productos GOZ Seleccionados';
 export const CHOOSEN_PRODUCTS = [
     {
         title: 'AUDITORÍA DE LA ORGANIZACIÓN',
@@ -322,9 +316,10 @@ export const CHOOSEN_PRODUCTS = [
         description: "Brindamos apoyo integral en la promoción de tu organización y soluciones innovadoras en el campo de la economía circular (GOZ) en Polonia y en todo el mundo. Nuestras estrategias cuidadosamente elaboradas asegurarán su visibilidad en la sociedad, ganando reconocimiento por su compromiso en la construcción de un mundo mejor.",
     },
     {
-        title: 'PLATAFORMA DE INTERCAMBIO DE BUENAS PRÁCTICAS',
-        icon: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/r8ee0rwycm4lbbuefmvd.svg',
-        description: 'Nuestra solución inspirará el camino hacia un negocio sostenible y evitará que las ecoinnovaciones valiosas permanezcan en la sombra, sin aprovechar su potencial.',
+      title: 'PLATAFORMA DE INTERCAMBIO DE BUENAS PRÁCTICAS',
+      icon: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/r8ee0rwycm4lbbuefmvd.svg',
+      description:
+        'Nuestra solución te inspirará en el camino hacia un negocio sostenible. Además, no permitirá que las valiosas ecoinnovaciones queden en la sombra. Utiliza tu potencial',
     },
     {
         title: 'EDUCACIÓN Y ASESORÍA',
@@ -380,7 +375,9 @@ export const REPUTE = 'Reputación de la marca y competencia del Instituto';
 export const REPUTE_DESC = 'El Instituto de Organización INORG fue establecido en 1987 por un grupo de expertos de la Sociedad Científica de Organización y Dirección, cuya estrategia se basaba en el uso de un conocimiento y experiencia sustantivos en actividades de asesoramiento para empresas. Desde entonces, hemos estado ofreciendo apoyo profesional a empresas, unidades gubernamentales locales, institutos científicos y otras organizaciones. Desde 2024, siguiendo la idea global de un futuro sostenible, nos especializamos en la promoción y el apoyo de modelos de negocio en el campo de la economía circular. Ayudamos a las entidades a cuidar conjuntamente de un futuro mejor y a mantenerse al día con el entorno dinámicamente cambiante.';
 
 //DESLIZADOR
-export const SLIDER_DESC = 'Mejoramos la organización de nuestros clientes en un entorno en constante cambio';
+export const SLIDER_DESC1 = 'Mejoramos tu organización en un entorno que cambia rápidamente';
+export const SLIDER_DESC2 = 'Operamos en el mercado desde 1987, ayudándote a crecer en las mejores direcciones posibles';
+export const SLIDER_DESC3 = 'Colaboramos con entidades de todo el mundo, lo cual es clave para el crecimiento de nuestra empresa y las empresas de nuestros clientes';
 
 //QUIÉNES SOMOS
 export const WHO_ARE_WE_HISTORY = 'Nuestra historia nos obliga...';

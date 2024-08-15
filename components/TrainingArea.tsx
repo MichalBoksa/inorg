@@ -13,7 +13,7 @@ const TrainingArea = () => {
     </div>
     <div className='flex max-container padding-container items-center justify-center mt-6'>
             <h3 className='font-semibold text-gray-500 md:px-10 md:text-xl'>
-              {DATA?.ADVISORY_AREA_DESC}
+              {DATA?.TRAINING_AREA_DESC}
             </h3>           
     </div>
 

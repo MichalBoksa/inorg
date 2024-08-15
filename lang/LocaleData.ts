@@ -71,7 +71,9 @@ REPUTE: string;
 REPUTE_DESC: string;
 
 //SLIDER
-SLIDER_DESC: string;
+SLIDER_DESC1: string;
+SLIDER_DESC2: string;
+SLIDER_DESC3: string;
 
 //WHO ARE WE
 WHO_ARE_WE_HISTORY : string;

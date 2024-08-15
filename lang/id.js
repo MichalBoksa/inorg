@@ -1,8 +1,8 @@
 //KOMPETENSI
 export const COMPETENCE_DESC = 'Bagaimana merespons persyaratan peraturan Eropa dan Polandia? Apakah perubahan turbulen dalam lingkungan hukum dan sosial-ekonomi yang diamati selama beberapa tahun terakhir memerlukan solusi organisasi yang tidak konvensional?';
-export const COMPETENCE = 'KUALITAS LAYANAN';
+export const COMPETENCE = 'KUALITAS LAYANAN KAMI';
 export const QUESTION = 'JAWABAN KAMI...';
-export const ANSWEAR = 'Jawaban kami adalah profesionalisme dan interdisipliner. Kami menerapkan standar etika yang tinggi. Dalam memberikan layanan, kami secara konstan mengelola kepatuhan solusi organisasi yang dirancang dengan hukum yang berlaku dan praktik terbaik industri, serta kewajiban kepatuhan lainnya yang diterima oleh Klien. Kami menghormati pencapaian organisasi yang ada dan prinsip-prinsip operasi yang ditetapkan oleh Klien.';
+export const ANSWEAR = '... adalah profesionalisme dan interdisipliner. Kami menerapkan standar etika yang tinggi. Saat memberikan layanan, kami secara terus-menerus mengelola kepatuhan solusi organisasi yang dirancang dengan hukum yang berlaku dan praktik terbaik di industri, serta komitmen kepatuhan lainnya yang diadopsi oleh Klien. Kami menghormati pencapaian organisasi yang ada dan prinsip-prinsip operasional yang telah ditetapkan oleh Klien.';
 
 //NAVBAR
 export const NAV_LINKS = [
@@ -38,43 +38,37 @@ export const RECOMMENDATIONS = [
 
 //AREA KONSULTASI
 export const ADVISORY_AREA = 'AREA KONSULTASI';
-export const ADVISORY_AREA_DESC = 'Kami akan membantu Anda langkah demi langkah menuju operasi yang berkelanjutan. Tergantung pada kebutuhan Anda, Anda dapat memilih opsi langganan dan dukungan terus menerus atau analisis dan konsultasi satu kali.';
+export const ADVISORY_AREA_DESC = 'Kami akan membantu Anda selangkah demi selangkah menuju bisnis yang berkelanjutan dan kompetitif. Bergantung pada kebutuhan Anda, Anda dapat memilih opsi berlangganan dan dukungan berkelanjutan atau analisis dan konsultasi satu kali.';
 
 //AREA PELATIHAN
 export const TRAINING_AREA = 'AREA PELATIHAN';
 export const TRAINING_AREA_DESC = 'Kami menawarkan berbagai pelatihan tentang eco-innovation dan implementasi model GOZ. Para ahli kami akan menunjukkan kepada Anda tren terbaru dan metode yang berguna untuk menerapkan solusi berkelanjutan secara efektif. Penawaran kami mencakup partisipasi individu dalam kursus online atau pengorganisasian pelatihan yang disesuaikan dengan kebutuhan perusahaan Anda, yang akan mempersiapkan karyawan Anda untuk adaptasi efektif terhadap solusi lingkungan baru.';
 export const TRAINING_AREA_PRODUCTS = [
-    {
-        title: 'Penggalangan Dana',
-        desc: 'Mengingat perhatian yang semakin meningkat terhadap ekologi dan pembangunan berkelanjutan perusahaan, ada banyak sumber pendanaan yang tersedia di Polandia, Eropa, dan di seluruh dunia. Pelatihan ini bertujuan untuk menguasai keterampilan memperoleh pendanaan untuk proyek dan solusi inovatif.',
-        img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/ophmzowiowu8ny2i5dmr.jpg',
-    },
-    {
-        title: 'Ekonomi Sirkular',
-        desc: 'Pelatihan yang berfokus pada menjalankan operasi sesuai dengan nilai-nilai pembangunan berkelanjutan dan menerapkan praktik baik untuk mencapai tujuannya.',
-        img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/h5zirn37jgm1kxwwf4hu.jpg',
-    },
-    {
-        title: 'Tanggung Jawab Sosial Perusahaan dan Tujuan Pembangunan Berkelanjutan',
-        desc: 'Pelatihan ini mencakup asumsi dasar dari ekonomi berkelanjutan yang didasarkan pada meminimalkan konsumsi bahan mentah dan energi melalui penggunaan bahan mentah dan limbah yang efisien.',
-        img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/vl6hosy0tykvn9eiumr8.jpg',
-    },
-    {
-        title: 'Simbiosis Industri',
-        desc: 'Pelatihan ini bertujuan untuk memperkenalkan kemungkinan kerjasama antar lembaga berdasarkan nilai-nilai GOZ dan memperkenalkan manfaatnya ke dalam model bisnis Anda sendiri.',
-        img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/jaefynnft9nvohtzuipg.jpg',
-    },
-    {
-        title: 'Ekomarketing',
-        desc: 'Cara meningkatkan visibilitas perusahaan atau organisasi Anda secara efektif dengan mempromosikan aktivitas Anda untuk ekologi.',
-        img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/hvhoin8lealxv5my1jkr.jpg',
-    },
-    {
-        title: 'Komunikasi sebagai Sumber Operasi Efektif dan Berkelanjutan',
-        desc: 'Ide pelatihan ini adalah meningkatkan keterampilan komunikasi di dalam dan di luar perusahaan untuk meningkatkan proses dan kualitas produk dan layanan yang ditawarkan.',
-        img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/slekadhcb33tduy0ibo5.jpg',
-    },
-];
+  {title: 'Penggalangan Dana',
+   desc: 'Dengan meningkatnya perhatian terhadap ekologi dan pengembangan bisnis berkelanjutan saat ini, banyak sumber pendanaan tersedia di Polandia, Eropa, dan di seluruh dunia. Pelatihan ini bertujuan untuk menguasai keterampilan dalam memperoleh pendanaan untuk proyek dan solusi inovatif.',
+   img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/ophmzowiowu8ny2i5dmr.jpg' 
+  },
+  {title: 'Ekonomi Sirkular dan Tujuan Pembangunan Berkelanjutan',
+    desc: 'Pelatihan yang berfokus pada menjalankan bisnis sesuai dengan nilai-nilai pembangunan berkelanjutan dan menerapkan praktik terbaik.',
+    img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/h5zirn37jgm1kxwwf4hu.jpg' 
+   },
+   {title: 'Bisnis dan Promosi di Pasar Luar Negeri',
+    desc: 'Berencana untuk berkembang di negara baru? Dapatkan tips berharga tentang praktik terbaik di negara tujuan Anda.',
+    img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/vl6hosy0tykvn9eiumr8.jpg' 
+   },
+   {title: 'Peraturan Baru dan Persyaratan Hukum',
+    desc: 'Pelatihan kami akan membantu Anda memahami dan menerapkan peraturan hukum baru untuk menghindari kesalahan yang mahal dan stres yang tidak perlu.',
+    img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/jaefynnft9nvohtzuipg.jpg' 
+   },
+   {title: 'Sertifikasi Lingkungan dan Ecomarketing',
+    desc: 'Semakin banyak perusahaan yang menampilkan sertifikasi lingkungan produk mereka, menciptakan citra. Pelajari cara meningkatkan visibilitas perusahaan Anda dengan mempromosikan upaya ekologis Anda.',
+    img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/hvhoin8lealxv5my1jkr.jpg' 
+   },
+   {title: 'Komunikasi sebagai Sumber Bisnis yang Efektif dan Berkelanjutan',
+    desc: 'Pelatihan ini dirancang untuk meningkatkan keterampilan komunikasi di dalam dan di luar perusahaan guna memperbaiki proses dan kualitas produk serta layanan yang ditawarkan.',
+    img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/slekadhcb33tduy0ibo5.jpg' 
+   },
+]
 
 export const TARGET_GROUPS = [
     {
@@ -309,7 +303,7 @@ export const GOZ_COMPANIES = [
 
 
 //PRODUK PILIHAN
-export const CHOOSEN_PRODUCT_TITLE = 'Produk Pilihan Kami';
+export const CHOOSEN_PRODUCT_TITLE = 'Produk GOZ Pilihan';
 export const CHOOSEN_PRODUCTS = [
     {
         title: 'AUDIT ORGANISASI',
@@ -322,9 +316,10 @@ export const CHOOSEN_PRODUCTS = [
         description: "Kami memberikan dukungan komprehensif dalam mempromosikan organisasi Anda serta solusi inovatif dalam bidang ekonomi sirkular (GOZ) di Polandia dan di seluruh dunia. Strategi kami yang dirancang dengan cermat akan memastikan visibilitasnya di masyarakat, mendapatkan pengakuan untuk komitmennya dalam membangun dunia yang lebih baik.",
     },
     {
-        title: 'PLATFORM PERTUKARAN PRAKTIK BAIK',
-        icon: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/r8ee0rwycm4lbbuefmvd.svg',
-        description: 'Solusi kami akan menginspirasi jalan menuju bisnis berkelanjutan dan mencegah inovasi lingkungan yang berharga tetap dalam bayangan, tidak memanfaatkan potensinya.',
+      title: 'PLATFORM PERTUKARAN PRAKTIK TERBAIK',
+      icon: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/r8ee0rwycm4lbbuefmvd.svg',
+      description:
+        'Solusi kami akan menginspirasi Anda dalam perjalanan menuju bisnis berkelanjutan. Selain itu, solusi ini tidak akan membiarkan inovasi lingkungan yang berharga tetap tersembunyi. Manfaatkan potensi Anda',
     },
     {
         title: 'PENDIDIKAN DAN KONSULTASI',
@@ -380,7 +375,9 @@ export const REPUTE = 'Reputasi Merek dan Kompetensi Institut';
 export const REPUTE_DESC = 'Institut Organisasi INORG didirikan pada tahun 1987 oleh sekelompok ahli dari Masyarakat Ilmiah Organisasi dan Manajemen, yang strateginya didasarkan pada penggunaan pengetahuan substansial dan pengalaman dalam kegiatan konsultasi untuk perusahaan. Sejak itu, kami telah menawarkan dukungan profesional untuk perusahaan, unit pemerintah daerah, institut ilmiah, dan organisasi lainnya. Sejak tahun 2024, mengikuti ide global masa depan berkelanjutan, kami berspesialisasi dalam mempromosikan dan mendukung model bisnis di bidang ekonomi sirkular. Kami membantu entitas bersama-sama merawat masa depan yang lebih baik dan mengikuti lingkungan yang berubah secara dinamis.';
 
 //SLIDER
-export const SLIDER_DESC = 'Kami meningkatkan organisasi klien kami dalam lingkungan yang berubah secara dinamis';
+export const SLIDER_DESC1 = 'Kami memperbaiki organisasi Anda dalam lingkungan yang berubah dengan cepat';
+export const SLIDER_DESC2 = 'Kami telah beroperasi di pasar sejak tahun 1987, membantu Anda berkembang ke arah yang terbaik';
+export const SLIDER_DESC3 = 'Kami bekerja sama dengan entitas di seluruh dunia, yang menjadi kunci bagi pertumbuhan perusahaan kami dan perusahaan klien kami';
 
 //SIAPA KAMI
 export const WHO_ARE_WE_HISTORY = 'Sejarah kami mengharuskan...';
