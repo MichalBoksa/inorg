@@ -2,7 +2,6 @@
 import { CldImage } from 'next-cloudinary'
 import React from 'react'
 import { useLocale } from '../lang/LocaleContext';
-import Link from 'next/link';
 
 const TrainingArea = () => {
     const { DATA } = useLocale();

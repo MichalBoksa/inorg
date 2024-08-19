@@ -518,3 +518,140 @@ export const CONTACT_FORM_SEND_MESSAGE = 'ENVIAR MENSAJE';
   export const COOKIES_CONSENT = 'Este sitio web utiliza cookies para mejorar la experiencia del usuario. Al usar nuestro sitio web, usted consiente el uso de todas las cookies de acuerdo con nuestra Política de Cookies.';
   export const COOKIES_CONSENT_ACCEPT = 'Aceptar';
   
+// GOZ CIBERSEGURIDAD
+export const GOZ_CYBERSECURITY = 'GOZ en TI y Ciberseguridad';
+export const GOZ_CYBERSECURITY_TECHNISTARS = 'Techni Stars: Tus Soluciones Integrales en Inteligencia Artificial y Ciberseguridad';
+export const GOZ_CYBERSECURITY_ABOUT_US = 'Sobre Nosotros:';
+export const GOZ_CYBERSECURITY_ABOUT_US_DESC = 'Techni Stars ofrece una amplia gama de servicios orientados a identificar, resolver y minimizar las brechas de seguridad en la infraestructura de TI, así como servicios modernos de inteligencia artificial que ayudan, optimizan e innovan los procesos empresariales.';
+export const GOZ_CYBERSECURITY_SERVICES = 'Nuestros Servicios:';
+export const GOZ_CYBERSECURITY_SERVICES_AI = 'Inteligencia Artificial:';
+export const GOZ_CYBERSECURITY_SERVICES_AI_LIST = [
+    {
+      label: 'Análisis de Datos Impulsado por IA:',
+      desc: 'Transformar datos en bruto en información útil con algoritmos avanzados de IA.'
+    },
+    {
+      label: 'Procesamiento del Lenguaje Natural (NLP):',
+      desc: 'Mejorar las interacciones con los clientes y automatizar tareas basadas en lenguaje utilizando técnicas avanzadas de NLP.'
+    },
+    {
+      label: 'Modelos de Aprendizaje Automático:',
+      desc: 'Creación, entrenamiento e implementación de modelos de aprendizaje automático adaptados a las necesidades empresariales específicas.'
+    },
+    {
+      label: 'Integración de IA:',
+      desc: 'Integración sin problemas de soluciones de IA en los sistemas y procesos existentes.'
+    },
+    {
+      label: 'Análisis Predictivo:',
+      desc: 'Utilización de IA para predecir tendencias, comportamientos de clientes y dinámicas del mercado para una toma de decisiones informada.'
+    },
+    {
+      label: 'Consultoría de IA:',
+      desc: 'Asesoramiento experto y apoyo estratégico en la implementación, optimización y adopción de IA.'
+    },
+    {
+      label: 'Soluciones de Automatización:',
+      desc: 'Automatización de tareas y procesos repetitivos para aumentar la eficiencia y reducir costos operativos.'
+    },
+    {
+      label: 'Análisis de Imágenes y Videos:',
+      desc: 'Utilización de tecnología de visión por computadora para analizar e interpretar datos visuales.'
+    },
+];
+
+export const GOZ_CYBERSECURITY_SERVICES_CYBERSECURITY = 'Ciberseguridad:';
+export const GOZ_CYBERSECURITY_SERVICES_CYBERSECURITY_LIST = [
+  {
+    label: 'Auditoría de Entornos en la Nube (AWS, Azure, GCP):',
+    desc: 'Evaluación de la seguridad en entornos en la nube.'
+  },
+  {
+    label: 'Desarrollo de Procedimientos y Políticas de Seguridad:',
+    desc: 'Creación e implementación de estándares de seguridad.'
+  },
+  {
+    label: 'Auditorías de Cumplimiento de Normas de Ciberseguridad (NIST, CIS, ISO 27001):',
+    desc: 'Realización de auditorías para garantizar el cumplimiento de estándares internacionales.'
+  },
+  {
+    label: 'Consultoría de Ciberseguridad para Proyectos TI:',
+    desc: 'Asesoramiento profesional en seguridad para proyectos informáticos.'
+  },
+  {
+    label: 'Auditoría de Seguridad de Código Fuente:',
+    desc: 'Evaluación de la seguridad del código fuente de aplicaciones.'
+  },
+  {
+    label: 'Pruebas de Red Teaming:',
+    desc: 'Simulación de ataques a la infraestructura para evaluar su resistencia.'
+  },
+  {
+    label: 'Auditoría de Seguridad de Infraestructura:',
+    desc: 'Auditorías completas de seguridad de infraestructura de TI.'
+  },
+  {
+    label: 'Pruebas de Seguridad de Aplicaciones Web y API:',
+    desc: 'Verificación de la seguridad de aplicaciones web e interfaces de programación de aplicaciones.'
+  },
+  {
+    label: 'Pruebas de Seguridad de Aplicaciones Móviles:',
+    desc: 'Evaluación de la seguridad de aplicaciones móviles.'
+  }
+];
+
+export const GOZ_CYBERSECURITY_PARTNERSHIP_MODELS = 'Modelos de Colaboración:';
+export const GOZ_CYBERSECURITY_PARTNERSHIP_MODELS_LIST = [
+  {
+    label: 'Outsourcing de IA y Ciberseguridad',
+    desc: 'Techni Stars se encarga directamente del desarrollo, implementación y mantenimiento de soluciones de IA, así como de pruebas de penetración, auditorías y otras actividades de seguridad.'
+  },
+  {
+    label: 'Body Leasing',
+    desc: 'Techni Stars proporciona especialistas calificados en IA y ciberseguridad para trabajar en proyectos bajo contrato.'
+  },
+  {
+    label: 'Precio Fijo',
+    desc: 'Enfoque flexible para la fijación de precios en un modelo de precio fijo.'
+  },
+];
+
+export const GOZ_CYBERSECURITY_WHY_COOPERATE = '¿Por qué Cooperar con Techni Stars?';
+export const GOZ_CYBERSECURITY_WHY_COOPERATE_LIST = [
+  {
+    label: 'Equipo de Expertos:',
+    desc: 'Acceso a especialistas altamente calificados con experiencia en varias industrias.'
+  },
+  {
+    label: 'Trabajo Remoto y Flexibilidad:',
+    desc: 'Posibilidad de colaboración remota dentro de la UE, con un horario flexible adaptado a tus necesidades.'
+  },
+  {
+    label: 'Enfoque Integral:',
+    desc: 'Soluciones completas que incluyen análisis, desarrollo, integración y consultoría en IA y ciberseguridad.'
+  },
+  {
+    label: 'Metodología Probada:',
+    desc: 'Enfoque riguroso y estandarizado que garantiza la efectividad y precisión de las soluciones de IA y pruebas de seguridad.'
+  }
+];
+
+export const GOZ_CYBERSECURITY_EXPERIENCE = 'Nuestra Experiencia en Industrias:';
+export const GOZ_CYBERSECURITY_EXPERIENCE_LIST = [
+  {
+    label: 'Inteligencia Artificial',
+    desc: 'Finanzas y Seguros, Salud, Comercio, Transporte, Tecnología, Manufactura.'
+  },
+  {
+    label: 'Ciberseguridad:',
+    desc: 'Finanzas y Seguros, FinTech, Salud, Automoción, Industria Energética e Infraestructura Crítica.'
+  },
+  {
+    label: 'GameDev:',
+    desc: 'WorkPlays.IT.'
+  },
+];
+
+export const GOZ_CYBERSECURITY_CONTACT = '¡Contáctanos!';
+export const GOZ_CYBERSECURITY_CONTACT_DESC = 'Para obtener más información o discutir cómo Techni Stars puede ayudar a tu empresa a aprovechar el poder de la IA y garantizar la seguridad de TI, contáctanos:';
+export const GOZ_CYBERSECURITY_INVITATION_COOPERATE = '¡Te invitamos a cooperar con Techni Stars, tu socio en tecnología moderna y seguridad!';

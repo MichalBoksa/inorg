@@ -521,3 +521,141 @@ export const COOKIES_CONSENT = 'This website uses cookies to improve user experi
 export const COOKIES_CONSENT_ACCEPT = 'Accept';
 
 
+// GOZ CYBERSECURITY
+export const GOZ_CYBERSECURITY = 'GOZ in IT and Cybersecurity';
+export const GOZ_CYBERSECURITY_TECHNISTARS = 'Techni Stars: Your Comprehensive Solutions in AI and Cybersecurity';
+export const GOZ_CYBERSECURITY_ABOUT_US = 'About Us:';
+export const GOZ_CYBERSECURITY_ABOUT_US_DESC = 'Techni Stars offers a wide range of services aimed at identifying, resolving, and minimizing security gaps in IT infrastructure, as well as modern AI services that assist, optimize, and innovatively support business processes.';
+export const GOZ_CYBERSECURITY_SERVICES = 'Our Services:';
+export const GOZ_CYBERSECURITY_SERVICES_AI = 'Artificial Intelligence:';
+export const GOZ_CYBERSECURITY_SERVICES_AI_LIST = [
+    {
+      label: 'AI-Powered Data Analysis:',
+      desc: 'Transforming raw data into actionable insights with advanced AI algorithms.'
+    },
+    {
+      label: 'Natural Language Processing (NLP):',
+      desc: 'Enhancing customer interactions and automating language-based tasks with advanced NLP techniques.'
+    },
+    {
+      label: 'Machine Learning Models:',
+      desc: 'Creating, training, and deploying machine learning models tailored to specific business needs.'
+    },
+    {
+      label: 'AI Integration:',
+      desc: 'Seamlessly integrating AI solutions into existing systems and processes.'
+    },
+    {
+      label: 'Predictive Analytics:',
+      desc: 'Utilizing AI to forecast trends, customer behaviors, and market dynamics for informed decision-making.'
+    },
+    {
+      label: 'AI Consulting:',
+      desc: 'Expert advice and strategic support in implementing, optimizing, and adopting AI.'
+    },
+    {
+      label: 'Automation Solutions:',
+      desc: 'Automating repetitive tasks and processes to increase efficiency and reduce operational costs.'
+    },
+    {
+      label: 'Image and Video Analysis:',
+      desc: 'Leveraging computer vision technology to analyze and interpret visual data.'
+    },
+];
+
+export const GOZ_CYBERSECURITY_SERVICES_CYBERSECURITY = 'Cybersecurity:';
+export const GOZ_CYBERSECURITY_SERVICES_CYBERSECURITY_LIST = [
+  {
+    label: 'Cloud Environment Audits (AWS, Azure, GCP):',
+    desc: 'Assessing security in cloud environments.'
+  },
+  {
+    label: 'Security Procedures and Policies Development:',
+    desc: 'Creating and implementing security standards.'
+  },
+  {
+    label: 'Cybersecurity Compliance Audits (NIST, CIS, ISO 27001):',
+    desc: 'Conducting audits to ensure compliance with international standards.'
+  },
+  {
+    label: 'Cybersecurity Consulting for IT Projects:',
+    desc: 'Professional advice on the security of IT projects.'
+  },
+  {
+    label: 'Source Code Security Audits:',
+    desc: 'Assessing the security of application source code.'
+  },
+  {
+    label: 'Red Teaming Tests:',
+    desc: 'Simulating attacks on infrastructure to assess its resilience.'
+  },
+  {
+    label: 'Infrastructure Security Audits:',
+    desc: 'Comprehensive audits of IT infrastructure security.'
+  },
+  {
+    label: 'Web and API Application Security Testing:',
+    desc: 'Verifying the security of web applications and APIs.'
+  },
+  {
+    label: 'Mobile Application Security Testing:',
+    desc: 'Assessing the security of mobile applications.'
+  }
+];
+
+export const GOZ_CYBERSECURITY_PARTNERSHIP_MODELS = 'Partnership Models:';
+export const GOZ_CYBERSECURITY_PARTNERSHIP_MODELS_LIST = [
+  {
+    label: 'AI and Cybersecurity Outsourcing',
+    desc: 'Techni Stars directly handles the development, implementation, and maintenance of AI solutions, as well as penetration testing, audits, and other security activities.'
+  },
+  {
+    label: 'Body Leasing',
+    desc: 'Techni Stars provides qualified AI and cybersecurity specialists to work on a project on a contract basis.'
+  },
+  {
+    label: 'Fixed Price',
+    desc: 'Flexible pricing approach in a fixed-price model.'
+  },
+];
+
+export const GOZ_CYBERSECURITY_WHY_COOPERATE = 'Why Cooperate with Techni Stars?';
+export const GOZ_CYBERSECURITY_WHY_COOPERATE_LIST = [
+  {
+    label: 'Expert Team:',
+    desc: 'Access to highly qualified specialists with experience in various industries.'
+  },
+  {
+    label: 'Remote Work and Flexibility:',
+    desc: 'The possibility of remote cooperation within the EU, with a flexible schedule tailored to your needs.'
+  },
+  {
+    label: 'Comprehensive Approach:',
+    desc: 'Complete solutions covering analysis, development, integration, and consulting in AI and cybersecurity.'
+  },
+  {
+    label: 'Proven Methodology:',
+    desc: 'Rigorous and standard approach ensuring the effectiveness and accuracy of AI solutions and security tests.'
+  }
+];
+
+export const GOZ_CYBERSECURITY_EXPERIENCE = 'Our Industry Experience:';
+export const GOZ_CYBERSECURITY_EXPERIENCE_LIST = [
+  {
+    label: 'Artificial Intelligence',
+    desc: 'Finance and Insurance, Healthcare, Commerce, Transport, Technology, Manufacturing.'
+  },
+  {
+    label: 'Cybersecurity:',
+    desc: 'Finance and Insurance, FinTech, Healthcare, Automotive, Energy Industry and Critical Infrastructure.'
+  },
+  {
+    label: 'GameDev:',
+    desc: 'WorkPlays.IT.'
+  },
+];
+
+export const GOZ_CYBERSECURITY_CONTACT = 'Contact Us!';
+export const GOZ_CYBERSECURITY_CONTACT_DESC = 'For more information or to discuss how Techni Stars can help your company harness the power of AI and ensure IT security, please contact:';
+export const GOZ_CYBERSECURITY_INVITATION_COOPERATE = 'We invite you to cooperate with Techni Stars – your partner in modern technology and security!';
+

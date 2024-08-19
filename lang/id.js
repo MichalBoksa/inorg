@@ -518,3 +518,141 @@ export const CONTACT_FORM_SEND_MESSAGE = 'KIRIM PESAN';
 export const COOKIES_CONSENT = 'Situs web ini menggunakan cookie untuk meningkatkan pengalaman pengguna. Dengan menggunakan situs web kami, Anda menyetujui semua cookie sesuai dengan Kebijakan Cookie kami.';
 export const COOKIES_CONSENT_ACCEPT = 'Terima';
 
+
+// GOZ CYBERSECURITY
+export const GOZ_CYBERSECURITY = 'GOZ dalam TI dan Keamanan Siber';
+export const GOZ_CYBERSECURITY_TECHNISTARS = 'Techni Stars: Solusi Komprehensif Anda dalam AI dan Keamanan Siber';
+export const GOZ_CYBERSECURITY_ABOUT_US = 'Tentang Kami:';
+export const GOZ_CYBERSECURITY_ABOUT_US_DESC = 'Techni Stars menawarkan berbagai layanan yang bertujuan untuk mengidentifikasi, menyelesaikan, dan meminimalkan celah keamanan dalam infrastruktur TI, serta layanan AI modern yang membantu, mengoptimalkan, dan mendukung proses bisnis secara inovatif.';
+export const GOZ_CYBERSECURITY_SERVICES = 'Layanan Kami:';
+export const GOZ_CYBERSECURITY_SERVICES_AI = 'Kecerdasan Buatan (AI):';
+export const GOZ_CYBERSECURITY_SERVICES_AI_LIST = [
+    {
+      label: 'Analisis Data Berbasis AI:',
+      desc: 'Mengubah data mentah menjadi wawasan praktis dengan algoritme AI canggih.'
+    },
+    {
+      label: 'Pemrosesan Bahasa Alami (NLP):',
+      desc: 'Meningkatkan interaksi pelanggan dan mengotomatiskan tugas berbasis bahasa menggunakan teknik NLP canggih.'
+    },
+    {
+      label: 'Model Pembelajaran Mesin:',
+      desc: 'Membuat, melatih, dan mengimplementasikan model pembelajaran mesin yang disesuaikan dengan kebutuhan bisnis tertentu.'
+    },
+    {
+      label: 'Integrasi AI:',
+      desc: 'Mengintegrasikan solusi AI dengan mulus ke dalam sistem dan proses yang ada.'
+    },
+    {
+      label: 'Analisis Prediktif:',
+      desc: 'Menggunakan AI untuk memprediksi tren, perilaku pelanggan, dan dinamika pasar guna pengambilan keputusan yang tepat.'
+    },
+    {
+      label: 'Konsultasi AI:',
+      desc: 'Saran ahli dan dukungan strategis dalam penerapan, pengoptimalan, dan adopsi AI.'
+    },
+    {
+      label: 'Solusi Otomatisasi:',
+      desc: 'Mengotomatiskan tugas dan proses berulang untuk meningkatkan efisiensi dan mengurangi biaya operasional.'
+    },
+    {
+      label: 'Analisis Gambar dan Video:',
+      desc: 'Menggunakan teknologi visi komputer untuk menganalisis dan menafsirkan data visual.'
+    },
+];
+
+export const GOZ_CYBERSECURITY_SERVICES_CYBERSECURITY = 'Keamanan Siber:';
+export const GOZ_CYBERSECURITY_SERVICES_CYBERSECURITY_LIST = [
+  {
+    label: 'Audit Lingkungan Cloud (AWS, Azure, GCP):',
+    desc: 'Menilai keamanan di lingkungan cloud.'
+  },
+  {
+    label: 'Pengembangan Prosedur dan Kebijakan Keamanan:',
+    desc: 'Membuat dan menerapkan standar keamanan.'
+  },
+  {
+    label: 'Audit Kepatuhan Standar Keamanan Siber (NIST, CIS, ISO 27001):',
+    desc: 'Melakukan audit untuk memastikan kepatuhan terhadap standar internasional.'
+  },
+  {
+    label: 'Konsultasi Keamanan Siber untuk Proyek TI:',
+    desc: 'Konsultasi profesional tentang keamanan proyek TI.'
+  },
+  {
+    label: 'Audit Keamanan Kode Sumber:',
+    desc: 'Menilai keamanan kode sumber aplikasi.'
+  },
+  {
+    label: 'Pengujian Red Teaming:',
+    desc: 'Simulasi serangan terhadap infrastruktur untuk menilai ketahanannya.'
+  },
+  {
+    label: 'Audit Keamanan Infrastruktur:',
+    desc: 'Audit keamanan menyeluruh terhadap infrastruktur TI.'
+  },
+  {
+    label: 'Pengujian Keamanan Aplikasi Web dan API:',
+    desc: 'Memverifikasi keamanan aplikasi web dan API.'
+  },
+  {
+    label: 'Pengujian Keamanan Aplikasi Seluler:',
+    desc: 'Menilai keamanan aplikasi seluler.'
+  }
+];
+
+export const GOZ_CYBERSECURITY_PARTNERSHIP_MODELS = 'Model Kemitraan:';
+export const GOZ_CYBERSECURITY_PARTNERSHIP_MODELS_LIST = [
+  {
+    label: 'Outsourcing AI dan Keamanan Siber',
+    desc: 'Techni Stars langsung menangani pengembangan, penerapan, dan pemeliharaan solusi AI, serta pengujian penetrasi, audit, dan kegiatan keamanan lainnya.'
+  },
+  {
+    label: 'Body Leasing',
+    desc: 'Techni Stars menyediakan spesialis AI dan keamanan siber yang berkualifikasi untuk bekerja pada proyek dengan kontrak.'
+  },
+  {
+    label: 'Harga Tetap',
+    desc: 'Pendekatan fleksibel dalam penetapan harga pada model harga tetap.'
+  },
+];
+
+export const GOZ_CYBERSECURITY_WHY_COOPERATE = 'Mengapa Bekerja Sama dengan Techni Stars?';
+export const GOZ_CYBERSECURITY_WHY_COOPERATE_LIST = [
+  {
+    label: 'Tim Ahli:',
+    desc: 'Akses ke spesialis yang sangat berkualifikasi dengan pengalaman di berbagai industri.'
+  },
+  {
+    label: 'Kerja Jarak Jauh dan Fleksibilitas:',
+    desc: 'Kemungkinan kerjasama jarak jauh di dalam UE, dengan jadwal fleksibel yang disesuaikan dengan kebutuhan Anda.'
+  },
+  {
+    label: 'Pendekatan Komprehensif:',
+    desc: 'Solusi lengkap yang mencakup analisis, pengembangan, integrasi, dan konsultasi di bidang AI dan keamanan siber.'
+  },
+  {
+    label: 'Metodologi Terbukti:',
+    desc: 'Pendekatan ketat dan standar yang memastikan efektivitas dan akurasi solusi AI dan pengujian keamanan.'
+  }
+];
+
+export const GOZ_CYBERSECURITY_EXPERIENCE = 'Pengalaman Kami di Industri:';
+export const GOZ_CYBERSECURITY_EXPERIENCE_LIST = [
+  {
+    label: 'Kecerdasan Buatan',
+    desc: 'Keuangan dan Asuransi, Kesehatan, Perdagangan, Transportasi, Teknologi, Manufaktur.'
+  },
+  {
+    label: 'Keamanan Siber:',
+    desc: 'Keuangan dan Asuransi, FinTech, Kesehatan, Otomotif, Industri Energi, dan Infrastruktur Kritis.'
+  },
+  {
+    label: 'GameDev:',
+    desc: 'WorkPlays.IT.'
+  },
+];
+
+export const GOZ_CYBERSECURITY_CONTACT = 'Hubungi Kami!';
+export const GOZ_CYBERSECURITY_CONTACT_DESC = 'Untuk informasi lebih lanjut atau untuk membahas bagaimana Techni Stars dapat membantu perusahaan Anda memanfaatkan kekuatan AI dan memastikan keamanan TI, silakan hubungi kami:';
+export const GOZ_CYBERSECURITY_INVITATION_COOPERATE = 'Kami mengundang Anda untuk bekerja sama dengan Techni Stars – mitra Anda dalam teknologi modern dan keamanan!';

@@ -524,3 +524,141 @@ export const CONTACT_FORM_ERROR_MSG = 'Proszę wypełnić to pole';
 export const COOKIES_CONSENT = 'Ta strona używa plików cookies w celu poprawy komfortu użytkowania. Korzystając z naszej strony, wyrażasz zgodę na wszystkie pliki cookies zgodnie z naszą Polityką Cookies.';
 export const COOKIES_CONSENT_ACCEPT = 'Akceptuję';
 
+
+//GOZ CYBERSECURITY
+export const GOZ_CYBERSECURITY = 'GOZ w IT i cyberbezpieczeństwo';
+export const GOZ_CYBERSECURITY_TECHNISTARS = 'Techni Stars: Twoje Kompleksowe Rozwiązania w Zakresie Sztucznej Inteligencji i Cyberbezpieczeństwa';
+export const GOZ_CYBERSECURITY_ABOUT_US = 'O nas:';
+export const GOZ_CYBERSECURITY_ABOUT_US_DESC = 'Techni Stars oferuje szeroki wachlarz usług mających na celu identyfikację, rozwiązanie i minimalizację luk w zabezpieczeniach infrastruktury IT oraz nowoczesne usługi z zakresu sztucznej inteligencji, które wspomagają, optymalizują i innowacyjnie wspierają procesy biznesowe.';
+export const GOZ_CYBERSECURITY_SERVICES = 'Nasze Usługi:'
+export const GOZ_CYBERSECURITY_SERVICES_AI = 'Sztuczna Inteligencja:'
+export const GOZ_CYBERSECURITY_SERVICES_AI_LIST = [
+    {
+      label: 'Analiza Danych Wspierana przez AI:',
+      desc: 'Przekształcanie surowych danych w praktyczne informacje dzięki zaawansowanym algorytmom AI.'
+    },
+    {
+      label: 'Przetwarzanie Języka Naturalnego (NLP):',
+      desc: 'Ulepszanie interakcji z klientami i automatyzacja zadań opartych na języku przy użyciu zaawansowanych technik NLP.'
+    },
+    {
+      label: 'Modele Uczenia Maszynowego:',
+      desc: 'Tworzenie, trenowanie i wdrażanie modeli uczenia maszynowego dostosowanych do specyficznych potrzeb biznesowych.'
+    },
+    {
+      label: 'Integracja AI:',
+      desc: 'Bezproblemowe wprowadzanie rozwiązań AI do istniejących systemów i procesów.'
+    },
+    {
+      label: 'Analiza Predykcyjna:',
+      desc: 'Wykorzystywanie AI do przewidywania trendów, zachowań klientów i dynamiki rynkowej w celu podejmowania świadomych decyzji.'
+    },
+    {
+      label: 'Konsulting AI:',
+      desc: 'Eksperckie doradztwo i strategiczne wsparcie w zakresie wdrażania, optymalizacji i adopcji AI.'
+    },
+    {
+      label: 'Rozwiązania Automatyzacyjne:',
+      desc: 'Automatyzacja powtarzalnych zadań i procesów w celu zwiększenia efektywności i obniżenia kosztów operacyjnych.'
+    },
+    {
+      label: 'Analiza Obrazów i Wideo:',
+      desc: 'Wykorzystywanie technologii widzenia komputerowego do analizy i interpretacji danych wizualnych.'
+    },
+];
+
+export const GOZ_CYBERSECURITY_SERVICES_CYBERSECURITY = 'Cyberbezpieczeństwo:'
+export const GOZ_CYBERSECURITY_SERVICES_CYBERSECURITY_LIST = [
+  {
+    label: 'Audyt Środowisk Chmurowych (AWS, Azure, GCP):',
+    desc: 'Ocena zabezpieczeń w środowiskach chmurowych.'
+  },
+  {
+    label: 'Rozwój Procedur i Polityk Bezpieczeństwa:',
+    desc: 'Tworzenie i wdrażanie standardów bezpieczeństwa.'
+  },
+  {
+    label: 'Audyty Zgodności z Normami Cyberbezpieczeństwa (NIST, CIS, ISO 27001):',
+    desc: 'Przeprowadzanie audytów w celu zapewnienia zgodności z międzynarodowymi standardami.'
+  },
+  {
+    label: 'Konsulting Cyberbezpieczeństwa dla Projektów IT:',
+    desc: 'Profesjonalne doradztwo w zakresie bezpieczeństwa projektów informatycznych.'
+  },
+  {
+    label: 'Audyt Bezpieczeństwa Kodu Źródłowego:',
+    desc: 'Ocena bezpieczeństwa kodu źródłowego aplikacji.'
+  },
+  {
+    label: 'Testy Red Teaming:',
+    desc: 'Symulacja ataków na infrastrukturę w celu oceny jej odporności.'
+  },
+  {
+    label: 'Audyt Bezpieczeństwa Infrastruktury:',
+    desc: 'Kompleksowe audyty zabezpieczeń infrastruktury IT.'
+  },
+  {
+    label: 'Testowanie Bezpieczeństwa Aplikacji Webowych i API:',
+    desc: 'Weryfikacja bezpieczeństwa aplikacji internetowych i interfejsów API.'
+  },
+  {
+    label: 'Testowanie Bezpieczeństwa Aplikacji Mobilnych:',
+    desc: 'Ocena zabezpieczeń aplikacji mobilnych.'
+  }
+]
+
+export const GOZ_CYBERSECURITY_PARTNERSHIP_MODELS = 'Modele Współpracy:';
+export const GOZ_CYBERSECURITY_PARTNERSHIP_MODELS_LIST = [
+  {
+    label: 'Outsourcing AI i Cyberbezpieczeństwa',
+    desc: 'Techni Stars realizuje bezpośrednio rozwój, wdrożenie i utrzymanie rozwiązań AI oraz testy penetracyjne, audyty i inne działania z zakresu bezpieczeństwa.'
+  },
+  {
+    label: 'Body Leasing',
+    desc: 'Techni Stars zapewnia wykwalifikowanych specjalistów AI oraz cyberbezpieczeństwa do pracy nad projektem na zasadzie kontraktu.'
+  },
+  {
+    label: 'Stała Cena',
+    desc: 'Elastyczne podejście do wyceny usług w modelu stałej ceny.'
+  },
+]
+
+export const GOZ_CYBERSECURITY_WHY_COOPERATE = 'Dlaczego warto współpracować z Techni Stars?';
+export const GOZ_CYBERSECURITY_WHY_COOPERATE_LIST = [
+  {
+    label: 'Zespół Ekspertów:',
+    desc: 'Dostęp do wysoko wykwalifikowanych specjalistów z doświadczeniem w różnych branżach.'
+  },
+  {
+    label: 'Praca Zdalna i Elastyczność:',
+    desc: 'Możliwość współpracy zdalnej w ramach UE, z elastycznym harmonogramem dostosowanym do Twoich potrzeb.'
+  },
+  {
+    label: 'Kompleksowe Podejście:',
+    desc: 'Pełne rozwiązania obejmujące analizę, rozwój, integrację i konsulting AI oraz cyberbezpieczeństwa.'
+  },
+  {
+    label: 'Sprawdzona Metodologia:',
+    desc: 'Rygorystyczne i standardowe podejście zapewniające skuteczność i dokładność rozwiązań AI oraz testów bezpieczeństwa.'
+  }
+];
+
+export const GOZ_CYBERSECURITY_EXPERIENCE = 'Nasze Doświadczenie w Branżach:';
+export const GOZ_CYBERSECURITY_EXPERIENCE_LIST = [
+  {
+    label: 'Sztuczna Inteligencja',
+    desc: 'Finanse i Ubezpieczenia, Opieka Zdrowotna, Handel, Transport, Technologia, Produkcja.'
+  },
+  {
+    label: 'Cyberbezpieczeństwo:',
+    desc: 'Finanse i Ubezpieczenia, FinTech, Opieka Zdrowotna, Motoryzacja, Przemysł Energetyczny i Infrastruktura Krytyczna.'
+  },
+  {
+    label: 'GameDev:',
+    desc: 'WorkPlays.IT.'
+  },
+];
+
+export const GOZ_CYBERSECURITY_CONTACT = 'Skontaktuj się z nami!';
+export const GOZ_CYBERSECURITY_CONTACT_DESC = 'Aby uzyskać więcej informacji lub omówić, jak Techni Stars może pomóc Twojej firmie w wykorzystaniu mocy AI oraz zapewnieniu bezpieczeństwa IT, prosimy o kontakt:';
+export const GOZ_CYBERSECURITY_INVITATION_COOPERATE = 'Zapraszamy do współpracy z Techni Stars – Twoim partnerem w dziedzinie nowoczesnych technologii i bezpieczeństwa!';
