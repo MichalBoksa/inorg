@@ -14,21 +14,15 @@ const GozAndCybersecurity = () => {
         </h1>
       </div>
 
-      <div className='flex flex-col items-center md:items-start'>
-        <div className='mt-6'>
+      <div className='flex flex-col'>
+        <div className='flex items-center justify-start mt-6'>
           <h3 className='font-semibold text-gray-500 px-4 md:px-10 text-lg md:text-xl text-center md:text-left'>
             {DATA?.GOZ_CYBERSECURITY_TECHNISTARS}
           </h3>
         </div>
 
-        <div className='flex justify-center mt-6'>
-          <CldImage
-            src='https://res.cloudinary.com/dvbvaj9hu/image/upload/v1724064341/INORG/gozCybersecurity/hhn2rxkmsrunqok9h9mo.jpg'
-            alt='funds'
-            width={150}
-            height={150}
-            className='rounded-md object-cover'
-          />
+        <div className='flex items-center justify-center mt-6'>
+          <CldImage src='https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/gozCybersecurity/hhn2rxkmsrunqok9h9mo.jpg' alt='logo' width={150} height={150} className='rounded-md object-cover'/>
         </div>
 
         <div className='mt-6'>
@@ -44,8 +38,8 @@ const GozAndCybersecurity = () => {
           </h3>
         </div>
 
-        <div className='flex flex-col mt-6 w-full'>
-          <div className='mt-6'>
+        <div className='flex flex-col w-full'>
+          <div className='mt-3'>
             <h3 className='font-semibold text-blue-800 px-4 md:px-10 text-lg md:text-xl'>
               {DATA?.GOZ_CYBERSECURITY_SERVICES_AI}
             </h3>
@@ -85,7 +79,7 @@ const GozAndCybersecurity = () => {
             {DATA?.GOZ_CYBERSECURITY_PARTNERSHIP_MODELS}
           </h3>
 
-          <div className='flex flex-col mt-6 px-4 md:px-10'>
+          <div className='flex flex-col mt-3 px-4 md:px-10'>
             {DATA?.GOZ_CYBERSECURITY_PARTNERSHIP_MODELS_LIST.map((element, index) => (
               <div key={index} className='mt-3'>
                 <h3 className='font-semibold text-gray-500 text-lg'>{element.label}</h3>
