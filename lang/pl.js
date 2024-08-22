@@ -662,3 +662,17 @@ export const GOZ_CYBERSECURITY_EXPERIENCE_LIST = [
 export const GOZ_CYBERSECURITY_CONTACT = 'Skontaktuj się z nami!';
 export const GOZ_CYBERSECURITY_CONTACT_DESC = 'Aby uzyskać więcej informacji lub omówić, jak Techni Stars może pomóc Twojej firmie w wykorzystaniu mocy AI oraz zapewnieniu bezpieczeństwa IT, prosimy o kontakt:';
 export const GOZ_CYBERSECURITY_INVITATION_COOPERATE = 'Zapraszamy do współpracy z Techni Stars – Twoim partnerem w dziedzinie nowoczesnych technologii i bezpieczeństwa!';
+
+//GOZ PRACTICE EXCHANGE
+export const GOZ_PRACTICE_EXCHANGE = 'WYMIANA DOBRYCH PRAKTYK GOZ';
+export const GOZ_PRACTICE_EXCHANGE_DESC = 'Masz rozwiązanie GOZ, którym chciałbyś podzielić się ze światem? Dołącz do naszej mapy GOZ w Polsce!';
+export const GOZ_PRACTICE_EXCHANGE_IMPROVE = 'A może szukasz rozwiązanie, które mogłoby usprawnić pracę w Twojej firmie?';
+export const GOZ_PRACTICE_EXCHANGE_FORM_COMPANY_NAME= 'Nazwa firmy/rozwiązania';
+export const GOZ_PRACTICE_EXCHANGE_FORM_SOLUTION_DESC= 'Opis rozwiązania';
+export const GOZ_PRACTICE_EXCHANGE_FORM_WEBSITE= 'Link do strony internetowej';
+export const GOZ_PRACTICE_EXCHANGE_FORM_ADDRESS= 'Adres firmy';
+export const GOZ_PRACTICE_EXCHANGE_FORM_IMG= 'Adres firmy';
+export const GOZ_PRACTICE_EXCHANGE_FORM2_DESC= 'A może szukasz rozwiązanie, które mogłoby usprawnić pracę w Twojej firmie?';
+export const GOZ_PRACTICE_EXCHANGE_FORM2_PROBLEM_DESC= 'Charakterystyka problemu';
+export const GOZ_PRACTICE_EXCHANGE_FORM2_COMPANY_NAME= 'Nazwa firmy';
+

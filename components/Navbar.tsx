@@ -44,13 +44,13 @@ const Navbar = () => {
         <div className="border-b-2 border-b-primary">
             <ul className="hidden lg:flex h-full md:gap-3 lg-gap-3 xl:gap-6">
               {DATA?.NAV_LINKS.map((link:NavLink) => link.key !== 'products' && link.key !== 'recommendation' ? ( 
-                <Link key={link.label} href={link.href}  onClick={handleClick} > <div className="lg:text-nowrap text-base xl:text-base lg:font-bold text-default flexCenter cursor-pointer pb-1.5 transition-all mr-4">
+                <Link key={link.label} href={link.href}  onClick={handleClick} > <div className="lg:text-nowrap text-base lg:font-bold text-default flexCenter cursor-pointer pb-1.5 transition-all mr-4">
                   {link.label}
                   </div>
                 </Link>
               ) : link.key === 'recommendation' ?
               (<div key={link.label} className="dropdown dropdown-hover">
-                <div tabIndex={0} className="lg:text-nowrap text-base xl:text-base lg:font-bold text-default cursor-pointer mr-4">
+                <div tabIndex={0} className="lg:text-nowrap text-base lg:font-bold text-default cursor-pointer mr-4">
                   {link.label}
                 </div>
                 <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-32"
@@ -66,7 +66,7 @@ const Navbar = () => {
               </div>
               ) :
               (<div key={link.label} className="dropdown dropdown-hover">
-                <div tabIndex={0} className="lg:text-nowrap text-base xl:text-base lg:font-bold text-default cursor-pointer mr-4">
+                <div tabIndex={0} className="lg:text-nowrap text-base lg:font-bold text-default cursor-pointer mr-4">
                   {link.label}
                 </div>
                 <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-44">
@@ -82,7 +82,7 @@ const Navbar = () => {
               
               )}
             <div className="dropdown dropdown-hover">
-            <div tabIndex={0} className="lg:text-nowrap lg:text-md xl:text-lg lg:font-bold text-default cursor-pointer mr-4 ">{currentLanguage}</div>
+            <div tabIndex={0} className="lg:text-nowrap lg:text-base lg:font-bold text-default cursor-pointer mr-4 ">{currentLanguage}</div>
             <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-18 right-05 ">
               {LANGUAGES.map((lang) => (
                 <li key={lang.code} onClick={() => handleLanguageChange(lang.code)} className="flexCenter text-wrap cursor-pointer pb-1.5 text:md xl:text-lg">

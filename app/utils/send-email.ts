@@ -1,7 +1,10 @@
 import { FormData } from '@/components/ContactForm';
 
 export function sendEmail(data: FormData) {
-  const apiEndpoint = 'http://localhost:3000/api/email';
+  //PROD
+  const apiEndpoint = 'https://inorg.pl/api/email';
+  //TEST
+  // const apiEndpoint = 'http://localhost:3000/api/email';
 
   fetch(apiEndpoint, {
     method: 'POST',
