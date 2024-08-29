@@ -1,24 +1,26 @@
 'use client';
+import { sendEmailSolution } from '@/app/utils/send-email';
 import { useLocale } from '@/lang/LocaleContext';
+import { CldImage } from 'next-cloudinary';
 import React from 'react'
 import { useForm } from 'react-hook-form';
 
-export type FormData = {
+export type FormDataSolution = {
     companyName: string;
     solutionDesc: string;
     website: string;
     address:string
     email: string;
-    //add img
+    image: FileList;
 };
 
 const SolutionForm = () => {
 
     const { DATA } = useLocale();
-    const { register, handleSubmit, formState: { errors } } = useForm<FormData>();
+    const { register, handleSubmit, formState: { errors } } = useForm<FormDataSolution>();
 
-    function onSubmit(data: FormData) {
-       // sendEmail(data);
+    function onSubmit(data: FormDataSolution) {
+        sendEmailSolution(data);
     }
   return (
     <form className="flex flex-col md:col-span-8 p-10" onSubmit={handleSubmit(onSubmit)}>
@@ -75,6 +77,27 @@ const SolutionForm = () => {
                 {...register('email', { required:   DATA?.CONTACT_FORM_ERROR_MSG })}/>
             {errors.email && <p className="text-red-500 text-xs italic">{errors.email.message}</p>}
         </div>
+
+        <div className="w-full px-3">
+                        <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                            htmlFor="GRID-IMG">
+                            {DATA?.GOZ_PRACTICE_EXCHANGE_FORM_IMG}
+                        </label>
+                        <input
+                            className="block w-full text-sm text-gray-500
+        file:me-4 file:py-2 file:px-4
+        file:rounded-lg file:border-0
+        file:text-sm file:font-semibold
+        file:bg-indigo-600 file:text-white
+        hover:file:bg-indigo-700
+        file:disabled:opacity-50 file:disabled:pointer-events-none
+        dark:text-neutral-500
+        dark:file:bg-indigo-500
+        dark:hover:file:bg-indigo-400"
+                            id="grid-image" type="file"
+                            {...register('image')} />
+                        {errors.image && <p className="text-red-500 text-xs italic">{errors.image.message}</p>}
+                    </div>
     </div>
         <div className='flex md:w-1/2'>
             <div className="w-full px-3 ">
@@ -88,10 +111,11 @@ const SolutionForm = () => {
                     {errors.solutionDesc && <p className="text-red-500 text-xs italic">{errors.solutionDesc.message}</p>}
                 </div>
             </div>
+    
  </div>
         <div className="flex w-full justify-end px-3">
             <button
-                className="shadow bg-indigo-600 hover:bg-indigo-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-6 rounded"
+                className="shadow bg-indigo-600 hover:bg-indigo-700 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-6 rounded"
                 type="submit">
                 {DATA?.CONTACT_FORM_SEND_MESSAGE}
             </button>

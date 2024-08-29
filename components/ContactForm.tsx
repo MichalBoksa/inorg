@@ -4,7 +4,7 @@ import { useLocale } from '@/lang/LocaleContext';
 import { useForm } from 'react-hook-form';
 import { sendEmail } from '@/app/utils/send-email';
 
-export type FormData = {
+export type FormDataContact = {
     name: string;
     surname: string;
     company: string;
@@ -14,9 +14,9 @@ export type FormData = {
 
 const ContactForm = () => {
     const { DATA } = useLocale();
-    const { register, handleSubmit, formState: { errors } } = useForm<FormData>();
+    const { register, handleSubmit, formState: { errors } } = useForm<FormDataContact>();
 
-    function onSubmit(data: FormData) {
+    function onSubmit(data: FormDataContact) {
         sendEmail(data);
     }
 

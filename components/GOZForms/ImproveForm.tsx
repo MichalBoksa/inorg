@@ -2,8 +2,9 @@
 import React from 'react'
 import { useForm } from 'react-hook-form';
 import { useLocale } from '@/lang/LocaleContext';
+import { sendEmailImprove } from '@/app/utils/send-email';
 
-export type FormData = {
+export type FormDataImprove = {
     companyName: string;
     problemDesc: string;
     email: string;
@@ -11,10 +12,10 @@ export type FormData = {
 const ImproveForm = () => {
 
     const { DATA } = useLocale();
-    const { register, handleSubmit, formState: { errors } } = useForm<FormData>();
+    const { register, handleSubmit, formState: { errors } } = useForm<FormDataImprove>();
 
-    function onSubmit(data: FormData) {
-       // sendEmail(data);
+    function onSubmit(data: FormDataImprove) {
+        sendEmailImprove(data);
     }
 
   return (
@@ -61,7 +62,7 @@ const ImproveForm = () => {
         </div>
         <div className="flex w-full justify-end px-3">
                 <button
-                    className="shadow bg-indigo-600 hover:bg-indigo-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-6 rounded"
+                    className="shadow bg-indigo-600 hover:bg-indigo-700 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-6 rounded"
                     type="submit">
                     {DATA?.CONTACT_FORM_SEND_MESSAGE}
                 </button>

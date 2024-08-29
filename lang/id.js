@@ -656,3 +656,17 @@ export const GOZ_CYBERSECURITY_EXPERIENCE_LIST = [
 export const GOZ_CYBERSECURITY_CONTACT = 'Hubungi Kami!';
 export const GOZ_CYBERSECURITY_CONTACT_DESC = 'Untuk informasi lebih lanjut atau untuk membahas bagaimana Techni Stars dapat membantu perusahaan Anda memanfaatkan kekuatan AI dan memastikan keamanan TI, silakan hubungi kami:';
 export const GOZ_CYBERSECURITY_INVITATION_COOPERATE = 'Kami mengundang Anda untuk bekerja sama dengan Techni Stars – mitra Anda dalam teknologi modern dan keamanan!';
+
+
+//GOZ PRACTICE EXCHANGE
+export const GOZ_PRACTICE_EXCHANGE = 'PERTUKARAN PRAKTIK BAIK GOZ';
+export const GOZ_PRACTICE_EXCHANGE_DESC = 'Apakah Anda memiliki solusi GOZ yang ingin Anda bagikan dengan dunia? Bergabunglah dengan peta GOZ kami di Polandia!';
+export const GOZ_PRACTICE_EXCHANGE_IMPROVE = 'Atau mungkin Anda mencari solusi yang dapat meningkatkan pekerjaan di perusahaan Anda?';
+export const GOZ_PRACTICE_EXCHANGE_FORM_COMPANY_NAME = 'Nama perusahaan/solusi';
+export const GOZ_PRACTICE_EXCHANGE_FORM_SOLUTION_DESC = 'Deskripsi solusi';
+export const GOZ_PRACTICE_EXCHANGE_FORM_WEBSITE = 'Tautan ke situs web';
+export const GOZ_PRACTICE_EXCHANGE_FORM_ADDRESS = 'Alamat perusahaan';
+export const GOZ_PRACTICE_EXCHANGE_FORM_IMG = 'Unggah foto solusi';
+export const GOZ_PRACTICE_EXCHANGE_FORM2_DESC = 'Atau mungkin Anda mencari solusi yang dapat meningkatkan pekerjaan di perusahaan Anda?';
+export const GOZ_PRACTICE_EXCHANGE_FORM2_PROBLEM_DESC = 'Karakteristik masalah';
+export const GOZ_PRACTICE_EXCHANGE_FORM2_COMPANY_NAME = 'Nama perusahaan';
