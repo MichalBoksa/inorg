@@ -57,9 +57,9 @@ export function sendEmailSolution(data: FormDataSolution) {
 
 export function sendEmailImprove(data: FormDataImprove) {
   //PROD
-  // const apiEndpoint = 'https://inorg.pl/api/email';
+  const apiEndpoint = 'https://inorg.pl/api/improveEmail';
   //TEST
-  const apiEndpoint = 'http://localhost:3000/api/improveEmail';
+  // const apiEndpoint = 'http://localhost:3000/api/improveEmail';
 
   fetch(apiEndpoint, {
     method: 'POST',
