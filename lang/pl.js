@@ -59,7 +59,7 @@ export const NAV_LINKS = [
       img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/vl6hosy0tykvn9eiumr8.jpg' 
      },
      {title: 'Nowe przepisy i wymagania prawne',
-      desc: 'asze szkolenie pomoże Ci zrozumieć i wdrożyć nowe regulacje prawne, by uniknąć kosztownych błędów i zbędnego stresu.',
+      desc: 'Nasze szkolenie pomoże Ci zrozumieć i wdrożyć nowe regulacje prawne, by uniknąć kosztownych błędów i zbędnego stresu.',
       img: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/trainingarea/jaefynnft9nvohtzuipg.jpg' 
      },
      {title: 'Certyfikacja środowiskowa i ekomarketing',
@@ -86,7 +86,7 @@ export const NAV_LINKS = [
       src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/wspolpraca/lgvj60rjiavgkembapty.jpg'
     },
     {
-      title: 'Budowalana',
+      title: 'Budowlana',
       src: 'https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/wspolpraca/kblvxaenqjhcami6h8yx.jpg'
     },
     {
@@ -666,13 +666,13 @@ export const GOZ_CYBERSECURITY_INVITATION_COOPERATE = 'Zapraszamy do współprac
 //GOZ PRACTICE EXCHANGE
 export const GOZ_PRACTICE_EXCHANGE = 'WYMIANA DOBRYCH PRAKTYK GOZ';
 export const GOZ_PRACTICE_EXCHANGE_DESC = 'Masz rozwiązanie GOZ, którym chciałbyś podzielić się ze światem? Dołącz do naszej mapy GOZ w Polsce!';
-export const GOZ_PRACTICE_EXCHANGE_IMPROVE = 'A może szukasz rozwiązanie, które mogłoby usprawnić pracę w Twojej firmie?';
+export const GOZ_PRACTICE_EXCHANGE_IMPROVE = 'A może szukasz rozwiązania, które mogłoby usprawnić pracę w Twojej firmie?';
 export const GOZ_PRACTICE_EXCHANGE_FORM_COMPANY_NAME= 'Nazwa firmy/rozwiązania';
 export const GOZ_PRACTICE_EXCHANGE_FORM_SOLUTION_DESC= 'Opis rozwiązania';
 export const GOZ_PRACTICE_EXCHANGE_FORM_WEBSITE= 'Link do strony internetowej';
 export const GOZ_PRACTICE_EXCHANGE_FORM_ADDRESS= 'Adres firmy';
 export const GOZ_PRACTICE_EXCHANGE_FORM_IMG= 'Załaduj zdjęcie rozwiązania';
-export const GOZ_PRACTICE_EXCHANGE_FORM2_DESC= 'A może szukasz rozwiązanie, które mogłoby usprawnić pracę w Twojej firmie?';
+export const GOZ_PRACTICE_EXCHANGE_FORM2_DESC= 'A może szukasz rozwiązania, które mogłoby usprawnić pracę w Twojej firmie?';
 export const GOZ_PRACTICE_EXCHANGE_FORM2_PROBLEM_DESC= 'Charakterystyka problemu';
 export const GOZ_PRACTICE_EXCHANGE_FORM2_COMPANY_NAME= 'Nazwa firmy';
 

@@ -18,7 +18,7 @@ const Slider = () => {
       desc: DATA?.SLIDER_DESC2,
     },
     {
-      img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/slider/sjx38fh8odto92cnrdvd.svg",
+      img: "https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/wspolpraca/ooej0xmqzmqm9duasbcn.jpg",
       desc: DATA?.SLIDER_DESC3,
     },
   ];

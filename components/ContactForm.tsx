@@ -91,6 +91,7 @@ const ContactForm = () => {
                         <div className='flex flex-col'>
                             <span className="text-sm">+48 32 231-39-54</span>
                             <span className="text-sm">+48 506 099 526</span>
+                            <span className="text-sm">+48 885 401 502</span>
                             <span className="text-sm">+41 79 879 26 98</span>
                         </div>
                     </div>

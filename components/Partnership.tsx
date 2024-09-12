@@ -14,7 +14,7 @@ const Partnership = () => {
 
       <div className='flex flex-col lg:flex-row gap-10 mt-8 items-center justify-center mb-8'>
         <p className='font-bold text-base xl:text-lg 2xl:text-xl text-gray-500 p-4 text-center lg:text-left'>{DATA?.INTERNATIONAL_PARTNERSHIP_DESC}</p> 
-        <CldImage src='https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/wspolpraca/ozydoytae5ocxn3racbr.svg' width={800} height={600} alt='branches' className='object-cover max-h-[350px] max-w-[450px]' />     
+        <CldImage src='https://res.cloudinary.com/dvbvaj9hu/image/upload/v1234/INORG/wspolpraca/ooej0xmqzmqm9duasbcn.jpg' width={800} height={600} alt='branches' className='object-cover max-h-[350px] max-w-[450px]' />     
       </div>
 
       <div className="flex flex-col relative justify-center items-center mb-10 mt-6">
