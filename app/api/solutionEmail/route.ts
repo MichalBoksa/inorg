@@ -41,6 +41,7 @@ export async function POST(request: NextRequest) {
   const mailOptions: Mail.Options = {
     from: process.env.MY_EMAIL,
     to: process.env.MY_EMAIL,
+    cc: process.env.MY_CC_EMAIL, 
     subject: `Rozwiązanie GOZ firma: (${companyName})`,
     text: messageContent,
     attachments: attachments.length > 0 ? attachments : undefined,
